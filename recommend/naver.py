@@ -49,7 +49,7 @@ def download_images(page, driver):
 
 if __name__ == "__main__":
     pet_type = 'dog'
-    total_pages = 10900
+    total_pages = 200
     base_url = 'https://search.shopping.naver.com/search/all?adQuery=%EA%B0%95%EC%95%84%EC%A7%80%20%EC%82%AC%EB%A3%8C&frm=NVSHATC&npayType=2&origQuery=%EA%B0%95%EC%95%84%EC%A7%80%20%EC%82%AC%EB%A3%8C&pagingIndex={}&pagingSize=40&productSet=checkout&query=%EA%B0%95%EC%95%84%EC%A7%80%20%EC%82%AC%EB%A3%8C&sort=rel&timestamp=&viewType=image'
     
     num_workers = 8
