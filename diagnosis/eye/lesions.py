@@ -299,7 +299,7 @@ class ModelTrainer:
                             dummy_input = torch.randn(1, img_size)
                             torch.onnx.export(self.model, dummy_input, f'D:/drharu/ML/diagnosis/models/{self.name}.onnx')
                             
-                            onnx_model = onnx.load(f'{self.name}.onnx')
+                            onnx_model = onnx.load(f'D:/drharu/ML/diagnosis/models/{self.name}.onnx')
                             tf_rep = prepare(onnx_model)
                             
                             converter = tf.lite.TFLiteConverter.from_keras_model(tf_rep.model)
