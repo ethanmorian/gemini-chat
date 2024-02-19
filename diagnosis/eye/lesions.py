@@ -1,14 +1,19 @@
-from datetime import datetime
-import json
-import math
 import os
 import shutil
-from multiprocessing import freeze_support
+import json
+import math
 import unicodedata
+from multiprocessing import freeze_support
+from datetime import datetime
 
 import numpy as np
 from PIL import Image
-from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+import pytz
+import onnx
+from onnx_tf.backend import prepare
+import tensorflow as tf
+from sklearn.metrics import (confusion_matrix, accuracy_score, precision_score, 
+                             recall_score, f1_score, roc_auc_score)
 from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
@@ -17,10 +22,12 @@ from torch.utils.data import Dataset, DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import models, transforms
 from tqdm import tqdm
-import pytz
 
 from warnings import filterwarnings
-filterwarnings("ignore")
+filterwarnings('ignore')
+
+from models.HiFuse import HiFuse_Base
+from models.MedViT import MedViT_large
 
 
 class PathLabelProcessor:
@@ -53,7 +60,7 @@ class PathLabelProcessor:
             for file in files:
                 if file.lower().endswith(('jpg', 'png')):
                     image_path = os.path.join(root, file)
-                    json_file = f"{os.path.splitext(image_path)[0]}.json"
+                    json_file = f'{os.path.splitext(image_path)[0]}.json'
                     if os.path.isfile(json_file):
                         image_paths.append(image_path)
                         json_paths.append(json_file)
@@ -92,9 +99,8 @@ class PathLabelProcessor:
         weight_class_1 = 1.0 / symptomatic_count
         self.class_weights = torch.tensor([weight_class_0, weight_class_1])
 
-
 class CustomDataset(Dataset):
-    def __init__(self, data, transform=None):
+    def __init__(self, data, transform):
         self.data = data
         self.transform = transform
 
@@ -109,18 +115,15 @@ class CustomDataset(Dataset):
 
         return image, label
 
-
 class ImageDataset():
-    def __init__(self, data, transform, test_size=None, seed=42, batch_size=32, shuffle=True):
+    def __init__(self, data, transform, test_size=None, batch_size=128):
         self.transform = transform
         self.batch_size = batch_size
-        self.shuffle = shuffle
-        self.num_workers = os.cpu_count()
-        self.dataloader = self.create_data_loaders(data, test_size, seed)
+        self.dataloader = self.create_data_loaders(data, test_size)
 
-    def create_data_loaders(self, data, test_size, seed):
+    def create_data_loaders(self, data, test_size):
         if test_size:
-            train_data, val_data = train_test_split(data, test_size=test_size, random_state=seed)
+            train_data, val_data = train_test_split(data, test_size=test_size, random_state=42)
             dataset_dict = {'train': train_data, 'val': val_data}
         else:
             dataset_dict = {'test': data}
@@ -129,19 +132,18 @@ class ImageDataset():
         for phase, dataset in dataset_dict.items():
             dataset = CustomDataset(dataset, self.transform[phase])
             dataloader[phase] = DataLoader(dataset, batch_size=self.batch_size,
-                                           shuffle=self.shuffle, num_workers=self.num_workers)
+                                           shuffle=True, num_workers=os.cpu_count())
 
         return dataloader
-
 
 class CosineAnnealingWarmUpRestarts(torch.optim.lr_scheduler._LRScheduler):
     def __init__(self, optimizer, T_0, T_mult=1, eta_max=0.1, T_up=0, gamma=1., last_epoch=-1):
         if T_0 <= 0 or not isinstance(T_0, int):
-            raise ValueError("Expected positive integer T_0, but got {}".format(T_0))
+            raise ValueError('Expected positive integer T_0, but got {}'.format(T_0))
         if T_mult < 1 or not isinstance(T_mult, int):
-            raise ValueError("Expected integer T_mult >= 1, but got {}".format(T_mult))
+            raise ValueError('Expected integer T_mult >= 1, but got {}'.format(T_mult))
         if T_up < 0 or not isinstance(T_up, int):
-            raise ValueError("Expected positive integer T_up, but got {}".format(T_up))
+            raise ValueError('Expected positive integer T_up, but got {}'.format(T_up))
         self.T_0 = T_0
         self.T_mult = T_mult
         self.base_eta_max = eta_max
@@ -190,14 +192,12 @@ class CosineAnnealingWarmUpRestarts(torch.optim.lr_scheduler._LRScheduler):
         for param_group, lr in zip(self.optimizer.param_groups, self.get_lr()):
             param_group['lr'] = lr
 
-
 class FocalLoss(nn.Module):
-    def __init__(self, gamma=2, alpha=None, reduction='mean', device='cuda'):
+    def __init__(self, gamma=2, alpha=None, reduction='mean'):
         super(FocalLoss, self).__init__()
         self.gamma = gamma
-        self.alpha = alpha.to(device) if alpha is not None else None
+        self.alpha = alpha.to('cuda') if alpha is not None else None
         self.reduction = reduction
-        self.device = device
 
     def forward(self, inputs, targets):
         ce_loss = nn.functional.cross_entropy(inputs, targets, reduction='none', ignore_index=-100)
@@ -215,23 +215,20 @@ class FocalLoss(nn.Module):
         elif self.reduction == 'none':
             return focal_loss
         else:
-            raise ValueError("Invalid reduction option")
-
+            raise ValueError('Invalid reduction option')
 
 class ModelTrainer:
     def __init__(self,
                  model,
                  name,
-                 device,
                  dataloader,
                  criterion,
                  optimizer,
                  scheduler):
-        self.device = device
-        self.model = model.to(self.device)
+        self.model = model.to('cuda')
         self.name = name
         self.dataloader = dataloader
-        self.criterion = criterion.to(device)
+        self.criterion = criterion.to('cuda')
         self.optimizer = optimizer
         self.scheduler = scheduler
         self.best_f1_score = 0.0
@@ -251,61 +248,69 @@ class ModelTrainer:
         accuracy = correct / total
         return loss, accuracy, predicted
 
-    def run_epoch(self, epoch, num_epochs):
-        for phase in ['train', 'val']:
-            self.model.train() if phase == 'train' else self.model.eval()
-            dataloader = self.dataloader[phase]
-
-            total_loss = 0.0
-            correct = 0
-            total = 0
-            all_predicted = []
-            all_labels = []
-
-            for inputs, labels in tqdm(dataloader, desc=f'{phase.capitalize()} Epoch {epoch + 1}/{num_epochs}', unit='batch'):
-                inputs, labels = inputs.to(self.device), labels.to(self.device)
-
-                with torch.set_grad_enabled(phase == 'train'):
-                    outputs = self.model(inputs)
-                    loss, accuracy, predicted = self.compute_metrics(outputs, labels)
-
-                    if phase == 'train':
-                        if loss.requires_grad:
-                            loss.backward()
-                        self.optimizer.step()
-                        self.optimizer.zero_grad()
-
-                    total_loss += loss
-                    correct += accuracy * labels.size(0)
-                    total += labels.size(0)
-
-                    all_predicted.extend(predicted.cpu().numpy())
-                    all_labels.extend(labels.cpu().numpy())
-
-            avg_loss = total_loss / len(dataloader)
-            accuracy = correct / total
-            self.writer.add_scalar(f'Loss/{phase}', avg_loss, epoch)
-            self.writer.add_scalar(f'Accuracy/{phase}', accuracy, epoch)
-
-            if phase == 'val':
-                current_f1_score = self.calculate_f1_score(np.array(all_predicted), np.array(all_labels))
-                current_auc_roc = self.calculate_auc_roc(np.array(all_predicted), np.array(all_labels))
-
-                self.writer.add_scalar('F1 Score/valid', current_f1_score, epoch)
-                self.writer.add_scalar('AUC-ROC/valid', current_auc_roc, epoch)
-
-                if current_f1_score > self.best_f1_score:
-                    self.best_f1_score = current_f1_score
-                    torch.save(self.model, f'D:/drharu/ML/diagnosis/models/{self.name}')
-
-        lr_value = self.scheduler.get_lr()[0]
-        self.writer.add_scalar('LearningRate', lr_value, epoch)
-
     def train(self, num_epochs):
         for epoch in range(num_epochs):
             try:
-                self.run_epoch(epoch, num_epochs)
-                self.scheduler.step()
+                for phase in ['train', 'val']:
+                    self.model.train() if phase == 'train' else self.model.eval()
+                    dataloader = self.dataloader[phase]
+
+                    total_loss = 0.0
+                    correct = 0
+                    total = 0
+                    all_predicted = []
+                    all_labels = []
+
+                    for inputs, labels in tqdm(dataloader, desc=f'{phase.capitalize()} Epoch {epoch + 1}/{num_epochs}', unit='batch'):
+                        inputs, labels = inputs.to('cuda'), labels.to('cuda')
+
+                        with torch.set_grad_enabled(phase == 'train'):
+                            outputs = self.model(inputs)
+                            loss, accuracy, predicted = self.compute_metrics(outputs, labels)
+
+                            if phase == 'train':
+                                if loss.requires_grad:
+                                    loss.backward()
+                                self.optimizer.step()
+                                self.optimizer.zero_grad()
+
+                            total_loss += loss
+                            correct += accuracy * labels.size(0)
+                            total += labels.size(0)
+
+                            all_predicted.extend(predicted.cpu().numpy())
+                            all_labels.extend(labels.cpu().numpy())
+
+                    avg_loss = total_loss / len(dataloader)
+                    accuracy = correct / total
+                    self.writer.add_scalar(f'Loss/{phase}', avg_loss, epoch)
+                    self.writer.add_scalar(f'Accuracy/{phase}', accuracy, epoch)
+
+                    if phase == 'val':
+                        current_f1_score = self.calculate_f1_score(np.array(all_predicted), np.array(all_labels))
+                        current_auc_roc = self.calculate_auc_roc(np.array(all_predicted), np.array(all_labels))
+
+                        self.writer.add_scalar('F1 Score/valid', current_f1_score, epoch)
+                        self.writer.add_scalar('AUC-ROC/valid', current_auc_roc, epoch)
+                        
+                        if current_f1_score > self.best_f1_score:
+                            self.best_f1_score = current_f1_score
+                            
+                            dummy_input = torch.randn(1, img_size)
+                            torch.onnx.export(self.model, dummy_input, f'D:/drharu/ML/diagnosis/models/{self.name}.onnx')
+                            
+                            onnx_model = onnx.load(f'{self.name}.onnx')
+                            tf_rep = prepare(onnx_model)
+                            
+                            converter = tf.lite.TFLiteConverter.from_keras_model(tf_rep.model)
+                            tflite_model = converter.convert()
+                            
+                            with open(f'D:/drharu/ML/diagnosis/models/{self.name}.tflite', 'wb') as f:
+                                f.write(tflite_model)
+
+                lr_value = self.scheduler.get_lr()[0]
+                self.writer.add_scalar('LearningRate', lr_value, epoch)
+                
             except Exception as e:
                 model_path = f'D:/drharu/ML/diagnosis/models/{self.name}'
                 if os.path.exists(model_path):
@@ -315,74 +320,52 @@ class ModelTrainer:
 
         self.writer.close()
 
-
 class ModelTester:
-    def __init__(self, path, device, dataloader):
-        self.device = device
+    def __init__(self, path, dataloader):
         self.dataloader = dataloader
-        self.model = torch.load(path).to(self.device)
+        self.interpreter = tf.lite.Interpreter(model_path=path)
+        self.interpreter.allocate_tensors()
+        self.input_index = self.interpreter.get_input_details()[0]['index']
+        self.output_index = self.interpreter.get_output_details()[0]['index']
         self.evaluate()
 
     def classify(self):
-        self.model.eval()
         predictions = []
         labels = []
-        probabilities = []
 
-        with torch.no_grad():
-            for inputs, targets in tqdm(self.dataloader):
-                inputs, targets = inputs.to(self.device), targets.to(self.device)
-                outputs = self.model(inputs)
+        for inputs, targets in tqdm(self.dataloader):
+            inputs = np.array(inputs, dtype=np.float32)
+            self.interpreter.set_tensor(self.input_index, inputs)
+            self.interpreter.invoke()
+            outputs = self.interpreter.get_tensor(self.output_index)
 
-                _, predicted = torch.max(outputs, 1)
+            predicted = np.argmax(outputs, axis=1)
+            predictions.extend(predicted)
+            labels.extend(targets)
 
-                predictions.extend(predicted.cpu().numpy())
-                labels.extend(targets.cpu().numpy())
-                probabilities.extend(torch.nn.functional.softmax(outputs, dim=1).cpu().numpy())
-
-        return predictions, labels, probabilities
-
-    def calculate_prob_stats(self, probabilities):
-        probabilities = np.array(probabilities)
-        min_probs = np.min(probabilities)
-        max_probs = np.max(probabilities)
-        std_probs = np.std(probabilities)
-        mean_probs = np.mean(probabilities)
-
-        return min_probs, max_probs, std_probs, mean_probs
-
-    def calculate_percentage(self, value):
-        return f'{value * 100:.2f}%'
+        return predictions, labels
 
     def evaluate(self):
-        predictions, labels, probabilities = self.classify()
+        predictions, labels = self.classify()
         cm = confusion_matrix(labels, predictions)
         accuracy = accuracy_score(labels, predictions)
         precision = precision_score(labels, predictions, average='weighted')
         recall = recall_score(labels, predictions, average='weighted')
         f1 = f1_score(labels, predictions, average='weighted')
 
-        min_probs, max_probs, std_probs, mean_probs = self.calculate_prob_stats(probabilities)
-
         print('Evaluation Results:')
         print(f'Confusion Matrix:\n{cm}')
-        print(f'Accuracy: {self.calculate_percentage(accuracy)}')
-        print(f'Precision: {self.calculate_percentage(precision)}')
-        print(f'Recall: {self.calculate_percentage(recall)}')
-        print(f'F1 Score: {self.calculate_percentage(f1)}')
-        print(f'Mean Probability: {self.calculate_percentage(mean_probs)}')
-        print(f'Max Probability: {self.calculate_percentage(max_probs)}')
-        print(f'Min Probability: {self.calculate_percentage(min_probs)}')
-        print(f'Standard Deviation of Probabilities: {std_probs:.4f}')
-
+        print(f'Accuracy: {accuracy:.2f}')
+        print(f'Precision: {precision:.2f}')
+        print(f'Recall: {recall:.2f}')
+        print(f'F1 Score: {f1:.2f}')
 
 if __name__ == '__main__':
     freeze_support()
     torch.cuda.empty_cache()
-
-    # Preprocessing
-
+    
     base_path = 'D:/153.반려동물 안구질환 데이터/01.데이터/1.Training'
+    # base_path = 'D:/153.반려동물 안구질환 데이터/01.데이터/2.Validation'
     folder_name = '일반'
     '''
     개: 안검염, 안검종양, 안검내반증, 유루증, 색소침착성각막염, 핵경화, 결막염
@@ -399,15 +382,20 @@ if __name__ == '__main__':
     lesion = '안검염'
     devices = ['스마트폰', '일반카메라']
     symptom = ['유']
+    
+    img_size = 256
+    
+    test_size = 0.1
+    batch_size = 128
+
+    # Preprocessing
 
     processor = PathLabelProcessor(base_path=base_path, folder_name=folder_name, pet_type=pet_type,
                                    lesion=lesion, devices=devices, symptom=symptom)
 
     data = processor.labeled_image_paths
     class_weights = processor.class_weights
-
-    img_size = 256
-
+    
     transform = {'train': transforms.Compose([transforms.Resize(img_size),
                                               transforms.RandomHorizontalFlip(),
                                               transforms.RandomVerticalFlip(),
@@ -419,26 +407,25 @@ if __name__ == '__main__':
                  'val': transforms.Compose([transforms.Resize(img_size),
                                             transforms.ToTensor(),
                                             transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])])}
-    test_size = 0.1
-    seed = 42
-    batch_size = 128
-    shuffle = True
 
-    dataloader = ImageDataset(data=data, transform=transform, test_size=test_size,
-                              seed=seed, batch_size=batch_size, shuffle=shuffle)
+    dataloader = ImageDataset(data=data, transform=transform, test_size=0.1, batch_size=128)
 
     # Modeling
 
-    device = torch.device("cuda")
-    model = models.swin_v2_b(weights="DEFAULT")
+    model = HiFuse_Base(num_classes=2)
+    
+    model = MedViT_large
+    model.proj_head[0] = torch.nn.Linear(in_features=1024, out_features=2, bias=True)
+    
+    model = models.swin_v2_b(weights='DEFAULT')
     model.head = nn.Linear(model.head.in_features, 2)
 
     for name, param in model.named_parameters():
-        if "heads" not in name:
+        if 'heads' not in name:
             param.requires_grad = False
 
-    pet_type = ''.join([unicodedata.name(char, "Unknown").split()[-1] for char in pet_type])
-    lesion = ''.join([unicodedata.name(char, "Unknown").split()[-1] for char in lesion])
+    pet_type = ''.join([unicodedata.name(char, 'Unknown').split()[-1] for char in pet_type])
+    lesion = ''.join([unicodedata.name(char, 'Unknown').split()[-1] for char in lesion])
     start_time = datetime.now(pytz.timezone('Asia/Seoul')).strftime('%Y%m%d-%H%M%S')
     name = f'{start_time}_{model.__class__.__name__}_v2_b_{pet_type}_{lesion}'
 
@@ -446,62 +433,25 @@ if __name__ == '__main__':
     optimizer = torch.optim.AdamW(model.parameters(), lr=0, weight_decay=1e-5)
     scheduler = CosineAnnealingWarmUpRestarts(optimizer, T_0=10, T_mult=1, eta_max=1e-2, T_up=10, gamma=1e-1)
 
-    trainer = ModelTrainer(device=device, model=model, name=name,
-                           dataloader=dataloader.dataloader, criterion=criterion,
-                           optimizer=optimizer, scheduler=scheduler)
+    trainer = ModelTrainer(model=model, name=name, dataloader=dataloader.dataloader,
+                           criterion=criterion, optimizer=optimizer, scheduler=scheduler)
 
     trainer.train(30)
     torch.cuda.empty_cache()
 
     # Evaluation
-
-    base_path = 'D:/153.반려동물 안구질환 데이터/01.데이터/2.Validation'
-    folder_name = '일반'
-    '''
-    개: 안검염, 안검종양, 안검내반증, 유루증, 색소침착성각막염, 핵경화, 결막염
-    고양이: 안검염, 결막염, 각막부골편, 비궤양성각막염, 각막궤양
-    ['유']
-    
-    개: 궤양성각막질환, 비궤양성각막질환
-    ['상', '하']
-    
-    개: 백내장
-    ['초기', '비성숙', '성숙']
-    '''
-    pet_type = '개'
-    lesion = '안검염'
-    devices = ['스마트폰', '일반카메라']
-    symptom = ['유']
     
     processor = PathLabelProcessor(base_path=base_path, folder_name=folder_name, pet_type=pet_type,
                                    lesion=lesion, devices=devices, symptom=symptom)
     
     data = processor.labeled_image_paths
     
-    img_size = 256
-    
     transform = {'test': transforms.Compose([transforms.Resize(img_size),
                                              transforms.ToTensor(),
                                              transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])])}
-    test_size = None
-    seed = 42
-    batch_size = 128
-    shuffle = False
     
-    dataloader = ImageDataset(data=data, transform=transform, test_size=test_size,
-                              seed=seed, batch_size=batch_size, shuffle=shuffle)
+    dataloader = ImageDataset(data=data, transform=transform, test_size=test_size, batch_size=batch_size)
     
-    pos_dataloader = ImageDataset(data=[item for item in data if item[1] == 1],
-                                  transform=transform, test_size=test_size, seed=seed,
-                                  batch_size=batch_size, shuffle=shuffle)
+    path = r'C:\Users\user\Desktop\pythonProject1\20240206-162718_EfficientNet_v2_m_GAE_ANGEOMYEOM'
     
-    neg_dataloader = ImageDataset(data=[item for item in data if item[1] == 0],
-                                  transform=transform, test_size=test_size, seed=seed,
-                                  batch_size=batch_size, shuffle=shuffle)
-    
-    path = r"C:\Users\user\Desktop\pythonProject1\20240206-162718_EfficientNet_v2_m_GAE_ANGEOMYEOM"
-    device = torch.device("cuda")
-    
-    ModelTester(path=path, device=device, dataloader=dataloader.dataloader['test'])
-    ModelTester(path=path, device=device, dataloader=pos_dataloader.dataloader['test'])
-    ModelTester(path=path, device=device, dataloader=neg_dataloader.dataloader['test'])
+    ModelTester(path=path, dataloader=dataloader.dataloader['test'])
