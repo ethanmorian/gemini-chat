@@ -1,0 +1,2326 @@
+displayName,__typename,TxCodeGroup.groupName,TxCodePrice.supplyPrice,TxCodePrice.taxItemType
+약물검사(외래검사)- 납(Lead),TxCode,CD. 의뢰검사,60000,2
+약물검사(외래검사)-Cu(구리),TxCode,CD. 의뢰검사,60000,2
+약물검사(외래검사)-Phenobarbital,TxCode,CD. 의뢰검사,60000,2
+네)외래검사- 사이클로스포린(Cyclosporine)농도 측정,TxCode,CD. 의뢰검사,60000,2
+IDEXX 외래검사 - 약물농도 측정(Digoxin),TxCode,CD. 의뢰검사,50000,2
+호르몬검사(외래) - CIALP,TxCode,CD. 의뢰검사,100000,2
+호르몬검사(외래) - Free T4 농도측정,TxCode,CD. 의뢰검사,100000,2
+호르몬검사(외래)-Aldosterone,TxCode,CD. 의뢰검사,60000,2
+"호르몬검사(외래 ) - 갑상선 (T4, c TSH)",TxCode,CD. 의뢰검사,140000,2
+호르몬검사(외래) - Progesteron,TxCode,CD. 의뢰검사,50000,2
+호르몬검사(외래) - Estradiol(E2),TxCode,CD. 의뢰검사,50000,2
+호르몬검사(외래) - Testosterone,TxCode,CD. 의뢰검사,50000,2
+호르몬검사(외래) - Estrogen(Total),TxCode,CD. 의뢰검사,90000,2
+외래검사 - Bile acid,TxCode,CD. 의뢰검사,100000,2
+[의뢰]특수검사(혈청)-fructosamine,TxCode,CD. 의뢰검사,68182,2
+호르몬검사(외래)-PTH intact,TxCode,CD. 의뢰검사,75000,2
+"[의뢰]일반검사(전혈)-응고계(PT,aPTT)",TxCode,CD. 의뢰검사,95000,2
+일반검사(검체)-Bacterial Culture(세균배양),TxCode,CD. 의뢰검사,52728,2
+일반검사(검체)-Antibiotic Sensitivity,TxCode,CD. 의뢰검사,52728,2
+일반검사(검체)-Stone Analysis,TxCode,CD. 의뢰검사,80000,2
+일반검사(검체)-Body Fluid Cytology,TxCode,CD. 의뢰검사,80000,2
+[외래]호르몬검사-Cortisol LDDST(3회_0h/4h/8h),TxCode,CD. 의뢰검사,270000,2
+호르몬검사(외래)-Cortisol HDDST,TxCode,CD. 의뢰검사,200000,2
+IDEXX  외래검사 - 조직검사( 1 sample),TxCode,CD. 의뢰검사,180000,2
+일반검사(조직)-Cytology(세포학검사),TxCode,CD. 의뢰검사,100000,2
+유전자검사(PCR) - 고양이 다낭포성신장병,TxCode,CD. 의뢰검사,95455,2
+[혈액]고양이 proBNP kit (IDEXX)  - 심장 질환 진단,TxCode,CD. 의뢰검사,65000,2
+[의뢰]특수검사(WB)-당화혈색소(HbA1c),TxCode,CD. 의뢰검사,68182,2
+호르몬검사(외래)- Erythropoietin 농도,TxCode,CD. 의뢰검사,75000,2
+호르몬검사(외래)-Insulin 농도,TxCode,CD. 의뢰검사,50000,2
+"외래 - Canine TLI, 엽산, 코발라민농도 측정",TxCode,CD. 의뢰검사,200000,2
+CT검사(컴퓨터 단층촬영),TxCode,CD. 의뢰검사,500000,2
+특수 약물처치,TxCode,AE. 수액/수혈,10000,2
+붕대(수술 후처치),TxCode,AF. 기본처치,5000,2
+붕대 - PolyCast  10kg이하,TxCode,AF. 기본처치,80000,2
+온찜찔(hot pack),TxCode,AF. 기본처치,5000,2
+면역-시어즈플라즈마  1 vail,TxCode,AE. 수액/수혈,50000,2
+고항혈장(특수A) 1vial,TxCode,AE. 수액/수혈,40000,2
+고항혈장(parvo),TxCode,AE. 수액/수혈,30000,2
+휴먼 알부민 제제(특수),TxCode,AE. 수액/수혈,200000,2
+수혈- 전혈(혈액은행),TxCode,AE. 수액/수혈,300000,2
+수액처치료A,TxCode,AE. 수액/수혈,25000,2
+수액처치료B,TxCode,AE. 수액/수혈,20000,2
+수액처치료C,TxCode,AE. 수액/수혈,30000,2
+[피하수액]수액- 피하 수액(일반),TxCode,AE. 수액/수혈,22890,2
+수액- PPN(비경구적 영양수액) 1일,TxCode,AE. 수액/수혈,30000,2
+[주사]응급약물_뇌압상승 응급처치(Mannitol),TxCode,AE. 수액/수혈,29870,2
+수액- 아미노산 제제,TxCode,AE. 수액/수혈,20000,2
+수액  - 일반,TxCode,AE. 수액/수혈,27500,2
+[검사] 분변검사_부유법,TxCode,,11000,2
+구충제(안텔민),TxCode,"BF. 내,외부구충",4000,2
+구충제-20~30Kg 이하,TxCode,"BF. 내,외부구충",4000,2
+구충제-30Kg 이상,TxCode,"BF. 내,외부구충",6000,2
+구충제-5~10Kg 이하,TxCode,"BF. 내,외부구충",2000,2
+구충제-5Kg 이하,TxCode,"BF. 내,외부구충",2000,2
+고양이-백혈병(FeLV) 1차,TxCode,BB. 예방접종(고양이),38500,2
+고양이-백혈병(FeLV) 2차,TxCode,BB. 예방접종(고양이),38500,2
+고양이-백혈병(FeLV) booster,TxCode,BB. 예방접종(고양이),38500,2
+유전자검사(PCR) - 개 호흡기진단 set,TxCode,CD. 의뢰검사,100000,2
+암모니아 내성검사(간기능),TxCode,CD. 의뢰검사,54546,2
+[한방]병행 침치료,TxCode,FH. 수의한방,20000,2
+[검사] 분변검사_부유법,TxCode,,11000,2
+면역-파우글로플린,TxCode,AE. 수액/수혈,50000,2
+[재활]레이져치료(PBMT) MLS laser therapy,TxCode,AF. 기본처치,25000,2
+유전자검사_(비대성심근증 / 반려묘)_EDTA 1ml,TxCode,CD. 의뢰검사,81819,2
+프론트라인 트리액트 (2~5kg) 1pack,TxCode,"BF. 내,외부구충",48000,2
+고항혈장(특수A) 2vial,TxCode,AE. 수액/수혈,70000,2
+고항혈장(특수A) 3vial,TxCode,AE. 수액/수혈,100000,2
+고항혈장(특수A) 4vial,TxCode,AE. 수액/수혈,130000,2
+고항혈장(특수A)- 5vial 이상 추가 1 vial 당,TxCode,AE. 수액/수혈,30000,2
+산소 공급(24hr),TxCode,AF. 기본처치,43637,2
+외래검사-D-dimer,TxCode,CD. 의뢰검사,34500,2
+수혈 - 수혈 거부반응 검사(Cross matching),TxCode,AE. 수액/수혈,30000,2
+치아골절 교정(생체용본드),TxCode,AF. 기본처치,25000,2
+"외래 검사 :  f TLI, 엽산, cobalamin(고양이) 검사",TxCode,CD. 의뢰검사,400000,2
+산욕마비 처치,TxCode,AF. 기본처치,110000,2
+응급 - 수액 및 약물처치,TxCode,AF. 기본처치,30000,2
+응급 - 인공 호흡 장치(Ventilator),TxCode,AF. 기본처치,30000,2
+응급 - 심폐소생술: 30분 이하,TxCode,AF. 기본처치,60000,2
+유전자검사(PCR) - 고양이 set 2,TxCode,CD. 의뢰검사,118182,2
+유전자검사(PCR) - Canine Tick/vector Panel,TxCode,CD. 의뢰검사,136364,2
+유전자검사(PCR) - 구리중독,TxCode,CD. 의뢰검사,131819,2
+약욕 및 소독 : 발가락,TxCode,AF. 기본처치,7000,2
+KVL free T4 검사 의뢰,TxCode,CD. 의뢰검사,80000,2
+외래 - 복수 검사(Abdominal Fluid  Analysis.),TxCode,CD. 의뢰검사,60000,2
+"외래 - 흉수 검사(농흉, 유미흉, etc)",TxCode,CD. 의뢰검사,70000,2
+외래검사-FDPs(혈전검사),TxCode,CD. 의뢰검사,31364,2
+개 - Ringworm 백신 1차,TxCode,BA. 예방접종(개),45000,2
+개 - Ringworm 백신 2 차,TxCode,BA. 예방접종(개),45000,2
+개 - Ringworm 백신 Booster,TxCode,BA. 예방접종(개),45000,2
+복막투석(Peritoneal dialysis),TxCode,AF. 기본처치,200000,2
+저주파물리치료,TxCode,AF. 기본처치,20000,2
+배농 처치,TxCode,AF. 기본처치,10000,2
+영양카테터(비공),TxCode,AF. 기본처치,30000,2
+영양카테터(식도),TxCode,AF. 기본처치,50000,2
+피부소독,TxCode,AF. 기본처치,10000,2
+milbemycin,TxCode,"BF. 내,외부구충",10000,2
+아이덱스(외래) - PTH + iCa (canine)  농도 측정,TxCode,CD. 의뢰검사,150000,2
+외래검사-G-I panel(canine),TxCode,CD. 의뢰검사,200000,2
+외래검사 - canine diarrhea 7종,TxCode,CD. 의뢰검사,80000,2
+관장 (PEG 3350- 비식도관 CRI),TxCode,AF. 기본처치,100000,2
+관장 -락툴로스 10kg 이하,TxCode,AF. 기본처치,30000,2
+ANA(antinuclear antibody),TxCode,CD. 의뢰검사,100000,2
+CRF(canine rheumatoid factor),TxCode,CD. 의뢰검사,109091,2
+[의뢰]알러지검사 Premium test 120종,TxCode,CD. 의뢰검사,318182,2
+원내 출산(마리당),TxCode,AF. 기본처치,52655,2
+ANTECH_스코티시폴드_골이형성증_검사의뢰,TxCode,CD. 의뢰검사,60000,2
+"하트가드(Heartgard)- Blue(~11kg, 2pack)",TxCode,BE. 사상충 외,60000,2
+붕대외처치,TxCode,AF. 기본처치,8000,2
+"넥스가드스펙트라 XS- (2~3.5kg,pack)",TxCode,"BF. 내,외부구충",34546,2
+퓨리나_리브클리어 키튼,TxCode,KA. 치료보조제,44000,2
+애드보킷(Advocate)-CAT 4~8kg.pack (6개입),TxCode,BE. 사상충 외,92728,2
+[한방]전침사용(EA),TxCode,AF. 기본처치,10000,2
+[한방]약침치료(Aquapuncture),TxCode,FH. 수의한방,12000,2
+[한방]항산화주사,TxCode,FH. 수의한방,26500,2
+퓨리나_고양이 EN,TxCode,JB. 퓨리나,32273,2
+퓨리나_고양이 NF,TxCode,JB. 퓨리나,32273,2
+퓨리나_고양이 UR,TxCode,JB. 퓨리나,30455,2
+퓨리나_고양이 OM,TxCode,JB. 퓨리나,30455,2
+퓨리나_고양이 DM,TxCode,JB. 퓨리나,30455,2
+펠리웨이 클래식 스타터키트 (feliway classic),TxCode,KA. 치료보조제,38000,2
+[의뢰] 고양이 항체가검사 7종 ,TxCode,CD. 의뢰검사,95455,2
+펠리웨이 클래식 리필 (feliway classic REFILL),TxCode,KA. 치료보조제,30000,2
+부신피질호르몬검사(Cortisol)_혈액,TxCode,LAB,50000,2
+갑상선호르몬검사(T4)_혈액,TxCode,LAB,50000,2
+갑상선자극호르몬검사(TSH)_혈액,TxCode,LAB,50000,2
+단백뇨검사(UPC)_소변,TxCode,LAB,50000,2
+췌장염검사(fPL)_혈액,TxCode,LAB,50000,2
+페노바비탈검사(Phenobarbital)_혈액,TxCode,LAB,60000,2
+혈전검사(D-dimer)_혈액,TxCode,LAB,44000,2
+간기능검사(Bile Acid)_혈액,TxCode,LAB,50000,2
+급성염증반응검사(CRP)_혈액,TxCode,LAB,44000,2
+급성염증반응검사(fSAA)_혈액,TxCode,LAB,50000,2
+케톤체검사(Ketone)_혈액,TxCode,LAB,8819,2
+혈당검사_간이_혈액,TxCode,LAB,8819,2
+혈당곡선(1일6회)_1일(입원비제외)_혈액,TxCode,LAB,50000,2
+혈당곡선(1일12회)_1일(입원비제외)_혈액,TxCode,LAB,100000,2
+"응고계검사(PT,APTT)_혈액",TxCode,LAB,50000,2
+신장조기검사(SDMA)_혈액,TxCode,LAB,50000,2
+평균혈당검사(Fructosamine)_혈액,TxCode,LAB,50000,2
+적혈구농도검사(PCV/TP)_튜브_혈액,TxCode,LAB,10000,2
+바베시아 PCR_원내간이_혈액,TxCode,LAB,77000,2
+심근병검사(Pro BNP)_혈액,TxCode,LAB,60000,2
+초음파(조영검사)_심장 단락 혈류방향검사(bubble study)_10kg,TxCode,영상_10kg,48182,2
+C-arm_기본촬영,TxCode,영상_10kg,90910,2
+C-arm_조영검사(비뇨기),TxCode,영상_10kg,145455,2
+C-arm_조영검사(간문맥혈관),TxCode,영상_10kg,145455,2
+CT_기본촬영_10kg,TxCode,영상_10kg,372728,2
+CT_부위추가_10kg,TxCode,영상_10kg,145455,2
+CT_조영제 추가_10kg,TxCode,영상_10kg,100000,2
+MRI_기본 및 조영 촬영_10kg,TxCode,영상_10kg,563637,2
+MRI_부위 추가_10kg,TxCode,영상_10kg,245455,2
+CT+MRI_기본촬영 (CT조영미포함)_10kg,TxCode,영상_10kg,818182,2
+뇌척수액 천자 및 세포 검사,TxCode,영상_10kg,109091,2
+뇌척수액 PCR 검사(추가),TxCode,영상_10kg,118182,2
+PARR,TxCode,영상_10kg,118182,2
+"MRI,CT 판독료_타병원 촬영시",TxCode,영상_10kg,50000,2
+초음파_임신진단_20kg,TxCode,영상_20kg,68182,2
+CT_기본촬영_20kg,TxCode,영상_20kg,427273,2
+CT_부위추가_20kg,TxCode,영상_20kg,190910,2
+MRI_기본 및 조영 촬영_20kg,TxCode,영상_20kg,627273,2
+MRI_부위 추가_20kg,TxCode,영상_20kg,290910,2
+CT+MRI_기본촬영 (CT조영미포함)_20kg,TxCode,영상_20kg,927273,2
+CT_조영제 추가_20kg,TxCode,영상_20kg,118182,2
+CT_기본촬영_30kg,TxCode,영상_30kg,481819,2
+CT_부위추가_30kg,TxCode,영상_30kg,236364,2
+MRI_기본 및 조영 촬영_30kg,TxCode,영상_30kg,690910,2
+MRI_부위 추가_30kg,TxCode,영상_30kg,336364,2
+CT+MRI_기본촬영 (CT조영미포함)_30kg,TxCode,영상_30kg,1036364,2
+CT_조영제 추가_30kg,TxCode,영상_30kg,136364,2
+CT_기본촬영_40kg,TxCode,영상_40kg,536364,2
+CT_부위추가_40kg,TxCode,영상_40kg,281819,2
+MRI_기본 및 조영 촬영_40kg,TxCode,영상_40kg,754546,2
+MRI_부위 추가_40kg,TxCode,영상_40kg,381819,2
+CT+MRI_기본촬영 (CT조영미포함)_40kg,TxCode,영상_40kg,1145455,2
+CT_조영제 추가_40kg,TxCode,영상_40kg,154546,2
+CT_기본촬영_50kg,TxCode,영상_50kg,590910,2
+CT_부위추가_50kg,TxCode,영상_50kg,327273,2
+MRI_기본 및 조영 촬영_50kg,TxCode,영상_50kg,818182,2
+MRI_부위 추가_50kg,TxCode,영상_50kg,427273,2
+CT+MRI_기본촬영 (CT조영미포함)_50kg,TxCode,영상_50kg,1254546,2
+CT_조영제 추가_50kg,TxCode,영상_50kg,172728,2
+세포검사FNA(1부위)_IDEXX,TxCode,외부의뢰,118182,2
+엽산(Folic acid)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+엽산(Folic acid)_KVL_혈청2ml,TxCode,외부의뢰,85455,2
+코발라민(VitB12)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+트로포닌 I(Troponin I)_KVL_혈청1ml,TxCode,외부의뢰,60000,2
+결석성분분석_KVL,TxCode,외부의뢰,80000,2
+방광암항원검사(Bladder Tumor Antigen)_Antech_소변2ml,TxCode,외부의뢰,218182,2
+"방광암,전립선암검사(TCC,UC)_Antect_소변40ml",TxCode,외부의뢰,600000,2
+뇨코티솔크레아티닌비율(UCCR)_KVL_소변5ml,TxCode,외부의뢰,60000,2
+"갑상샘호르몬(T4,total)_KVL_혈청1ml",TxCode,외부의뢰,50000,2
+갑상샘호르몬(T3)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+활성갑상샘호르몬(FreeT4)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+갑상샘자극호르몬(TSH)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+"갑상샘패널1(FreeT4,TSH)_KVL_혈청1ml",TxCode,외부의뢰,81819,2
+"갑상샘패널2(FreeT4,T4,TSH)_KVL_혈청1ml",TxCode,외부의뢰,118182,2
+"갑상샘패널3(FreeT4,T4)_KVL_혈청1ml",TxCode,외부의뢰,81819,2
+"갑상샘패널(T4,TSH)_KVL_혈청",TxCode,외부의뢰,81819,2
+성호르몬검사(Estradiol)_E2_KVL_혈청1ml,TxCode,외부의뢰,90910,2
+성호르몬검사(Progesterone)_KVL_혈청1ml,TxCode,외부의뢰,40000,2
+성호르몬검사(Testerone)_KVL_혈청1ml,TxCode,외부의뢰,40000,2
+약물검사(Cyclosporine)_KVL_EDTA전혈2ml,TxCode,외부의뢰,118182,2
+약물검사(Zonisamide)_KVL_혈청1ml,TxCode,외부의뢰,100000,2
+약물검사(Digoxin)_KVL_혈청1ml,TxCode,외부의뢰,40000,2
+알러지검사(Allergen60종)_KVL_혈청0.5ml_개,TxCode,외부의뢰,172728,2
+알러지검사(Allergen59종)_KVL_혈청0.5ml_고양이,TxCode,외부의뢰,172728,2
+"미생물검사(호기,항생제감수성)_KVL",TxCode,외부의뢰,63637,2
+"미생물검사(호기,혐기,항생제감수성)_KVL",TxCode,외부의뢰,81819,2
+조직검사(1부위)_KVL,TxCode,외부의뢰,172728,2
+조직검사(2부위)_KVL,TxCode,외부의뢰,245455,2
+조직검사(3부위)_KVL,TxCode,외부의뢰,300000,2
+조직검사(4부위)_KVL,TxCode,외부의뢰,345455,2
+조직검사(특수염색1종)_KVL,TxCode,외부의뢰,309091,2
+조직검사(특수염색2종)_KVL,TxCode,외부의뢰,409091,2
+조직검사(특수염색3종)_KVL,TxCode,외부의뢰,500000,2
+림프종PCR추가검사_Antect,TxCode,외부의뢰,909091,2
+비만세포종검사_Antech,TxCode,외부의뢰,600000,2
+생검슬라이드요청_KVL,TxCode,외부의뢰,200000,2
+세포검사FNA(1부위)_KVL,TxCode,외부의뢰,100000,2
+세포검사FNA(2부위)_KVL,TxCode,외부의뢰,145455,2
+세포검사FNA(3부위)_KVL,TxCode,외부의뢰,181819,2
+세포검사FNA(4부위)_KVL,TxCode,외부의뢰,218182,2
+골수세포검사_KVL_골수FNAslide,TxCode,외부의뢰,163637,2
+림프종PCR(PARR)_KVL,TxCode,외부의뢰,118182,2
+뇌척수액검사_KVL_뇌척수액1~2ml,TxCode,외부의뢰,336364,2
+유전검사(구리중독)_KVL_EDTA전혈1ml,TxCode,외부의뢰,1045455,2
+유전검사(콜리안구기형)_KVL_EDTA전혈1ml,TxCode,외부의뢰,1045455,2
+유전검사(진행성망막위축증)_KVL_EDTA전혈1ml,TxCode,외부의뢰,63637,2
+유전검사(다낭포성신장질환PKD)_KVL_EDTA전혈1ml,TxCode,외부의뢰,70000,2
+유전검사(비대성심근증HCM)_KVL_EDTA전혈1ml,TxCode,외부의뢰,63637,2
+유전검사(스코티쉬폴드골이형성증)_KVL_EDTA전혈1ml,TxCode,외부의뢰,63637,2
+개설사병원체(6세트)_KVL_분변,TxCode,외부의뢰,136364,2
+"개호흡기병원체(4세트)_KVL_인후두,결막swab",TxCode,외부의뢰,145455,2
+개신경계병원체_KVL_뇌척수액0.5ml,TxCode,외부의뢰,118182,2
+개빈혈병원체_KVL_EDTA전혈1ml,TxCode,외부의뢰,118182,2
+개진드기10종_KVL_EDTA전혈1ml,TxCode,외부의뢰,118182,2
+톡스플라즈마항원항체_KVL_EDTA전혈1ml,TxCode,외부의뢰,81819,2
+"SFTS,Babesia, Anaplasma(PCR)_KVL_EDTA1ml,혈청0.5ml모두",TxCode,외부의뢰,100000,2
+"고양이호흡기병원체(4세트)_KVL_인후두, 결막swab",TxCode,외부의뢰,145455,2
+고양이설사병원체(6세트)_KVL_분변,TxCode,외부의뢰,136364,2
+고양이신경계병원체(12종)_KVL_뇌척수액0.5ml,TxCode,외부의뢰,118182,2
+고양이빈혈병원체_KVL_EDTA전혈1ml,TxCode,외부의뢰,136364,2
+고양이심장사상충KIT검사_KVL_EDTA전혈1ml,TxCode,외부의뢰,60000,2
+고양이진드기10종_KVL_EDTA1ml,TxCode,외부의뢰,80000,2
+결석성분분석_IDEXX,TxCode,외부의뢰,100000,2
+"갑상샘호르몬(T4,Total)_IDEXX_혈청1ml",TxCode,외부의뢰,50000,2
+갑상샘호르몬(FreeT4)_IDEXX_혈청1ml,TxCode,외부의뢰,60000,2
+"갑상샘호르몬(TSH, Endogenous)_IDEXX_혈청1ml",TxCode,외부의뢰,50000,2
+"갑상샘패널2(fT4,tT4)_IDEXX_개_혈청1ml",TxCode,외부의뢰,100000,2
+"갑상샘패널3(cTSH,tT4)_IDEXX_개_혈청1ml",TxCode,외부의뢰,90910,2
+"갑상샘패널4(cTSH,fT4,tT4)_IDEXX_개_혈청1ml",TxCode,외부의뢰,140910,2
+트로포닌 I(Troponin I)_IDEXX_혈청1ml,TxCode,외부의뢰,100000,2
+"갑상샘스크리닝(cTSH,fT4,tT4,TgAA)_IDEXX_혈청3ml",TxCode,외부의뢰,200000,2
+트립신유사면역반응성검사(TLI)_IDEXX_개_혈청1ml절식,TxCode,외부의뢰,80000,2
+"엽산(Folic acid,VitB12)_IDEXX_혈청1ml절식",TxCode,외부의뢰,90910,2
+트립신유사면역반응성검사(TLI)_IDEXX_고양이_혈청1ml절식,TxCode,외부의뢰,245455,2
+"위장관패널(Cobalamine, Folate, TLI, fPL)_IDEXX_개_혈청2ml절식",TxCode,외부의뢰,200000,2
+"위장관패널2(Cobalamine, Folate, fPL)_IDEXX_고양이_혈청1ml절식",TxCode,외부의뢰,163637,2
+"위장관패널3(Cobalamine, Folate, TLI, fPL)_IDEXX_고양이_혈청2ml절식",TxCode,외부의뢰,400000,2
+개호흡기질환(CRD)_IDEXX_qPCR_인두결막swab,TxCode,외부의뢰,140910,2
+개설사_IDEXX_qPCR_분변,TxCode,외부의뢰,154546,2
+"개빈혈,4Dx_IDEXX_qPCR",TxCode,외부의뢰,145455,2
+"개진드기,매개체_IDEXX_qPCR",TxCode,외부의뢰,127273,2
+"개신경계질환,라임병_IDEXX_qPCR",TxCode,외부의뢰,245455,2
+개신경계질환_IDEXX_qPCR,TxCode,외부의뢰,172728,2
+고양이상부호흡기질환_IDEXX_qPCR,TxCode,외부의뢰,140910,2
+고양이설사_IDEXX_qPCR,TxCode,외부의뢰,154546,2
+"고양이빈혈,FeLV, FIV_IDEXX_qPCR",TxCode,외부의뢰,163637,2
+고양이빈혈_IDEXX_qPCR,TxCode,외부의뢰,131819,2
+"고양이진드기,매개체_IDEXX_qPCR",TxCode,외부의뢰,113637,2
+"고양이신경계질환, FeLV, FIV_IDEXX_qPCR_CSF0.5ml, 혈청1ml",TxCode,외부의뢰,163637,2
+"고양이신경계질환(bartonella,crypto,fcov,toxo)_IDEXX_qPCR_CSF0.5ml",TxCode,외부의뢰,118182,2
+"고양이신경성FeLV, FIV_IDEXX_qPCR_CSF0.5ml",TxCode,외부의뢰,109091,2
+고양이전염성복막염(FIP)_IDEXX_qPCR,TxCode,외부의뢰,90910,2
+전신진균성질환_IDEXX_qPCR,TxCode,외부의뢰,100000,2
+사상균증(Dermatophyte)_IDEXX_qPCR,TxCode,외부의뢰,81819,2
+조직검사(1부위)_IDEXX_10%중성포르말린고정,TxCode,외부의뢰,200000,2
+조직검사(2부위)_IDEXX_10%중성포르말린고정,TxCode,외부의뢰,263637,2
+조직검사(3부위)_IDEXX_10%중성포르말린고정,TxCode,외부의뢰,327273,2
+호기성배양(미생물검사)_IDEXX,TxCode,외부의뢰,68182,2
+항핵항체(ANA)_IDEXX_혈청1ml,TxCode,외부의뢰,113637,2
+개류마티스질환검사_IDEXX_혈청1ml,TxCode,외부의뢰,90910,2
+아세틸콜린수용체항체검사(AchR-Ab)_IDEXX_혈청2ml,TxCode,외부의뢰,500000,2
+저작근근염항체검사(2MAb)_IDEXX_혈청1ml,TxCode,외부의뢰,500000,2
+약물검사(Zonisamide)_IDEXX_혈청1ml,TxCode,외부의뢰,318182,2
+약물검사(Digoxin)_IDEXX_혈청1ml,TxCode,외부의뢰,34546,2
+알러지검사(표준48종)_IDEXX_혈청1ml,TxCode,외부의뢰,300000,2
+"알러지검사(표준,음식물72종)_IDEXX_혈청2ml",TxCode,외부의뢰,454546,2
+"알러지검사(표준,음식물,환경 96종)_IDEXX_혈청3ml",TxCode,외부의뢰,590910,2
+알러지검사(말라세지아)_IDEXX_추가_혈청0.5ml,TxCode,외부의뢰,31819,2
+세포검사FNA(2부위)_IDEXX,TxCode,외부의뢰,163637,2
+세포검사FNA(3부위)_IDEXX,TxCode,외부의뢰,200000,2
+CSF anaylsis (뇌척수액 분석 종합) + 세균배양,TxCode,외부의뢰,272728,2
+CSF anaylsis (뇌척수액 분석 종합 - IDEXX PCR 포함) ,TxCode,외부의뢰,236364,2
+세포검사(골수)_IDEXX,TxCode,외부의뢰,227273,2
+알러지검사_기본 54종_팝애니랩,TxCode,외부의뢰,172728,2
+알러지검사_프리미엄 127종_팝애니랩,TxCode,외부의뢰,336364,2
+알러지검사_푸드 지연형 108종_팝애니랩,TxCode,외부의뢰,463637,2
+알러지검사_프리미엄 지연형 127종_팝애니랩,TxCode,외부의뢰,563637,2
+NT-proBNP_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+Troponin-I_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+Troponin-T_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+TLI_네오딘(국외)_혈청1ml,TxCode,외부의뢰,300000,2
+HbA1c_네오딘_전혈EDTA1ml,TxCode,외부의뢰,50000,2
+Cobalamine and Folate_네오딘_혈청(차광)1ml,TxCode,외부의뢰,70000,2
+Cobalamine_네오딘_혈청(차광)1ml,TxCode,외부의뢰,50000,2
+Folate_네오딘_혈청(차광)1ml,TxCode,외부의뢰,50000,2
+Canine Coombs Simple_네오딘_전혈EDTA1ml,TxCode,외부의뢰,90910,2
+Coombs test(국외)_네오딘_전혈EDTA1ml,TxCode,외부의뢰,336364,2
+Babesia PCR 2종_네오딘_전혈EDTA1ml,TxCode,외부의뢰,90910,2
+"철결핍성빈혈패널(Iron panel) - Fe, TIBC, saturation %_네오딘_전혈EDTA1ml, 혈청0.5ml, 혈액도말슬라이드(2~3장)",TxCode,외부의뢰,100000,2
+Fe(Iron)_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+TIBC_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+Fe++TIBC+%Saturation_네오딘_혈청1ml,TxCode,외부의뢰,60000,2
+Fibrinogen_네오딘_혈장Ctirate0.5ml,TxCode,외부의뢰,50000,2
+UCCR_네오딘_뇨3ml냉장,TxCode,외부의뢰,60000,2
+내인성 ACTH (eACTH)_네오딘_혈장EDTA1ml,TxCode,외부의뢰,60000,2
+17α-Hydroxyprogesterone (17-OHP) (Pre)_네오딘_혈청 각1ml,TxCode,외부의뢰,100000,2
+17α-Hydroxyprogesterone (17-OHP) (Pre)_네오딘_혈청1ml,TxCode,외부의뢰,60000,2
+Aldosterone (Pre)_네오딘_혈청1ml,TxCode,외부의뢰,254546,2
+Aldosterone (Post)_네오딘_혈청1ml,TxCode,외부의뢰,254546,2
+"Aldosterone SET(Pre,Post)_네오딘_혈청각1ml",TxCode,외부의뢰,300000,2
+Metanephrines 2분획(Plasma)_네오딘_혈장(EDTA)1ml,TxCode,외부의뢰,300000,2
+Metanephrines 2분획(Random urine)_네오딘_뇨10ml,TxCode,외부의뢰,200000,2
+"갑상선SET1(T4,FT4)_네오딘_혈청1ml",TxCode,외부의뢰,80000,2
+"갑상선SET2(T4,TSH)_네오딘_혈청1ml",TxCode,외부의뢰,80000,2
+"갑상선SET4(FT4,TSH)_네오딘_혈청1ml",TxCode,외부의뢰,80000,2
+"갑상선SET3(T4,FT4,TSH)_네오딘_혈청1ml",TxCode,외부의뢰,118182,2
+TSH_네오딘_혈청0.5ml,TxCode,외부의뢰,80000,2
+부갑상선SET(국외)(VDI kit)_네오딘_혈청(전용키트)1ml_혈청(별도)0.5ml,TxCode,외부의뢰,272728,2
+PTH(국외)(VDI kit)_네오딘_혈청(전용키트)1ml,TxCode,외부의뢰,200000,2
+Insulin (with glucose)(국외)_네오딘_혈청1ml,TxCode,외부의뢰,300000,2
+Progesterone_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+IGF-1(국외)_네오딘_혈청1ml,TxCode,외부의뢰,400000,2
+Estradiol(E2)_네오딘_혈청0.5ml,TxCode,외부의뢰,50000,2
+ADH(Vasopressin)_네오딘_EDTAplasma1ml,TxCode,외부의뢰,60000,2
+ANA test(국외)_네오딘_혈청1ml,TxCode,외부의뢰,245455,2
+AchR Antibody(국외)_네오딘_혈청1ml,TxCode,외부의뢰,500000,2
+RA factor test(국외)_네오딘_혈청1ml,TxCode,외부의뢰,245455,2
+"관절SET(+CBC)_네오딘_전혈EDTA1ml, 혈청1ml",TxCode,외부의뢰,263637,2
+"관절SET(-CBC)_네오딘_전혈EDTA1ml, 혈청1ml",TxCode,외부의뢰,245455,2
+VDI Cancer Panel(종양종합지표검사)_네오딘_혈청(전용키트)1ml,TxCode,외부의뢰,172728,2
+VDI Cancer Risk Assessment_네오딘_혈청(전용키트)1ml,TxCode,외부의뢰,163637,2
+VDI Feline GI Lymphoma Panel_네오딘_혈청(전용키트)1ml,TxCode,외부의뢰,245455,2
+VDI Pre-stem Cell Therapy Panel(국외)_네오딘_혈청(전용키트)1ml,TxCode,외부의뢰,272728,2
+AFP(간암특이표지자)_네오딘_혈장(EDTA)0.5ml,TxCode,외부의뢰,122728,2
+V-BTA_네오딘_뇨5ml,TxCode,외부의뢰,200000,2
+Cadet braf(국외)_네오딘_뇨40ml,TxCode,외부의뢰,636364,2
+PDST(항암제감수성검사)_네오딘_조직(전용배지),TxCode,외부의뢰,600000,2
+Lymphoma PCR-PARR_네오딘_슬라이드,TxCode,외부의뢰,118182,2
+"국내 조직병리검사(기본,첫번째검체)_네오딘",TxCode,외부의뢰,154546,2
+국내 조직병리검사(두번째검체 추가)_네오딘,TxCode,외부의뢰,81819,2
+국내 조직병리검사(세번째검체 추가)_네오딘,TxCode,외부의뢰,60000,2
+국내 조직병리검사(네번째검체 추가)_네오딘,TxCode,외부의뢰,60000,2
+"면역조직화학염색(항체1종,기본)_네오딘_조직,미염색코팅슬라이드(포르말린고정,실온)",TxCode,외부의뢰,254546,2
+"면역조직화학염색(항체1종 추가)_네오딘_조직,미염색코팅슬라이드(포르말린고정,실온)",TxCode,외부의뢰,118182,2
+"면역조직화학염색(항체2종 추가)_네오딘_조직,미염색코팅슬라이드(포르말린고정,실온)",TxCode,외부의뢰,163637,2
+"특수염색_네오딘_조직,미염색코팅슬라이드(포르말린고정,실온)",TxCode,외부의뢰,80000,2
+"앤텍(Antech) 조직병리검사 (기본, 첫번째검체)_네오딘",TxCode,외부의뢰,200000,2
+앤텍(Antech) 조직병리검사 (두번째검체 추가)_네오딘,TxCode,외부의뢰,90910,2
+앤텍(Antech) 조직병리검사 (세번째검체 추가)_네오딘,TxCode,외부의뢰,60000,2
+앤텍(Antech) 조직병리검사 (네번째검체 추가)_네오딘,TxCode,외부의뢰,50000,2
+앤텍(Antech) 조직병리검사 (다섯번째검체 추가)_네오딘,TxCode,외부의뢰,40000,2
+Cytology_네오딘,TxCode,외부의뢰,80000,2
+결석정량검사_네오딘_결석,TxCode,외부의뢰,80000,2
+"종합(호기,혐기,곰팡이,항생제)_네오딘_뇨(2ml),피부,체액",TxCode,외부의뢰,100000,2
+"호기성SET(배양,항생제)_네오딘_뇨(2ml),피부,체액",TxCode,외부의뢰,60000,2
+"혐기성SET(배양,항생제)_네오딘_뇨(2ml),피부,체액",TxCode,외부의뢰,60000,2
+혐기성배양(개별)_네오딘_체액,TxCode,외부의뢰,50000,2
+혐기성배양(추가)_네오딘_체액,TxCode,외부의뢰,20000,2
+"곰팡이배양(개별)_네오딘_피부,뇨,체액(소량가능)",TxCode,외부의뢰,50000,2
+"곰팡이배양(추가)_네오딘_피부,뇨,체액(소량가능)",TxCode,외부의뢰,20000,2
+"추가 분리균주(3rd) 항생제_네오딘_피부,뇨(2ml),체액",TxCode,외부의뢰,30000,2
+"3주내 재검(배양)(set 검사만 진행)_네오딘_피부,뇨(2ml),체액",TxCode,외부의뢰,50000,2
+"혈액배양(전용용기)_네오딘_전혈(전용용기, 1~3ml)",TxCode,외부의뢰,90910,2
+"Breed identification_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,400000,2
+"유전질환&형질검사 SET_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,500000,2
+"유전질환검사(1종)_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,100000,2
+"유전질환검사(2종)_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,140910,2
+"유전질환검사(3종)_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,172728,2
+"유전질환검사(4종)_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,200000,2
+"유전질환검사(specific)_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,140910,2
+"친자확인검사_네오딘_전혈EDTA1ml,구강swab(전용솔)",TxCode,외부의뢰,140910,2
+"개 건강진단 Panel 25종_네오딘_전혈(EDTA1ml),호흡기swab,분변",TxCode,외부의뢰,163637,2
+개 Vector-borne Panel 11종_네오딘_전혈(EDTA1ml),TxCode,외부의뢰,118182,2
+개 소화기 Panel 15종_네오딘_분변,TxCode,외부의뢰,131819,2
+개 호흡기 Panel 12종_네오딘_호흡기swab,TxCode,외부의뢰,118182,2
+개 신경계 Panel 7종_네오딘_CSF0.5ml,TxCode,외부의뢰,100000,2
+"고양이 건강진단 Panel 22종_네오딘_전혈(EDTA1ml),호흡기swab,분변",TxCode,외부의뢰,163637,2
+고양이 Fever Panel 15종_네오딘_전혈EDTA1ml,TxCode,외부의뢰,140910,2
+고양이 Vector-borne Anemia Panel 14종_네오딘_전혈(EDTA1ml),TxCode,외부의뢰,122728,2
+고양이 소화기 Panel 16종_네오딘_분변,TxCode,외부의뢰,140910,2
+고양이 호흡기 Panel 11종_네오딘_호흡기swab,TxCode,외부의뢰,122728,2
+고양이 신경계 Panel 8종_네오딘_CSF0.5ml,TxCode,외부의뢰,100000,2
+PCR-1항목_네오딘,TxCode,외부의뢰,70000,2
+FIP 특수검사_네오딘_흉수복수2ml,TxCode,외부의뢰,80000,2
+영양컨설팅_네오딘,TxCode,외부의뢰,200000,2
+영양컨설팅_네오딘,TxCode,외부의뢰,500000,2
+단백질전기영동(Protein electrophoresis)_IDEXX_혈청1ml,TxCode,외부의뢰,100000,2
+벤 존스 단백질(Bence-Joens Protein)_IDEXX_소변5ml,TxCode,외부의뢰,70000,2
+"다중약제내성(MDR1)_보더콜리,셔틀랜드쉽독,래브라도리트리버",TxCode,외부의뢰,60000,2
+"종양_특수검사_lymphoma phenotyping_경상대_전혈EDTA1ml,FNA부유액",TxCode,외부의뢰,272728,2
+개 항체가 8종 SET_KVL_혈청0.5ml,TxCode,외부의뢰,63637,2
+비타민B1(Thiamine)_네오딘_전혈EDTA2ml,TxCode,외부의뢰,90910,2
+BRAF_펫온코케어_소변 10ml,TxCode,외부의뢰,363637,2
+ 망막전위도검사(ERG)_안과,TxCode,부속검사,200000,2
+안압검사(Tonovet)_안과,TxCode,부속검사,20000,2
+"안과3종(눈물량,안압,형광염색)_안과",TxCode,부속검사,50000,2
+"현미경검사_도말,직접",TxCode,부속검사,20000,2
+현미경검사_심장사상충(HW)자충,TxCode,부속검사,20000,2
+자가면역질환검사_Coomb's Test_혈액,TxCode,부속검사,60000,2
+현미경검사_소변,TxCode,부속검사,20000,2
+뇨비중검사_소변,TxCode,부속검사,10000,2
+"키트검사_파보,코로나,지알디아(CPV,CCV,Giardia)_분변",TxCode,부속검사,60000,2
+키트검사_심장사상충_혈액,TxCode,부속검사,30000,2
+키트검사_코로나장염항체(CCV Ab)_혈액,TxCode,부속검사,40000,2
+뇨스틱검사_소변,TxCode,부속검사,10000,2
+항생제감수성검사_세균,TxCode,부속검사,50000,2
+키트검사_범백혈구감수종(Parvo V. Ag),TxCode,부속검사,30000,2
+현미경검사_빈혈재생성평가(RPI)_혈액(NMB염색),TxCode,부속검사,20000,2
+키트검사_인플루엔자(influenza Ag),TxCode,부속검사,30000,2
+검이경검사,TxCode,부속검사,6000,2
+세극등검사_안과,TxCode,부속검사,45455,2
+간접검안경_안과,TxCode,부속검사,10000,2
+눈물량검사(STT)_안과,TxCode,부속검사,15455,2
+로즈뱅갈염색_안과,TxCode,부속검사,20000,2
+안저검사(Fundus)_안과,TxCode,부속검사,57273,2
+우각경검사_안과,TxCode,부속검사,30000,2
+우드램프검사_곰팡이,TxCode,부속검사,5455,2
+형광염색검사(Fluorescein)_안과,TxCode,부속검사,16364,2
+리사민그린염색_안과,TxCode,부속검사,20000,2
+생검(Bone biopsy)_뼈,TxCode,부속검사,200000,2
+혈압검사(도플러),TxCode,부속검사,10000,2
+세침흡입검사(FNA),TxCode,부속검사,50000,2
+"뇌척수액검사(CSF)_protein,cytology,pleocytosis",TxCode,부속검사,100000,2
+신경계검사,TxCode,부속검사,30000,2
+심전도검사(Cardiobird ECG),TxCode,부속검사,40000,2
+심전도장착(Bluetooth ECG),TxCode,부속검사,50000,2
+생검(Soft tissue)_.조직,TxCode,부속검사,100000,2
+체중부하검사(Stance Analyzer),TxCode,부속검사,20000,2
+생검(트루컷),TxCode,부속검사,154546,2
+안압모니터링_안과_1일,TxCode,부속검사,100000,2
+연속혈당측정기삽입,TxCode,부속검사,254546,2
+"키트검사_4DX(Hw,Ehrlichiosis,Lyme,Anaplasmosis)",TxCode,부속검사,40000,2
+[의뢰]알러지검사 Premium test 120종,TxCode,CD. 의뢰검사,318182,2
+원내 출산(마리당),TxCode,AF. 기본처치,52655,2
+ANTECH_스코티시폴드_골이형성증_검사의뢰,TxCode,CD. 의뢰검사,60000,2
+"하트가드(Heartgard)- Blue(~11kg, 2pack)",TxCode,BE. 사상충 외,60000,2
+붕대외처치,TxCode,AF. 기본처치,8000,2
+"넥스가드스펙트라 XS- (2~3.5kg,pack)",TxCode,"BF. 내,외부구충",34546,2
+퓨리나_리브클리어 키튼,TxCode,KA. 치료보조제,44000,2
+애드보킷(Advocate)-CAT 4~8kg.pack (6개입),TxCode,BE. 사상충 외,92728,2
+[한방]전침사용(EA),TxCode,AF. 기본처치,10000,2
+[한방]약침치료(Aquapuncture),TxCode,FH. 수의한방,12000,2
+[한방]항산화주사,TxCode,FH. 수의한방,26500,2
+퓨리나_고양이 EN,TxCode,JB. 퓨리나,32273,2
+퓨리나_고양이 NF,TxCode,JB. 퓨리나,32273,2
+퓨리나_고양이 UR,TxCode,JB. 퓨리나,30455,2
+퓨리나_고양이 OM,TxCode,JB. 퓨리나,30455,2
+퓨리나_고양이 DM,TxCode,JB. 퓨리나,30455,2
+펠리웨이 클래식 스타터키트 (feliway classic),TxCode,KA. 치료보조제,38000,2
+[의뢰] 고양이 항체가검사 7종 ,TxCode,CD. 의뢰검사,95455,2
+펠리웨이 클래식 리필 (feliway classic REFILL),TxCode,KA. 치료보조제,30000,2
+부신피질호르몬검사(Cortisol)_혈액,TxCode,LAB,50000,2
+갑상선호르몬검사(T4)_혈액,TxCode,LAB,50000,2
+갑상선자극호르몬검사(TSH)_혈액,TxCode,LAB,50000,2
+단백뇨검사(UPC)_소변,TxCode,LAB,50000,2
+췌장염검사(fPL)_혈액,TxCode,LAB,50000,2
+페노바비탈검사(Phenobarbital)_혈액,TxCode,LAB,60000,2
+혈전검사(D-dimer)_혈액,TxCode,LAB,44000,2
+간기능검사(Bile Acid)_혈액,TxCode,LAB,50000,2
+급성염증반응검사(CRP)_혈액,TxCode,LAB,44000,2
+급성염증반응검사(fSAA)_혈액,TxCode,LAB,50000,2
+케톤체검사(Ketone)_혈액,TxCode,LAB,8819,2
+혈당검사_간이_혈액,TxCode,LAB,8819,2
+혈당곡선(1일6회)_1일(입원비제외)_혈액,TxCode,LAB,50000,2
+혈당곡선(1일12회)_1일(입원비제외)_혈액,TxCode,LAB,100000,2
+"응고계검사(PT,APTT)_혈액",TxCode,LAB,50000,2
+신장조기검사(SDMA)_혈액,TxCode,LAB,50000,2
+평균혈당검사(Fructosamine)_혈액,TxCode,LAB,50000,2
+적혈구농도검사(PCV/TP)_튜브_혈액,TxCode,LAB,10000,2
+바베시아 PCR_원내간이_혈액,TxCode,LAB,77000,2
+심근병검사(Pro BNP)_혈액,TxCode,LAB,60000,2
+초음파(조영검사)_심장 단락 혈류방향검사(bubble study)_10kg,TxCode,영상_10kg,48182,2
+C-arm_기본촬영,TxCode,영상_10kg,90910,2
+C-arm_조영검사(비뇨기),TxCode,영상_10kg,145455,2
+C-arm_조영검사(간문맥혈관),TxCode,영상_10kg,145455,2
+키트검사_고양이면역결핍증(FIV),TxCode,부속검사,30000,2
+키트검사_고양이백혈병(FeLV),TxCode,부속검사,30000,2
+키트검사_고양이심장사상충증,TxCode,부속검사,40000,2
+키트검사_고양이코로나항체(FcoAb),TxCode,부속검사,30000,2
+키트검사_고양이면역결핍증/백혈병(FeLV/FIV),TxCode,부속검사,50000,2
+키트검사_디스템퍼항원(CDV Ag),TxCode,부속검사,30000,2
+키트검사_심장사상충,TxCode,부속검사,30000,2
+키트검사_코로나장염(CCV Ag),TxCode,부속검사,30000,2
+키트검사_파보장염(CPV Ag),TxCode,부속검사,30000,2
+키트검사_지알디아(Giardia),TxCode,부속검사,30000,2
+키트검사_헬리코박터(Helicobacter),TxCode,부속검사,50000,2
+"배양검사_곰팡이(Intray,SDA)",TxCode,부속검사,40000,2
+현미경검사_피부스크랩핑,TxCode,부속검사,30000,2
+현미경검사_Cytology SAMC(1site),TxCode,부속검사,30000,2
+"CSF anaylsis(뇌척수액 기본검사-TP, TNCC, cytology)",TxCode,부속검사,127273,2
+"키트검사_고양이사상충,면역결핍증,백혈병(HW,FIV,FeLV)",TxCode,부속검사,100000,2
+키트검사_강아지 바베시아항체,TxCode,부속검사,50000,2
+치과_구강검사,TxCode,부속검사,19091,2
+시신경검사(RetinoGraphics)_안과,TxCode,부속검사,50000,2
+현미경검사_Trichogram(모발),TxCode,부속검사,20000,2
+안과_EYE LOVE CARE (안과 기본검진)_10kg,TxCode,부속검사,118182,2
+안과_EYE LOVE CARE (안과 기본검진)_20kg,TxCode,부속검사,136364,2
+안과_EYE LOVE CARE (안과 기본검진)_30kg,TxCode,부속검사,154546,2
+안과_EYE LOVE CARE (안과 기본검진)_40kg,TxCode,부속검사,172728,2
+안과_EYE LOVE CARE (안과 심화검진)_10kg,TxCode,부속검사,236364,2
+안과_EYE LOVE CARE (안과 심화검진)_20kg,TxCode,부속검사,254546,2
+안과_EYE LOVE CARE (안과 심화검진)_30kg,TxCode,부속검사,272728,2
+안과_EYE LOVE CARE (안과 심화검진)_40kg,TxCode,부속검사,290910,2
+주사기(1ml)_100개,TxCode,소모품,16546,2
+주사기(1ml)_1개,TxCode,소모품,273,2
+로얄캐닌 액상사료_3개(1box),TxCode,소모품,50000,2
+피딩튜브,TxCode,소모품,22000,2
+캐니슐린주사기_30개,TxCode,소모품,16546,2
+캐니슐린펜니들_100개,TxCode,소모품,44000,2
+인슐린주사기_1봉지(10개),TxCode,소모품,5546,2
+캐니슐린주사기_1봉지(10개),TxCode,소모품,5546,2
+나비침,TxCode,소모품,455,2
+흉관포트니들(허버니들)_1개,TxCode,소모품,22000,2
+"수액처방(100,500,1000ml)_1개",TxCode,소모품,5546,2
+엔지덤 패치(patch)_1장,TxCode,소모품,11000,2
+"주사기(3,5,10,20,30,50ml)_1개",TxCode,소모품,728,2
+톨부테롤 패치(patch)_1장,TxCode,소모품,3364,2
+넥카라_웁스마이독M,TxCode,소모품,27546,2
+넥카라_웁스마이독S,TxCode,소모품,22000,2
+넥카라_포베츠 튜브S,TxCode,소모품,24273,2
+넥카라_포베츠 튜브M,TxCode,소모품,27546,2
+넥카라_10cm,TxCode,소모품,8819,2
+넥카라_12.5cm,TxCode,소모품,9910,2
+넥카라_15cm,TxCode,소모품,11000,2
+넥카라_17.5cm,TxCode,소모품,13273,2
+넥카라_20cm,TxCode,소모품,15455,2
+넥카라_25cm,TxCode,소모품,16546,2
+넥카라_30cm,TxCode,소모품,22000,2
+넥카라_7.5cm,TxCode,소모품,8819,2
+넥카라_패리스독,TxCode,소모품,15455,2
+넥카라_아르르_XL,TxCode,소모품,29000,2
+넥카라_아르르_L,TxCode,소모품,26000,2
+넥카라_아르르_M,TxCode,소모품,23000,2
+넥카라_아르르_S,TxCode,소모품,20000,2
+로얄캐닌 액상사료_1개,TxCode,소모품,16819,2
+알약투약기_1개,TxCode,소모품,11000,2
+약용샴푸_200ml_마이클로,TxCode,소모품,27546,2
+약용샴푸_200ml_케타딘,TxCode,소모품,27546,2
+약용샴푸_200ml_벤조일,TxCode,소모품,27546,2
+약용샴푸_200ml_살리퍼,TxCode,소모품,27546,2
+약용샴푸_200ml_엑토닐,TxCode,소모품,27546,2
+더마겔_100ml,TxCode,소모품,55000,2
+더마겔_10ml(mini),TxCode,소모품,8819,2
+헥시딘 소독솜,TxCode,소모품,6000,2
+소독액_2%포비돈_100ml,TxCode,소모품,5546,2
+소독액_20%포비돈_100ml,TxCode,소모품,11000,2
+이어파우더_10cc,TxCode,소모품,2273,2
+귀세정제(MO)_100ml,TxCode,소모품,16546,2
+귀세정제(Triz-EDTA)_100ml,TxCode,소모품,18728,2
+귀세정제(MO)473ml_1병,TxCode,소모품,66000,2
+귀세정제(Triz-EDTA)473ml_1병,TxCode,소모품,71546,2
+"귀약(ED1,ED2,ED3,ED4)15ml_1병",TxCode,소모품,7728,2
+귀외용제(마보플록사신)_1병,TxCode,소모품,19819,2
+구강소독제_덴타헥스_1병,TxCode,소모품,22000,2
+안과_콘택트렌즈_각막보호용,TxCode,소모품,18182,2
+"진통제_펜타닐패치(마약류,72시간,12ug/h)_1장",TxCode,소모품,22000,2
+"진통제_펜타닐패치(마약류,72시간,25ug/h)_1장",TxCode,소모품,44000,2
+"진통제_펜타닐패치(마약류,72시간,50ug/h)_1장",TxCode,소모품,66000,2
+"기관확장제_흡입기(에어로독,에어로캣)",TxCode,소모품,110000,2
+기관확장제_흡입용액_살부타몰,TxCode,소모품,16546,2
+기관확장제_흡입용액_스테로이드,TxCode,소모품,38546,2
+기관절개튜브_1개,TxCode,소모품,110000,2
+기관확장제_흡입용_1회,TxCode,소모품,2819,2
+기관확장제_흡입용액_세레타이드(에보힐러125),TxCode,소모품,110000,2
+네뷸라이저액_100ml,TxCode,소모품,11000,2
+네뷸라이저액_500ml,TxCode,소모품,33000,2
+환견복,TxCode,소모품,27546,2
+환묘복,TxCode,소모품,22000,2
+"경추보호대(은해)_XXS,XS,S",TxCode,소모품,44000,2
+"경추보호대(은해)_M,L,XL",TxCode,소모품,60546,2
+"경흉추보호대(은해)_XXS,XS",TxCode,소모품,176000,2
+"경흉추보호대(은해)_S,M",TxCode,소모품,198000,2
+"경흉추보호대(은해)_L,XL",TxCode,소모품,220000,2
+"척추보호대(은해)_XXS,XS",TxCode,소모품,154000,2
+척추보호대(은해)_S,TxCode,소모품,176000,2
+척추보호대(은해)_M,TxCode,소모품,220000,2
+척추보호대(은해)_L,TxCode,소모품,242000,2
+은해 슬관절 보조기(S),TxCode,소모품,176000,2
+전후방하네스(은해)_XS,TxCode,소모품,66000,2
+전후방하네스(은해)_S,TxCode,소모품,77000,2
+전후방하네스(은해)_M,TxCode,소모품,88000,2
+항암보조기_파씰_1세트당,TxCode,소모품,55000,2
+피하수액(외래처방용)_1개,TxCode,소모품,5546,2
+창상피복제_뮤코딘_1개,TxCode,소모품,29091,2
+"진통제_노스판패치(향정,72시간)_1장",TxCode,소모품,16546,2
+기관확장제_흡입용액_세레타이드(에보힐러250),TxCode,소모품,132000,2
+약용샴푸_250ml_수드,TxCode,소모품,27546,2
+경추보호대(Pets ONP)_1/2/2.5/3호,TxCode,소모품,80000,2
+경추보호대(Pets ONP)_4/5/6호,TxCode,소모품,100000,2
+척추보조기(Pets ONP)_XS/S,TxCode,소모품,160000,2
+척추보조기(Pets ONP)_M,TxCode,소모품,180000,2
+척추보조기(Pets ONP)_L,TxCode,소모품,240000,2
+척추보조기(Pets ONP)_XL,TxCode,소모품,400000,2
+척추보조기(Pets ONP)_XXL,TxCode,소모품,440000,2
+경흉추보호대(Pets ONP)_1/2/3호,TxCode,소모품,160000,2
+경흉추보호대(Pets ONP)_4/5호,TxCode,소모품,180000,2
+전후방하니스(Pets ONP)_1/2/3/4호,TxCode,소모품,50000,2
+전후방하니스(Pets ONP)_5/6호,TxCode,소모품,60000,2
+견주관절보호대(Pets ONP)_1/2/3호,TxCode,소모품,90000,2
+견주관절보호대(Pets ONP)_4/5호,TxCode,소모품,100000,2
+고관절보호대(Pets ONP)_1/2/3호,TxCode,소모품,100000,2
+고관절보호대(Pets ONP)_4/5호,TxCode,소모품,110000,2
+후지휠체어(Pets ONP)_소형,TxCode,소모품,340000,2
+후지휠체어(Pets ONP)_중형,TxCode,소모품,400000,2
+후지휠체어(Pets ONP)_중대형,TxCode,소모품,500000,2
+후지휠체어(Pets ONP)_대형,TxCode,소모품,600000,2
+후지휠체어(Pets ONP)_초대형,TxCode,소모품,700000,2
+사지휠체어(Pets ONP)_소형,TxCode,소모품,410000,2
+사지휠체어(Pets ONP)_중형,TxCode,소모품,470000,2
+사지휠체어(Pets ONP)_중대형,TxCode,소모품,570000,2
+사지휠체어(Pets ONP)_대형,TxCode,소모품,740000,2
+사지휠체어(Pets ONP)_초대형,TxCode,소모품,840000,2
+휠체어추가상품(Pets ONP)_복부슬링_소/중/중대형,TxCode,소모품,30000,2
+휠체어추가상품(Pets ONP)_복부슬링_대/초대형,TxCode,소모품,60000,2
+휠체어추가상품(Pets ONP)_머리받침슬링_소/중/중대형,TxCode,소모품,30000,2
+휠체어추가상품(Pets ONP)_머리받침슬링_대/초대형,TxCode,소모품,60000,2
+휠체어추가상품(Pets ONP)_멜빵하니스_소/중/중대형,TxCode,소모품,10000,2
+휠체어추가상품(Pets ONP)_멜빵하니스_대/초대형,TxCode,소모품,20000,2
+휠체어추가상품(Pets ONP)_수트식하니스_소/중/중대형,TxCode,소모품,50000,2
+휠체어추가상품(Pets ONP)_수트식하니스_대/초대형,TxCode,소모품,60000,2
+귀외용제(넵트라_Neptra)_30일지속 국소스테로이드_1개,TxCode,소모품,54546,2
+코타방스(스테로이드 스프레이)_1병(31ml),TxCode,소모품,36364,2
+코타방스(스테로이드 스프레이)_1병(76ml),TxCode,소모품,72728,2
+미다졸람 비강 스프레이,TxCode,소모품,9000,2
+덴탈백스 오랄겔 20g_치주염치료_강아지,TxCode,소모품,34546,2
+덴탈백스 오랄겔 20g_치주염치료_고양이,TxCode,소모품,34546,2
+"바쏘드(Basod)_IBD,장염보조제_100T(1병)",TxCode,소모품,220000,2
+리버랄_간보조제_1포,TxCode,소모품,1500,2
+귀약_이소틱(버박)_10ml_1병,TxCode,소모품,23637,2
+귀세정제_에피오틱(버박)_125ml_1병,TxCode,소모품,21819,2
+보습제_에센셜6스팟온(더모센트) 1~10kg_1개,TxCode,소모품,9091,2
+보습제_에센셜6스팟온(더모센트) 1~10kg_4개(1박스),TxCode,소모품,34546,2
+아토피 스프레이_아톱7(더모센트)_1병,TxCode,소모품,36364,2
+보습제_바이오밤(더모센트)_1개,TxCode,소모품,27273,2
+소독액_2% 고농도 클로르헥시딘,TxCode,소모품,10910,2
+귀약_수로란(엘랑코)_15ml_1병,TxCode,소모품,10910,2
+귀세정제_오티맥시(유한벳)_120ml_1병,TxCode,소모품,20000,2
+약용샴푸_250ml_말라셉,TxCode,소모품,29000,2
+귀약_카누랄(데크라)_15ml_1병,TxCode,소모품,20000,2
+귀세정제(세럼아우랄_고막파열사용가능)_118ml,TxCode,소모품,29091,2
+약용샴푸_앨러밀(버박)_200ml,TxCode,소모품,20910,2
+안약_인공눈물_T4,TxCode,안약,10910,2
+안약_항생제_B1,TxCode,안약,10000,2
+안약_항생제_B2,TxCode,안약,10000,2
+안약_항생제_B3,TxCode,안약,10910,2
+안약_항생제_B4,TxCode,안약,18182,2
+안약_항생제_B5(냉장),TxCode,안약,15455,2
+안약_항생제_B6(냉장),TxCode,안약,15455,2
+안약_항생제_B7,TxCode,안약,5455,2
+안약_항생제_B8,TxCode,안약,7273,2
+안약_항생제_B9,TxCode,안약,14546,2
+안약_항생제_B10,TxCode,안약,7273,2
+안약_혈장 C1(냉장),TxCode,안약,27273,2
+안약_단백용해_C2,TxCode,안약,20910,2
+안약_단백용해_C3,TxCode,안약,19091,2
+안약_기타_E1,TxCode,안약,5455,2
+안약_기타_E2,TxCode,안약,20910,2
+안약_기타_E3,TxCode,안약,5000,2
+안약_녹내장_G1,TxCode,안약,40910,2
+안약_녹내장_G2,TxCode,안약,40910,2
+안약_녹내장_G3,TxCode,안약,31819,2
+안약_면역억제_I1,TxCode,안약,59091,2
+안약_면역억제_I2,TxCode,안약,36364,2
+안약_NSAID_N1,TxCode,안약,15455,2
+안약_NSAID_N2,TxCode,안약,15455,2
+안약_산동_M1,TxCode,안약,10910,2
+안약_산동_M2,TxCode,안약,18182,2
+안약_축동_M3,TxCode,안약,18182,2
+안약_소염제_S1,TxCode,안약,10910,2
+안약_소염제_S2,TxCode,안약,12728,2
+안약_소염제_S3,TxCode,안약,8182,2
+안약_인공눈물_T1,TxCode,안약,8182,2
+안약_인공눈물_T2,TxCode,안약,546,2
+안약_바이러스_V1,TxCode,안약,25455,2
+안약_바이러스_V2,TxCode,안약,145455,2
+안약_인공눈물_T3,TxCode,안약,57273,2
+안약_축동_M4,TxCode,안약,15455,2
+안약_녹내장_G4,TxCode,안약,30000,2
+안약_녹내장_G5,TxCode,안약,72728,2
+안약_녹내장_G6,TxCode,안약,40910,2
+안약_녹내장_G7,TxCode,안약,45455,2
+안약_축동_M5,TxCode,안약,10910,2
+안약_소염제_S4,TxCode,안약,16364,2
+흡입마취_Isoflurane_10kg,TxCode,처치비,81819,2
+채혈료_10kg,TxCode,처치비,5455,2
+채혈비,TxCode,처치비,5091,2
+점안마취,TxCode,처치비,10000,2
+"국소마취_Lido,bupivacaine",TxCode,처치비,20000,2
+흡입마취_특수동물,TxCode,처치비,40000,2
+마취모니터링_동맥혈압(IBP),TxCode,처치비,40000,2
+주사마취_10kg,TxCode,처치비,40000,2
+투석_카테터삽입(진정포함),TxCode,처치비,418182,2
+투석_CRRT_1회,TxCode,처치비,845455,2
+귀세척(Ear Flushing)_중증_약물투약,TxCode,처치비,30000,2
+귀세척(Ear Flushing)_일반,TxCode,처치비,5091,2
+목욕_처치목적_10kg,TxCode,처치비,27273,2
+미용_처치목적_10kg,TxCode,처치비,45455,2
+미용 및 목욕_처치목적_10kg,TxCode,처치비,63637,2
+방광세척,TxCode,처치비,30000,2
+공동화장_5kg이상_1kg당,TxCode,처치비,11000,2
+공동화장_5kg,TxCode,처치비,55000,2
+위내가스 및 액체제거_식도튜브사용_10kg,TxCode,처치비,30000,2
+자연분만_회음절개,TxCode,처치비,88000,2
+자연분만_태아추가1마리당,TxCode,처치비,55000,2
+자연분만_태아2마리까지,TxCode,처치비,220000,2
+드레싱_로버트존스_10kg,TxCode,처치비,18182,2
+드레싱_토마스스플린트_10kg,TxCode,처치비,20000,2
+드레싱_발포슬링(valpeau sling)_10kg,TxCode,처치비,27273,2
+관절액천자,TxCode,처치비,20000,2
+관장_10kg,TxCode,처치비,100000,2
+어깨관절 탈구 환납,TxCode,처치비,109091,2
+팔꿈치관절 탈구 환납,TxCode,처치비,109091,2
+고관절 탈구 환납,TxCode,처치비,109091,2
+안락사,TxCode,처치비,209091,2
+안락사_특수동물,TxCode,처치비,109091,2
+산동제점안,TxCode,처치비,27273,2
+안구세척,TxCode,처치비,5000,2
+발사,TxCode,처치비,5000,2
+단순피부봉합A,TxCode,처치비,10000,2
+단순피부봉합B,TxCode,처치비,20000,2
+단순피부봉합C,TxCode,처치비,30000,2
+배액관 장착(Penrose),TxCode,처치비,54546,2
+PRP_관절주사,TxCode,처치비,90910,2
+Cryopen_급속 냉동요법,TxCode,처치비,100000,2
+Cryopen_개당 추가,TxCode,처치비,30000,2
+뇨량모니터링(In&Out)_소변_1일,TxCode,처치비,10000,2
+뇨카테터 장착_방광결석 환납(retrohydropurfusion),TxCode,처치비,100000,2
+뇨카테터 장착_고양이 탐캣(마취비포함),TxCode,처치비,154546,2
+뇨카테터 장착(Urinary Catheter),TxCode,처치비,50000,2
+뇨카테터 장착(Urinary Catheter)_대형견,TxCode,처치비,100000,2
+뇨카테터 유지 1일,TxCode,처치비,10000,2
+"복막투석_복막카테터장착,마취포함_초기12회",TxCode,처치비,818182,2
+창상세척_경증_10kg,TxCode,처치비,30000,2
+창상세척_중증_10kg,TxCode,처치비,60000,2
+벌루닝(ballooning)_식도협착,TxCode,처치비,110000,2
+대변이식술_1회당,TxCode,처치비,218182,2
+"배액관관리, 교체",TxCode,처치비,5546,2
+후두검사,TxCode,처치비,63637,2
+복수천자(샘플링),TxCode,처치비,10910,2
+"복수천자_초음파유도_1,000ml당",TxCode,처치비,54546,2
+"흉강천자(흉수,기흉)_초음파유도_10kg",TxCode,처치비,145455,2
+신장천자(수신증)_초음파유도_10kg,TxCode,처치비,45455,2
+심낭수천자_초음파유도_10kg,TxCode,처치비,163637,2
+"위천자(GDV,위내가스)_초음파유도_10kg",TxCode,처치비,90910,2
+"구토요법_구토제주사(카테터,주사비포함)_10kg",TxCode,처치비,81819,2
+구토요법_과산화수소_10kg,TxCode,처치비,90910,2
+경추보호대_임시,TxCode,처치비,22000,2
+채혈료_10kg이상,TxCode,처치비,10910,2
+"응급처치_CPR_응급약물,인공호흡기_10kg",TxCode,처치비,72728,2
+방광천자,TxCode,처치비,18182,2
+처치_일반A_10kg,TxCode,처치비,10000,2
+처치_일반B_10kg,TxCode,처치비,20000,2
+처치_일반C_10kg,TxCode,처치비,30000,2
+처치_특수A_10kg,TxCode,처치비,50000,2
+처치_특수B_10kg,TxCode,처치비,72728,2
+처치_특수C_10kg,TxCode,처치비,90910,2
+항문낭세척_10kg,TxCode,처치비,20000,2
+포피소독,TxCode,처치비,16546,2
+바륨 위장관 코팅,TxCode,처치비,11819,2
+지혈_헤모스폰,TxCode,처치비,10910,2
+아름단비 사상충 치료,TxCode,처치비,220000,2
+히알산 방광도포,TxCode,처치비,109091,2
+수혈_모니터링,TxCode,처치비,50000,2
+"수혈_동거견,동거묘채혈",TxCode,처치비,109091,2
+이물제거_식도개구부,TxCode,처치비,33000,2
+직장세척,TxCode,처치비,10910,2
+압박배뇨,TxCode,처치비,50910,2
+비강세척_비강이물_비강경,TxCode,처치비,200000,2
+비강세척,TxCode,처치비,30000,2
+기관폐포세척(Bronchoalveolar Lavage)_10kg,TxCode,처치비,109091,2
+SUB세척시술,TxCode,처치비,154546,2
+취선소독_특수동물,TxCode,처치비,30000,2
+흉관suction(기흉)_석션기사용_1일,TxCode,처치비,163637,2
+위관장착(gastrotomy tube),TxCode,처치비,200000,2
+식도관장착(esophageal tube),TxCode,처치비,100000,2
+비강관장착(nasal tube),TxCode,처치비,50000,2
+음압치료기장착_창상육아조직생성유도_10kg,TxCode,처치비,436364,2
+산소공급_6시간_입원중,TxCode,처치비,20910,2
+산소공급_12시간_입원중,TxCode,처치비,40910,2
+산소공급_24시간_입원중,TxCode,처치비,59091,2
+인공호흡기_6시간_10kg,TxCode,처치비,109091,2
+인공호흡기_12시간_10kg,TxCode,처치비,181819,2
+인공호흡기_24시간_10kg,TxCode,처치비,318182,2
+네블라이저_외래,TxCode,처치비,10000,2
+네블라이저_입원중,TxCode,처치비,5000,2
+항암피하주사 처치비,TxCode,처치비,33000,2
+항암혈관주사 처치비,TxCode,처치비,55000,2
+수혈_기본처치(주사 및 마이크론 필터),TxCode,처치비,81819,2
+흡입마취_Isoflurane_20kg,TxCode,처치비,118182,2
+주사마취_20kg,TxCode,처치비,50000,2
+목욕_처치목적_20kg,TxCode,처치비,33000,2
+미용_처치목적_20kg,TxCode,처치비,66000,2
+미용 및 목욕_처치목적_20kg,TxCode,처치비,99000,2
+관장_20kg,TxCode,처치비,130000,2
+위내가스 및 액체제거_식도튜브사용_20kg,TxCode,처치비,40000,2
+드레싱_A_20kg,TxCode,처치비,21819,2
+드레싱_B_20kg,TxCode,처치비,32728,2
+드레싱_C_20kg,TxCode,처치비,43637,2
+드레싱_로버트존스_20kg,TxCode,처치비,30000,2
+드레싱_토마스스플린트_20kg,TxCode,처치비,30000,2
+드레싱_발포슬링(Valpeau sling)_20kg,TxCode,처치비,40000,2
+창상세척_경증_20kg,TxCode,처치비,44000,2
+창상세척_중증_20kg,TxCode,처치비,77000,2
+"흉강천자(흉수,기흉)_초음파유도_20kg",TxCode,처치비,200000,2
+신장천자(수신증)_초음파유도_20kg,TxCode,처치비,59091,2
+심낭수천자_초음파유도_20kg,TxCode,처치비,190910,2
+"위천자(GDV,위내가스)_초음파유도_20kg",TxCode,처치비,113637,2
+"구토요법_구토제주사(카테터,주사비포함)_20kg",TxCode,처치비,100000,2
+구토요법_과산화수소_20kg,TxCode,처치비,109091,2
+"응급처치_CPR_응급약물,인공호흡기_20kg",TxCode,처치비,81819,2
+처치_일반A_20kg,TxCode,처치비,22000,2
+처치_일반B_20kg,TxCode,처치비,33000,2
+처치_일반C_20kg,TxCode,처치비,44000,2
+처치_특수A_20kg,TxCode,처치비,66000,2
+처치_특수B_20kg,TxCode,처치비,88000,2
+처치_특수C_20kg,TxCode,처치비,110000,2
+기관폐포세척(Bronchoalveolar Lavage)_20kg,TxCode,처치비,165000,2
+음압치료기장착_창상육아조직생성유도_20kg,TxCode,처치비,528000,2
+인공호흡기_6시간_20kg,TxCode,처치비,124546,2
+인공호흡기_12시간_20kg,TxCode,처치비,237637,2
+인공호흡기_24시간_20kg,TxCode,처치비,475273,2
+흡입마취_Isoflurane_30kg,TxCode,처치비,154546,2
+주사마취_30kg,TxCode,처치비,60000,2
+목욕_처치목적_30kg,TxCode,처치비,44000,2
+미용_처치목적_30kg,TxCode,처치비,96800,2
+CT_기본촬영_10kg,TxCode,영상_10kg,372728,2
+CT_부위추가_10kg,TxCode,영상_10kg,145455,2
+CT_조영제 추가_10kg,TxCode,영상_10kg,100000,2
+MRI_기본 및 조영 촬영_10kg,TxCode,영상_10kg,563637,2
+MRI_부위 추가_10kg,TxCode,영상_10kg,245455,2
+CT+MRI_기본촬영 (CT조영미포함)_10kg,TxCode,영상_10kg,818182,2
+뇌척수액 천자 및 세포 검사,TxCode,영상_10kg,109091,2
+뇌척수액 PCR 검사(추가),TxCode,영상_10kg,118182,2
+PARR,TxCode,영상_10kg,118182,2
+"MRI,CT 판독료_타병원 촬영시",TxCode,영상_10kg,50000,2
+초음파_임신진단_20kg,TxCode,영상_20kg,68182,2
+CT_기본촬영_20kg,TxCode,영상_20kg,427273,2
+CT_부위추가_20kg,TxCode,영상_20kg,190910,2
+MRI_기본 및 조영 촬영_20kg,TxCode,영상_20kg,627273,2
+MRI_부위 추가_20kg,TxCode,영상_20kg,290910,2
+CT+MRI_기본촬영 (CT조영미포함)_20kg,TxCode,영상_20kg,927273,2
+CT_조영제 추가_20kg,TxCode,영상_20kg,118182,2
+CT_기본촬영_30kg,TxCode,영상_30kg,481819,2
+CT_부위추가_30kg,TxCode,영상_30kg,236364,2
+MRI_기본 및 조영 촬영_30kg,TxCode,영상_30kg,690910,2
+MRI_부위 추가_30kg,TxCode,영상_30kg,336364,2
+CT+MRI_기본촬영 (CT조영미포함)_30kg,TxCode,영상_30kg,1036364,2
+CT_조영제 추가_30kg,TxCode,영상_30kg,136364,2
+CT_기본촬영_40kg,TxCode,영상_40kg,536364,2
+CT_부위추가_40kg,TxCode,영상_40kg,281819,2
+MRI_기본 및 조영 촬영_40kg,TxCode,영상_40kg,754546,2
+MRI_부위 추가_40kg,TxCode,영상_40kg,381819,2
+CT+MRI_기본촬영 (CT조영미포함)_40kg,TxCode,영상_40kg,1145455,2
+CT_조영제 추가_40kg,TxCode,영상_40kg,154546,2
+CT_기본촬영_50kg,TxCode,영상_50kg,590910,2
+CT_부위추가_50kg,TxCode,영상_50kg,327273,2
+MRI_기본 및 조영 촬영_50kg,TxCode,영상_50kg,818182,2
+MRI_부위 추가_50kg,TxCode,영상_50kg,427273,2
+CT+MRI_기본촬영 (CT조영미포함)_50kg,TxCode,영상_50kg,1254546,2
+CT_조영제 추가_50kg,TxCode,영상_50kg,172728,2
+세포검사FNA(1부위)_IDEXX,TxCode,외부의뢰,118182,2
+엽산(Folic acid)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+엽산(Folic acid)_KVL_혈청2ml,TxCode,외부의뢰,85455,2
+코발라민(VitB12)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+트로포닌 I(Troponin I)_KVL_혈청1ml,TxCode,외부의뢰,60000,2
+결석성분분석_KVL,TxCode,외부의뢰,80000,2
+방광암항원검사(Bladder Tumor Antigen)_Antech_소변2ml,TxCode,외부의뢰,218182,2
+"방광암,전립선암검사(TCC,UC)_Antect_소변40ml",TxCode,외부의뢰,600000,2
+뇨코티솔크레아티닌비율(UCCR)_KVL_소변5ml,TxCode,외부의뢰,60000,2
+"갑상샘호르몬(T4,total)_KVL_혈청1ml",TxCode,외부의뢰,50000,2
+갑상샘호르몬(T3)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+활성갑상샘호르몬(FreeT4)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+갑상샘자극호르몬(TSH)_KVL_혈청1ml,TxCode,외부의뢰,50000,2
+"갑상샘패널1(FreeT4,TSH)_KVL_혈청1ml",TxCode,외부의뢰,81819,2
+"갑상샘패널2(FreeT4,T4,TSH)_KVL_혈청1ml",TxCode,외부의뢰,118182,2
+미용 및 목욕_처치목적_30kg,TxCode,처치비,132000,2
+항문낭세척_20kg,TxCode,처치비,30000,2
+위내가스 및 액체제거_식도튜브사용_30kg,TxCode,처치비,50000,2
+관장_30kg,TxCode,처치비,165000,2
+드레싱_A_30kg,TxCode,처치비,32728,2
+드레싱_B_30kg,TxCode,처치비,43637,2
+드레싱_C_30kg,TxCode,처치비,54546,2
+드레싱_로버트존스_30kg,TxCode,처치비,40000,2
+드레싱_토마스스플린트_30kg,TxCode,처치비,40000,2
+드레싱_발포슬링(Valpeau sling)_30kg,TxCode,처치비,50000,2
+창상세척_경증_30kg,TxCode,처치비,55000,2
+창상세척_중증_30kg,TxCode,처치비,88000,2
+"흉강천자(흉수,기흉)_초음파유도_30kg",TxCode,처치비,254546,2
+신장천자(수신증)_초음파유도_30kg,TxCode,처치비,72728,2
+심낭수천자_초음파유도_30kg,TxCode,처치비,218182,2
+"위천자(GDV,위내가스)_초음파유도_30kg",TxCode,처치비,136364,2
+"구토요법_구토제주사(카테터,주사비포함)_30kg",TxCode,처치비,118182,2
+구토요법_과산화수소_30kg,TxCode,처치비,127273,2
+"응급처치_CPR_응급약물,인공호흡기_30kg",TxCode,처치비,90910,2
+처치_일반A_30kg,TxCode,처치비,33000,2
+처치_일반B_30kg,TxCode,처치비,44000,2
+처치_일반C_30kg,TxCode,처치비,90910,2
+처치_특수A_30kg,TxCode,처치비,77000,2
+처치_특수B_30kg,TxCode,처치비,99000,2
+처치_특수C_30kg,TxCode,처치비,121000,2
+항문낭세척_30kg,TxCode,처치비,40000,2
+기관폐포세척(Bronchoalveolar Lavage)_30kg,TxCode,처치비,220000,2
+음압치료기장착_창상육아조직생성유도_30kg,TxCode,처치비,616000,2
+인공호흡기_6시간_30kg,TxCode,처치비,138637,2
+인공호흡기_12시간_30kg,TxCode,처치비,277273,2
+인공호흡기_24시간_30kg,TxCode,처치비,554455,2
+흡입마취_Isoflurane_40kg,TxCode,처치비,190910,2
+주사마취_40kg,TxCode,처치비,70000,2
+목욕_처치목적_40kg,TxCode,처치비,55000,2
+미용_처치목적_40kg,TxCode,처치비,110000,2
+미용 및 목욕_처치목적_40kg,TxCode,처치비,165000,2
+위내가스 및 액체제거_식도튜브사용_40kg,TxCode,처치비,60000,2
+관장_40kg,TxCode,처치비,220000,2
+드레싱_A_40kg,TxCode,처치비,43637,2
+드레싱_C_40kg,TxCode,처치비,65455,2
+드레싱_로버트존스_40kg,TxCode,처치비,50000,2
+드레싱_B_40kg,TxCode,처치비,54546,2
+드레싱_토마스스플린트_40kg,TxCode,처치비,50000,2
+드레싱_발포슬링(Valpeau sling)_40kg,TxCode,처치비,54546,2
+창상세척_경증_40kg,TxCode,처치비,66000,2
+창상세척_중증_40kg,TxCode,처치비,99000,2
+"흉강천자(흉수,기흉)_초음파유도_40kg",TxCode,처치비,309091,2
+신장천자(수신증)_초음파유도_40kg,TxCode,처치비,86364,2
+심낭수천자_초음파유도_40kg,TxCode,처치비,245455,2
+"위천자(GDV,위내가스)_초음파유도_40kg",TxCode,처치비,159091,2
+"구토요법_구토제주사(카테터,주사비포함)_40kg",TxCode,처치비,136364,2
+구토요법_과산화수소_40kg,TxCode,처치비,145455,2
+"응급처치_CPR_응급약물,인공호흡기_40kg",TxCode,처치비,100000,2
+처치_일반A_40kg,TxCode,처치비,44000,2
+처치_일반B_40kg,TxCode,처치비,55000,2
+처치_일반C_40kg,TxCode,처치비,66000,2
+처치_특수A_40kg,TxCode,처치비,88000,2
+처치_특수B_40kg,TxCode,처치비,110000,2
+처치_특수C_40kg,TxCode,처치비,132000,2
+항문낭세척_40kg,TxCode,처치비,50000,2
+기관폐포세척(Bronchoalveolar Lavage)_40kg,TxCode,처치비,275000,2
+음압치료기장착_창상육아조직생성유도_40kg,TxCode,처치비,704000,2
+인공호흡기_6시간_40kg,TxCode,처치비,158455,2
+인공호흡기_12시간_40kg,TxCode,처치비,316819,2
+인공호흡기_24시간_40kg,TxCode,처치비,633637,2
+흡입마취_Isoflurane_50kg,TxCode,처치비,227273,2
+주사마취_50kg,TxCode,처치비,80000,2
+목욕_처치목적_50kg,TxCode,처치비,66000,2
+미용_처치목적_50kg,TxCode,처치비,132000,2
+미용 및 목욕_처치목적_50kg,TxCode,처치비,198000,2
+위내가스 및 액체제거_식도튜브사용_50kg,TxCode,처치비,70000,2
+관장_50kg,TxCode,처치비,275000,2
+드레싱_A_50kg,TxCode,처치비,54546,2
+드레싱_B_50kg,TxCode,처치비,65455,2
+드레싱_C_50kg,TxCode,처치비,76364,2
+드레싱_로버트존스_50kg,TxCode,처치비,60000,2
+드레싱_토마스스플린트_50kg,TxCode,처치비,60000,2
+드레싱_발포슬링(Valpeau sling)_50kg,TxCode,처치비,70000,2
+창상세척_경증_50kg,TxCode,처치비,77000,2
+창상세척_중증_50kg,TxCode,처치비,110000,2
+"흉강천자(흉수,기흉)_초음파유도_50kg",TxCode,처치비,363637,2
+신장천자(수신증)_초음파유도_50kg,TxCode,처치비,100000,2
+심낭수천자_초음파유도_50kg,TxCode,처치비,272728,2
+"위천자(GDV,위내가스)_초음파유도_50kg",TxCode,처치비,181819,2
+"구토요법_구토제주사(카테터,주사비포함)_50kg",TxCode,처치비,154546,2
+구토요법_과산화수소_50kg,TxCode,처치비,163637,2
+"응급처치_CPR_응급약물,인공호흡기_50kg",TxCode,처치비,109091,2
+처치_일반A_50kg,TxCode,처치비,55000,2
+처치_일반B_50kg,TxCode,처치비,66000,2
+처치_일반C_50kg,TxCode,처치비,77000,2
+처치_특수A_50kg,TxCode,처치비,99000,2
+처치_특수B_50kg,TxCode,처치비,121000,2
+처치_특수C_50kg,TxCode,처치비,143000,2
+항문낭세척_50kg,TxCode,처치비,60000,2
+기관폐포세척(Bronchoalveolar Lavage)_50kg,TxCode,처치비,330000,2
+음압치료기장착_창상육아조직생성유도_50kg,TxCode,처치비,792000,2
+인공호흡기_6시간_50kg,TxCode,처치비,178273,2
+인공호흡기_12시간_40kg,TxCode,처치비,356455,2
+인공호흡기_24시간_40kg,TxCode,처치비,712819,2
+HFNC 중환자 산소공급_1회,TxCode,처치비,275000,2
+방광천자(요도폐색)_100ml당,TxCode,처치비,16546,2
+"방광천자(요도폐색)_1,000ml당",TxCode,처치비,165000,2
+"뇨카테터 장착(Urinary catheter)_대형견(고급형,MILA)",TxCode,처치비,275000,2
+레이저 치료(피부재생)_1회,TxCode,처치비,27273,2
+레이저 치료(피부재생)_5+1회,TxCode,처치비,136364,2
+진통_신경차단술(Nerve Block),TxCode,처치비,45455,2
+고압 창상세척_Inter pulse,TxCode,처치비,181819,2
+안과_누관세척_10kg,TxCode,처치비,45455,2
+안과_누관세척_20kg,TxCode,처치비,54546,2
+안과_누관세척_30kg,TxCode,처치비,63637,2
+안과_누관세척_40kg,TxCode,처치비,72728,2
+수액_일반(IV)_10kg,TxCode,"주사, 수액",32728,2
+"주사_일반(IV,SC,IM)_10kg",TxCode,"주사, 수액",5728,2
+수액_피하수액(SC)_10kg,TxCode,"주사, 수액",14546,2
+"수액_첨가제(VitB,C,간보호제)_1병",TxCode,"주사, 수액",10910,2
+수액_첨가제(아미노산)_10kg,TxCode,"주사, 수액",14546,2
+수액_첨가제(지방)_10kg,TxCode,"주사, 수액",10910,2
+수액_첨가제(호의주)_1병,TxCode,"주사, 수액",14546,2
+"수액_PPN(아미노산,지방,포도당)_10kg",TxCode,"주사, 수액",54546,2
+"수액_도부타민, 토파민, 노르에피(승압제)_CRI_10kg",TxCode,"주사, 수액",45455,2
+"수액_도부타민, 라식스(Dobutamine_Furosemide)CRI_10kg",TxCode,"주사, 수액",54546,2
+수액(진통)_TLK_10kg,TxCode,"주사, 수액",59091,2
+수혈_개 농축적혈구_100ml_1팩,TxCode,"주사, 수액",327273,2
+수혈_개 농축적혈구_100ml_2팩,TxCode,"주사, 수액",572728,2
+수혈_개 전혈50ml,TxCode,"주사, 수액",136364,2
+수혈_일반혈장 100ml_1팩,TxCode,"주사, 수액",409091,2
+수혈_일반혈장 200ml_1팩,TxCode,"주사, 수액",727273,2
+수혈_특수혈장A 10ml_1병,TxCode,"주사, 수액",45455,2
+수혈_특수혈장B 10ml_1병,TxCode,"주사, 수액",45455,2
+수혈_시어스혈장(Sear's plasma) 5ml_1병,TxCode,"주사, 수액",45455,2
+수혈_고양이 농축적혈구_10ml,TxCode,"주사, 수액",118182,2
+수혈_고양이 전혈 10ml_A형,TxCode,"주사, 수액",118182,2
+수혈_개 농축적혈구_50ml,TxCode,"주사, 수액",163637,2
+수혈_고양이 전혈 10ml_B형,TxCode,"주사, 수액",154546,2
+수혈_휴먼 알부민(Human Albumin)_10ml,TxCode,"주사, 수액",38182,2
+주사(응급)_헤타스타치(Hetastarch)_10kg,TxCode,"주사, 수액",19091,2
+"주사_특수(IV,SC,IM)_10kg",TxCode,"주사, 수액",9091,2
+주사(항생제)_반코마이신_10kg,TxCode,"주사, 수액",16364,2
+주사(항생제)_반코마이신_1병,TxCode,"주사, 수액",38182,2
+주사(항생제)_메로페넴_1병,TxCode,"주사, 수액",38182,2
+주사(항생제)_메로페넴_10kg,TxCode,"주사, 수액",12728,2
+주사(항생제)_시프로플록사신_10kg,TxCode,"주사, 수액",12728,2
+주사(항생제)_시프로플록사신_1병,TxCode,"주사, 수액",38182,2
+주사(항생제)_세포탁심_1병(1g),TxCode,"주사, 수액",19091,2
+주사(항생제)_세포탁심_10kg,TxCode,"주사, 수액",9091,2
+주사(항생제)_메트로니다졸_10kg,TxCode,"주사, 수액",9091,2
+주사(항생제)_컨베니아_5kg,TxCode,"주사, 수액",50000,2
+주사(항생제)_아모크라_10kg,TxCode,"주사, 수액",9091,2
+주사(ACTH자극)_시낙텐_10kg,TxCode,"주사, 수액",25455,2
+주사(골수자극)_G-csf_5kg,TxCode,"주사, 수액",55000,2
+주사(인슐린)_란투스_1병(10ml),TxCode,"주사, 수액",86364,2
+주사(인슐린)_레버미어_1pen(3ml),TxCode,"주사, 수액",57273,2
+주사(인슐린)_레버미어(희석)_1ml,TxCode,"주사, 수액",24546,2
+주사(인슐린)_란투스_1pen(3ml),TxCode,"주사, 수액",50000,2
+주사(인슐린)_NPH(휴물린엔)_10ml,TxCode,"주사, 수액",50000,2
+주사(인슐린)_캐니슐린_1ml,TxCode,"주사, 수액",9546,2
+주사(인슐린)_캐니슐린_1병(2.5ml),TxCode,"주사, 수액",40910,2
+주사(인슐린)_캐니슐린_1병(10ml),TxCode,"주사, 수액",118182,2
+주사(인슐린)_N_R_1ml,TxCode,"주사, 수액",10000,2
+주사(혈전용해제)_rTPA_1병,TxCode,"주사, 수액",727273,2
+"주사(IMHA,IMT)_이뮤노글로불린(IVIG,리브감마)_1병(50ml)",TxCode,"주사, 수액",190910,2
+"주사(혈전용해제)_유로키나제_1병(500,000IU)",TxCode,"주사, 수액",227273,2
+주사(항암)_카보플라틴_10kg,TxCode,"주사, 수액",210000,2
+주사(항암)_시타라빈_1병,TxCode,"주사, 수액",52546,2
+주사(항암)_독소루비신_10kg,TxCode,"주사, 수액",210000,2
+주사(항암)_파노린(골흡수억제)_1병,TxCode,"주사, 수액",52546,2
+주사(항암)_미톡산트론_10kg,TxCode,"주사, 수액",315000,2
+주사(항암)_비노렐빈_10kg,TxCode,"주사, 수액",262546,2
+주사(항암)_L-asparaginase_1병,TxCode,"주사, 수액",210000,2
+주사(항발작)_케프라_1ml당,TxCode,"주사, 수액",14546,2
+주사(항발작)_케프라_1병,TxCode,"주사, 수액",57273,2
+주사(진통)_멜록시캄_10kg,TxCode,"주사, 수액",9091,2
+주사(진통)_레미펜타닐_1병,TxCode,"주사, 수액",100000,2
+주사_결막하주사,TxCode,"주사, 수액",19091,2
+주사(항구토제)_세레니아_10kg,TxCode,"주사, 수액",12728,2
+주사(이뇨)_만니톨_10kg,TxCode,"주사, 수액",9091,2
+주사(유도분만제)_옥시토신,TxCode,"주사, 수액",10000,2
+"주사(조혈,장점막재생)_코발라민_10kg",TxCode,"주사, 수액",10000,2
+"주사(스테로이드)_MPSS,살론_1병",TxCode,"주사, 수액",14546,2
+주사(모낭충)_도라멕틴(Doramectin)_10kg,TxCode,"주사, 수액",12728,2
+주사(사상충)_이미티사이드(imiticide)_10kg,TxCode,"주사, 수액",290910,2
+주사(응급)_7.4%고장성식염수_1병,TxCode,"주사, 수액",14546,2
+주사(항혈전제)_크렉산_10kg,TxCode,"주사, 수액",12728,2
+주사(항혈전제)_달테파린_10kg,TxCode,"주사, 수액",9091,2
+주사(장염)_글루타민(디펩타민)_10kg,TxCode,"주사, 수액",12728,2
+주사(조혈)_DPO_5kg,TxCode,"주사, 수액",27273,2
+"주사(항산화,진해거담)_N-아세틸시스테인_10kg",TxCode,"주사, 수액",14546,2
+"주사(마취,진정)_propofol CRI_1병",TxCode,"주사, 수액",24546,2
+주사(항바이러스)_인터페론_1병,TxCode,"주사, 수액",54546,2
+주사(녹내장)_Cidofovir_안구내,TxCode,"주사, 수액",409091,2
+주사(위액억제)_판토프라졸_10kg,TxCode,"주사, 수액",12728,2
+주사(에디슨)_DOCP_5kg,TxCode,"주사, 수액",118182,2
+주사(에디슨)_DOCP_추가1kg당,TxCode,"주사, 수액",19091,2
+주사(아토피)_사이토포인트_10mg,TxCode,"주사, 수액",95455,2
+주사(아토피)_사이토포인트_20mg,TxCode,"주사, 수액",127273,2
+주사(아토피)_사이토포인트_30mg,TxCode,"주사, 수액",154546,2
+수액_일반(IV)_20kg,TxCode,"주사, 수액",38182,2
+수액_피하수액(SC)_20kg,TxCode,"주사, 수액",19091,2
+수액_첨가제(아미노산)_20kg,TxCode,"주사, 수액",19091,2
+수액_첨가제(지방)_20kg,TxCode,"주사, 수액",19091,2
+"수액_PPN(아미노산,지방,포도당)_20kg",TxCode,"주사, 수액",68182,2
+"수액_도부타민, 토파민, 노르에피(승압제)_CRI_20kg",TxCode,"주사, 수액",54546,2
+"수액_도부타민, 라식스(Dobutamine_Furosemide)CRI_20kg",TxCode,"주사, 수액",63637,2
+수혈_휴먼 알부민(Human Albumin)100ml_1병,TxCode,"주사, 수액",345455,2
+주사(응급)_헤타스타치(Hetastarch)_20kg,TxCode,"주사, 수액",29091,2
+"주사_일반(IV,SC,IM)_20kg",TxCode,"주사, 수액",6546,2
+"주사_특수(IV,SC,IM)_20kg",TxCode,"주사, 수액",11364,2
+주사(항생제)_반코마이신_20kg,TxCode,"주사, 수액",19091,2
+주사(항생제)_메로페넴_20kg,TxCode,"주사, 수액",16364,2
+주사(항생제)_시프로플록사신_20kg,TxCode,"주사, 수액",16364,2
+주사(항생제)_세포탁심_20kg,TxCode,"주사, 수액",11364,2
+주사(항생제)_메트로니다졸_20kg,TxCode,"주사, 수액",11364,2
+주사(항생제)_컨베니아_10kg,TxCode,"주사, 수액",95455,2
+주사(항생제)_아모크라_20kg,TxCode,"주사, 수액",11364,2
+주사(ACTH자극)_시낙텐_20kg,TxCode,"주사, 수액",30910,2
+주사(골수자극)_G-csf_10kg,TxCode,"주사, 수액",92400,2
+주사(항암)_카보플라틴_20kg,TxCode,"주사, 수액",315000,2
+주사(항암)_독소루비신_20kg,TxCode,"주사, 수액",315000,2
+주사(항암)_미톡산트론_20kg,TxCode,"주사, 수액",420000,2
+주사(항암)_비노렐빈_20kg,TxCode,"주사, 수액",367546,2
+주사(진통)_멜록시캄_20kg,TxCode,"주사, 수액",11364,2
+주사(항구토제)_세레니아_20kg,TxCode,"주사, 수액",16364,2
+주사(이뇨)_만니톨_20kg,TxCode,"주사, 수액",11364,2
+"주사(조혈,장점막재생)_코발라민_20kg",TxCode,"주사, 수액",12500,2
+주사(모낭충)_도라멕틴(Doramectin)_20kg,TxCode,"주사, 수액",16364,2
+주사(항혈전제)_크렉산_20kg,TxCode,"주사, 수액",16364,2
+주사(항혈전제)_달테파린_20kg,TxCode,"주사, 수액",11364,2
+주사(장염)_글루타민(디펩타민)_20kg,TxCode,"주사, 수액",16364,2
+주사(조혈)_DPO_10kg,TxCode,"주사, 수액",54546,2
+"주사(항산화,진해거담)_N-아세틸시스테인_20kg",TxCode,"주사, 수액",17273,2
+주사(위액억제)_판토프라졸_20kg,TxCode,"주사, 수액",16364,2
+수액_일반(IV)_30kg,TxCode,"주사, 수액",43637,2
+수액_피하수액(SC)_30kg,TxCode,"주사, 수액",23637,2
+수액_첨가제(아미노산)_30kg,TxCode,"주사, 수액",23637,2
+수액_첨가제(지방)_30kg,TxCode,"주사, 수액",23637,2
+"수액_PPN(아미노산,지방,포도당)_30kg",TxCode,"주사, 수액",81819,2
+"수액_도부타민, 토파민, 노르에피(승압제)_CRI_30kg",TxCode,"주사, 수액",63637,2
+"수액_도부타민, 라식스(Dobutamine_Furosemide)CRI_30kg",TxCode,"주사, 수액",72728,2
+주사(응급)_헤타스타치(Hetastarch)_30kg,TxCode,"주사, 수액",42000,2
+"주사_일반(IV,SC,IM)_30kg",TxCode,"주사, 수액",7364,2
+"주사_특수(IV,SC,IM)_30kg",TxCode,"주사, 수액",13637,2
+주사(항생제)_반코마이신_30kg,TxCode,"주사, 수액",21819,2
+주사(항생제)_메로페넴_30kg,TxCode,"주사, 수액",20000,2
+주사(항생제)_시프로플록사신_30kg,TxCode,"주사, 수액",20000,2
+주사(항생제)_세포탁심_30kg,TxCode,"주사, 수액",13637,2
+주사(항생제)_메트로니다졸_30kg,TxCode,"주사, 수액",13637,2
+주사(항생제)_컨베니아_20kg,TxCode,"주사, 수액",140910,2
+주사(항생제)_아모크라_30kg,TxCode,"주사, 수액",13637,2
+주사(ACTH자극)_시낙텐_30kg,TxCode,"주사, 수액",36364,2
+주사(골수자극)_G-csf_20kg,TxCode,"주사, 수액",127100,2
+주사(항암)_카보플라틴_30kg,TxCode,"주사, 수액",420000,2
+주사(항암)_독소루비신_30kg,TxCode,"주사, 수액",420000,2
+주사(항암)_미톡산트론_30kg,TxCode,"주사, 수액",525000,2
+주사(항암)_비노렐빈_30kg,TxCode,"주사, 수액",472546,2
+주사(진통)_멜록시캄_30kg,TxCode,"주사, 수액",13637,2
+주사(항구토제)_세레니아_30kg,TxCode,"주사, 수액",20000,2
+주사(이뇨)_만니톨_30kg,TxCode,"주사, 수액",13637,2
+"주사(조혈,장점막재생)_코발라민_30kg",TxCode,"주사, 수액",15000,2
+주사(모낭충)_도라멕틴(Doramectin)_30kg,TxCode,"주사, 수액",20000,2
+주사(항혈전제)_크렉산_30kg,TxCode,"주사, 수액",20000,2
+주사(항혈전제)_달테파린_30kg,TxCode,"주사, 수액",13637,2
+주사(장염)_글루타민(디펩타민)_30kg,TxCode,"주사, 수액",20000,2
+주사(조혈)_DPO_20kg,TxCode,"주사, 수액",81819,2
+"주사(항산화,진해거담)_N-아세틸시스테인_30kg",TxCode,"주사, 수액",20000,2
+주사(위액억제)_판토프라졸_30kg,TxCode,"주사, 수액",20000,2
+수액_일반(IV)_40kg,TxCode,"주사, 수액",49091,2
+수액_피하수액(SC)_40kg,TxCode,"주사, 수액",28182,2
+수액_첨가제(아미노산)_40kg,TxCode,"주사, 수액",28182,2
+수액_첨가제(지방)_40kg,TxCode,"주사, 수액",28182,2
+"수액_PPN(아미노산,지방,포도당)_40kg",TxCode,"주사, 수액",95455,2
+"수액_도부타민, 토파민, 노르에피(승압제)_CRI_40kg",TxCode,"주사, 수액",72728,2
+"수액_도부타민, 라식스(Dobutamine_Furosemide)CRI_40kg",TxCode,"주사, 수액",81819,2
+주사(응급)_헤타스타치(Hetastarch)_40kg,TxCode,"주사, 수액",52546,2
+"주사_일반(IV,SC,IM)_40kg",TxCode,"주사, 수액",8182,2
+"주사_특수(IV,SC,IM)_40kg",TxCode,"주사, 수액",15910,2
+주사(항생제)_반코마이신_40kg,TxCode,"주사, 수액",24546,2
+주사(항생제)_메로페넴_40kg,TxCode,"주사, 수액",23637,2
+주사(항생제)_시프로플록사신_40kg,TxCode,"주사, 수액",23637,2
+주사(항생제)_세포탁심_40kg,TxCode,"주사, 수액",15910,2
+주사(항생제)_메트로니다졸_40kg,TxCode,"주사, 수액",15910,2
+주사(항생제)_컨베니아_30kg,TxCode,"주사, 수액",186364,2
+주사(항생제)_아모크라_40kg,TxCode,"주사, 수액",15910,2
+주사(ACTH자극)_시낙텐_40kg,TxCode,"주사, 수액",41819,2
+주사(골수자극)_G-csf_30kg,TxCode,"주사, 수액",161700,2
+주사(항암)_카보플라틴_40kg,TxCode,"주사, 수액",525000,2
+주사(항암)_독소루비신_40kg,TxCode,"주사, 수액",525000,2
+주사(항암)_미톡산트론_40kg,TxCode,"주사, 수액",630000,2
+주사(항암)_비노렐빈_40kg,TxCode,"주사, 수액",577546,2
+주사(진통)_멜록시캄_40kg,TxCode,"주사, 수액",15910,2
+주사(항구토제)_세레니아_40kg,TxCode,"주사, 수액",23637,2
+주사(이뇨)_만니톨_40kg,TxCode,"주사, 수액",15910,2
+"주사(조혈,장점막재생)_코발라민_40kg",TxCode,"주사, 수액",17500,2
+주사(모낭충)_도라멕틴(Doramectin)_40kg,TxCode,"주사, 수액",23637,2
+주사(항혈전제)_크렉산_40kg,TxCode,"주사, 수액",23637,2
+주사(항혈전제)_달테파린_40kg,TxCode,"주사, 수액",15910,2
+주사(장염)_글루타민(디펩타민)_40kg,TxCode,"주사, 수액",23637,2
+주사(조혈)_DPO_30kg,TxCode,"주사, 수액",109091,2
+"주사(항산화,진해거담)_N-아세틸시스테인_40kg",TxCode,"주사, 수액",22728,2
+주사(위액억제)_판토프라졸_40kg,TxCode,"주사, 수액",23637,2
+수액_일반(IV)_50kg,TxCode,"주사, 수액",54546,2
+수액_피하수액(SC)_50kg,TxCode,"주사, 수액",32728,2
+수액_첨가제(아미노산)_50kg,TxCode,"주사, 수액",32728,2
+수액_첨가제(지방)_50kg,TxCode,"주사, 수액",32728,2
+"수액_PPN(아미노산,지방,포도당)_50kg",TxCode,"주사, 수액",109091,2
+"수액_도부타민, 토파민, 노르에피(승압제)_CRI_50kg",TxCode,"주사, 수액",81819,2
+"수액_도부타민, 라식스(Dobutamine_Furosemide)CRI_50kg",TxCode,"주사, 수액",90910,2
+주사(응급)_헤타스타치(Hetastarch)_50kg,TxCode,"주사, 수액",63000,2
+"주사_일반(IV,SC,IM)_50kg",TxCode,"주사, 수액",9000,2
+"주사_특수(IV,SC,IM)_50kg",TxCode,"주사, 수액",18182,2
+주사(항생제)_반코마이신_50kg,TxCode,"주사, 수액",27273,2
+주사(항생제)_메로페넴_50kg,TxCode,"주사, 수액",27273,2
+주사(항생제)_시프로플록사신_50kg,TxCode,"주사, 수액",27273,2
+주사(항생제)_세포탁심_50kg,TxCode,"주사, 수액",18182,2
+주사(항생제)_메트로니다졸_50kg,TxCode,"주사, 수액",18182,2
+주사(항생제)_컨베니아_40kg,TxCode,"주사, 수액",231819,2
+주사(항생제)_아모크라_50kg,TxCode,"주사, 수액",18182,2
+주사(ACTH자극)_시낙텐_50kg,TxCode,"주사, 수액",47273,2
+주사(골수자극)_G-csf_40kg,TxCode,"주사, 수액",196400,2
+주사(항암)_카보플라틴_50kg,TxCode,"주사, 수액",630000,2
+주사(항암)_독소루비신_50kg,TxCode,"주사, 수액",630000,2
+주사(항암)_미톡산트론_50kg,TxCode,"주사, 수액",735000,2
+주사(항암)_비노렐빈_50kg,TxCode,"주사, 수액",682546,2
+주사(진통)_멜록시캄_50kg,TxCode,"주사, 수액",18182,2
+주사(항구토제)_세레니아_50kg,TxCode,"주사, 수액",27273,2
+주사(이뇨)_만니톨_50kg,TxCode,"주사, 수액",18182,2
+"주사(조혈,장점막재생)_코발라민_50kg",TxCode,"주사, 수액",20000,2
+주사(모낭충)_도라멕틴(Doramectin)_50kg,TxCode,"주사, 수액",27273,2
+주사(항혈전제)_크렉산_50kg,TxCode,"주사, 수액",27273,2
+주사(항혈전제)_달테파린_50kg,TxCode,"주사, 수액",18182,2
+주사(장염)_글루타민(디펩타민)_50kg,TxCode,"주사, 수액",27273,2
+주사(조혈)_DPO_40kg,TxCode,"주사, 수액",136364,2
+주사(위액억제)_판토프라졸_50kg,TxCode,"주사, 수액",27273,2
+주사(심장)_피모벤단(Pimobendan)_5kg당,TxCode,"주사, 수액",70000,2
+주사(항암)_빈크리스틴_10kg,TxCode,"주사, 수액",105000,2
+주사(항암)_빈크리스틴_20kg,TxCode,"주사, 수액",210000,2
+주사(항암)_빈크리스틴_30kg,TxCode,"주사, 수액",315000,2
+주사(항암)_빈크리스틴_40kg,TxCode,"주사, 수액",420000,2
+주사(항암)_빈크리스틴_50kg,TxCode,"주사, 수액",525000,2
+주사(항암)_사이클로포스파미드_10kg,TxCode,"주사, 수액",157546,2
+주사(항암)_사이클로포스파미드_20kg,TxCode,"주사, 수액",253000,2
+주사(항암)_사이클로포스파미드_30kg,TxCode,"주사, 수액",348455,2
+주사(항암)_사이클로포스파미드_40kg,TxCode,"주사, 수액",443910,2
+주사(항암)_사이클로포스파미드_50kg,TxCode,"주사, 수액",539364,2
+주사(항암)_젬시타빈_10kg,TxCode,"주사, 수액",210000,2
+주사(항암)_젬시타빈_20kg,TxCode,"주사, 수액",315000,2
+주사(항암)_젬시타빈_30kg,TxCode,"주사, 수액",420000,2
+주사(항암)_젬시타빈_40kg,TxCode,"주사, 수액",525000,2
+주사(항암)_젬시타빈_50kg,TxCode,"주사, 수액",630000,2
+"주사(복막염,FIP)_무티엔(MUTIAN)_1병",TxCode,"주사, 수액",315000,2
+주사(고칼슘혈증)_파미드론산_1병,TxCode,"주사, 수액",43000,2
+"주사(관절주사,유착방지)_콜라벳0.5ml_1병",TxCode,"주사, 수액",152728,2
+"주사_개_줄기세포(CKD,IBD,안과,피부,관절)_5kg",TxCode,"주사, 수액",400000,2
+"주사_개_줄기세포(CKD,IBD,안과,피부,관절)_10kg",TxCode,"주사, 수액",600000,2
+"주사_개_줄기세포(CKD,IBD,안과,피부,관절)_15kg",TxCode,"주사, 수액",800000,2
+"주사_개_줄기세포(CKD,IBD,안과,피부,관절)_20kg",TxCode,"주사, 수액",1000000,2
+"주사_개_줄기세포(CKD,IBD,안과,피부,관절)_20kg이상",TxCode,"주사, 수액",1200000,2
+"주사_고양이_줄기세포(CKD,IBD,안과,피부,관절)",TxCode,"주사, 수액",600000,2
+"주사(췌장효소제)_유리나스타틴 주(100,000IU)_1병",TxCode,"주사, 수액",45364,2
+수혈_특수혈장 1ml(고양이)_1병,TxCode,"주사, 수액",29091,2
+주사_고양이_줄기세포치료 3+1(총4회),TxCode,"주사, 수액",1800000,2
+주사(아토피)_사이토포인트_40mg,TxCode,"주사, 수액",199546,2
+"주사(포도당,스테로이드 비반응성 저혈당)_글루카곤_1병",TxCode,"주사, 수액",126000,2
+주사(항암)_빈블라스틴_10kg,TxCode,"주사, 수액",157546,2
+주사(항암)_빈블라스틴_20kg,TxCode,"주사, 수액",253000,2
+주사(항암)_빈블라스틴_30kg,TxCode,"주사, 수액",348455,2
+주사(항암)_빈블라스틴_40kg,TxCode,"주사, 수액",439364,2
+주사(항암)_빈블라스틴_50kg,TxCode,"주사, 수액",539364,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_5kg(편측)",TxCode,"주사, 수액",227273,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_10kg(편측)",TxCode,"주사, 수액",290910,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_15kg(편측)",TxCode,"주사, 수액",354546,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_20kg(편측)",TxCode,"주사, 수액",418182,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_20kg이상(편측)",TxCode,"주사, 수액",572728,2
+"주사_고양이(본원수술)_줄기세포(슬개골,십자인대,디스크)",TxCode,"주사, 수액",420000,2
+수액_인슐린R 3팩 CRI_10kg,TxCode,"주사, 수액",80000,2
+주사(항구토제)_온단세트론_10kg,TxCode,"주사, 수액",15819,2
+주사(항구토제)_온단세트론_20kg,TxCode,"주사, 수액",21819,2
+주사(항구토제)_온단세트론_30kg,TxCode,"주사, 수액",27819,2
+주사(항구토제)_온단세트론_40kg,TxCode,"주사, 수액",33819,2
+주사(항구토제)_온단세트론_50kg,TxCode,"주사, 수액",39819,2
+주사(항발작)_미다졸람 반출_2병(10ml),TxCode,"주사, 수액",10000,2
+"주사(관절주사)_조인트백스,애니콘주(15kg이하 양측주사)_1병",TxCode,"주사, 수액",152728,2
+주사(인슐린)_캐니슐린_1병(2.7ml),TxCode,"주사, 수액",43000,2
+주사(인슐린)_벳펜1통,TxCode,"주사, 수액",172728,2
+"주사(진통)_수술중 무통제제(모르핀, 레미펜타닐, TLK)_10kg",TxCode,"주사, 수액",100000,2
+"주사(진통)_수술중 무통제제(모르핀, 레미펜타닐, TLK)_20kg",TxCode,"주사, 수액",120000,2
+"주사(진통)_수술중 무통제제(모르핀, 레미펜타닐, TLK)_30kg",TxCode,"주사, 수액",140000,2
+"주사(진통)_수술중 무통제제(모르핀, 레미펜타닐, TLK)_40kg",TxCode,"주사, 수액",160000,2
+"주사(진통)_수술중 무통제제(모르핀, 레미펜타닐, TLK)_50kg",TxCode,"주사, 수액",180000,2
+주사(고지혈증치료제)_산도스타틴_1병(1ml),TxCode,"주사, 수액",31819,2
+"주사(기침, 응급발작약)_부토판,디아제팜,미다졸람_1병",TxCode,"주사, 수액",2728,2
+주사(마약성 진통제)_모르핀(Morphine)_첫회주사,TxCode,"주사, 수액",27273,2
+주사(마약성 진통제)_모르핀(Morphine)_2회이후,TxCode,"주사, 수액",13637,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_5kg(양측)",TxCode,"주사, 수액",290910,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_10kg(양측)",TxCode,"주사, 수액",418182,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_15kg(양측)",TxCode,"주사, 수액",545455,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_20kg(양측)",TxCode,"주사, 수액",672728,2
+"주사_개(본원수술)_줄기세포(슬개골,십자인대,디스크)_20kg이상(양측)",TxCode,"주사, 수액",800000,2
+주사_개_줄기세포치료 3+1(총4회)_5kg,TxCode,"주사, 수액",1200000,2
+주사_개_줄기세포치료 3+1(총4회)_10kg,TxCode,"주사, 수액",1800000,2
+주사_개_줄기세포치료 3+1(총4회)_15kg,TxCode,"주사, 수액",2400000,2
+주사_개_줄기세포치료 3+1(총4회)_20kg,TxCode,"주사, 수액",3000000,2
+주사_개_줄기세포치료 3+1(총4회)_20kg이상,TxCode,"주사, 수액",3600000,2
+[진료비] 예방 진료비 및 신체검사,TxCode,A. 진료,5000,2
+[진료비] 진료비 및 신체검사,TxCode,A. 진료,10000,2
+[진료비] 재진,TxCode,A. 진료,8000,2
+[진료비] 상담비(동물 미동반),TxCode,A. 진료,8000,2
+"[추가약] Pimobendan, Vetmedin 1.25mg_1T",TxCode,B.내복약,500,2
+"[추가약] Pimobendan, Vetmedin 5mg_1T",TxCode,B.내복약,1500,2
+"[진료비] 시간 외 진료 (야간, 점심시간)",TxCode,A. 진료,30000,2
+[처방] 내복약 1일 1회_5kg 이하,TxCode,B.내복약,3000,2
+[처방] 내복약 1일 2회_5kg 이하,TxCode,B.내복약,3500,2
+[처방] 내복약 1일 3회_5kg 이하,TxCode,B.내복약,4000,2
+[처방] 내복약 1일 1회_10kg 이하,TxCode,B.내복약,3500,2
+[처방] 내복약 1일 2회_10kg 이하,TxCode,B.내복약,4000,2
+[처방] 내복약 1일 3회_10kg 이하,TxCode,B.내복약,4500,2
+[처방] 내복약 1일 1회_20kg 이하,TxCode,B.내복약,4500,2
+[처방] 내복약 1일 2회_20kg 이하,TxCode,B.내복약,5000,2
+[처방] 내복약 1일 3회_20kg 이하,TxCode,B.내복약,5500,2
+[처방] 내복약 1일 1회_30kg 이하,TxCode,B.내복약,5500,2
+[처방] 내복약 1일 2회_30kg 이하,TxCode,B.내복약,6000,2
+[처방] 내복약 1일 3회_30kg 이하,TxCode,B.내복약,6500,2
+[처방] 내복약 1일 1회_40kg 이하,TxCode,B.내복약,6500,2
+[처방] 내복약 1일 2회_40kg 이하,TxCode,B.내복약,7000,2
+[처방] 내복약 1일 1회_50kg 이하,TxCode,B.내복약,7500,2
+[처방] 내복약 1일 3회_40kg 이하,TxCode,B.내복약,7500,2
+[처방] 내복약 1일 2회_50kg 이하,TxCode,B.내복약,8000,2
+[처방] 내복약 1일 3회_50kg 이하,TxCode,B.내복약,8500,2
+[처방] 내복약 1일 1회_50kg 초과,TxCode,B.내복약,8500,2
+[처방] 내복약 1일 2회_50kg 초과,TxCode,B.내복약,9000,2
+[처방] 내복약 1일 3회_50kg 초과,TxCode,B.내복약,9500,2
+캡슐 충진비_1일,TxCode,B.내복약,500,2
+"[추가약] Trilostane 5mg, 베토릴, Vetoryl_1cap",TxCode,B.내복약,3000,2
+[추가약] Gabapentin 가바펜틴 100mg_1cap,TxCode,B.내복약,700,2
+[추가약] Gabapentin 가바펜틴 300mg_1cap,TxCode,B.내복약,1400,2
+"[추가약] silymarin, 레가론, 간보호제_1cap",TxCode,B.내복약,700,2
+"[추가약] Lefotil, 레포틸, 간보호제_1T",TxCode,B.내복약,800,2
+[추가약] Pregabalin 프레가발린 리리카_1cap,TxCode,B.내복약,3150,2
+[추가약] Amantadine_1T,TxCode,B.내복약,500,2
+[추가약] Itraconazole_1T,TxCode,B.내복약,700,2
+[추가약] Pentoxifylline_1T,TxCode,B.내복약,1000,2
+"[추가약] Levetiracetam, 케프라, Keppra XR_1T",TxCode,B.내복약,4410,2
+"[추가약] Esomeprazole, 넥시움_1T",TxCode,B.내복약,1200,2
+"[추가약] HepaPlus, 헤파플러스_1T",TxCode,B.내복약,1200,2
+"[추가약] UDCA, 간보호제_1T",TxCode,B.내복약,400,2
+[추가약] Doxycycline_1cap,TxCode,B.내복약,800,2
+[추가약] Clerithromycin_1T,TxCode,B.내복약,1200,2
+[추가약] Psyllium_1cap,TxCode,B.내복약,300,2
+[추가약] Slippery Elm_1cap,TxCode,B.내복약,300,2
+[추가약] SAMe_1T,TxCode,B.내복약,750,2
+"[추가약) AMC, 아모크라_1T",TxCode,B.내복약,1000,2
+[추가약] Fortiflora_1포,TxCode,B.내복약,1800,2
+[추가약] Sildenafil_1T,TxCode,B.내복약,3300,2
+[추가약] Torsemide_1T,TxCode,B.내복약,600,2
+[추가약] Phenobarbital_1T,TxCode,B.내복약,500,2
+[추가약] Zonisamide_1T,TxCode,B.내복약,1000,2
+[추가약] Misoprostol_1T,TxCode,B.내복약,500,2
+"[추가약] Firocoxib, Previcox_1T",TxCode,B.내복약,1000,2
+[추가약] Trazodone_1T,TxCode,B.내복약,700,2
+[추가약] Fluoxetine_1T,TxCode,B.내복약,3300,2
+[추가약] Paroxetine_1T,TxCode,B.내복약,3300,2
+[추가약] Venlafaxine_1T,TxCode,B.내복약,3500,2
+[추가약] Lorazepam_1T,TxCode,B.내복약,2500,2
+[추가약] MMF_1cap,TxCode,B.내복약,2200,2
+[추가약] Levothyroxine 0.05mg_1T,TxCode,B.내복약,200,2
+[추가약] Levothyroxine 0.1mg_1T,TxCode,B.내복약,550,2
+[추가약] Melatonin_1T,TxCode,B.내복약,2200,2
+[추가약] Clopidogrel_1T,TxCode,B.내복약,3300,2
+[추가약] Maropitant 16mg_1T,TxCode,B.내복약,5500,2
+[추가약] Maropitant 24mg_1T,TxCode,B.내복약,6600,2
+"[추가약] Oclatinib, Apoquel 3.6mg_1T",TxCode,B.내복약,2670,2
+"[추가약] Oclatinib, Apoquel 5.4mg_1T",TxCode,B.내복약,3690,2
+"[추가약] Oclatinib, Apoquel 16mg_1T",TxCode,B.내복약,6880,2
+[추가약] Famciclovir_1T,TxCode,B.내복약,5000,2
+[추가약] Tamsulosin_1T,TxCode,B.내복약,550,2
+[추가약] Marbofloxacin_1T,TxCode,B.내복약,900,2
+[추가약] 베아제_1T,TxCode,B.내복약,600,2
+[추가약] Clindamycin_1cap,TxCode,B.내복약,350,2
+[추가약] Carprofen 75mg_1T,TxCode,B.내복약,3300,2
+[추가약] Spironolactone_1T,TxCode,B.내복약,500,2
+[추가약] Mirtazapine_1T,TxCode,B.내복약,3500,2
+"[추가약] Ferrous Sulfate, 훼로바유_1T",TxCode,B.내복약,300,2
+[추가약] Selegiline_1T,TxCode,B.내복약,3000,2
+[추가약] Clonidine_1T,TxCode,B.내복약,3300,2
+[추가약] 레나메진_1T,TxCode,B.내복약,800,2
+[추가약] Sevelamir_1T,TxCode,B.내복약,2200,2
+"[추가약] Camostat mesilate, 호이판_1정",TxCode,B.내복약,1200,2
+[추가약] Tylosin_1T,TxCode,B.내복약,2200,2
+[추가약] Cefixime_1cap,TxCode,B.내복약,1000,2
+"[추가약] Phenofibrate, 리피딜_1T",TxCode,B.내복약,330,2
+[물약] Almagate_30ml,TxCode,B.내복약,11000,2
+[물약] 지사제_30ml,TxCode,B.내복약,8000,2
+[추가약] Acepromazine OTM 0.05ml,TxCode,B.내복약,10000,2
+내복약_심장_1일2회_5kg이하 (약물2개이하),TxCode,B.내복약,3500,2
+내복약_심장_1일2회_5kg이하 (약물2개이상),TxCode,B.내복약,4200,2
+내복약_심장_1일2회_5~10kg이하 (약물2개이하),TxCode,B.내복약,4000,2
+내복약_심장_1일2회_5~10kg이하 (약물2개이상),TxCode,B.내복약,4900,2
+[물약] Propalin_30ml,TxCode,B.내복약,80000,2
+[물약] Metacam_3ml,TxCode,B.내복약,30000,2
+[물약] Metacam_10ml,TxCode,B.내복약,60000,2
+"[추가약] Pimobendan, Vetmedin 10mg_1T",TxCode,B.내복약,2850,2
+진단서발급,TxCode,C. 문서 및 보험,30000,2
+진료소견서 발급,TxCode,C. 문서 및 보험,10000,2
+접종증명서_종합접종/광견병_국문,TxCode,C. 문서 및 보험,10000,2
+접종증명서_종합접종/광견병_영문,TxCode,C. 문서 및 보험,20000,2
+기타문서 출력,TxCode,C. 문서 및 보험,2000,2
+Health Certificate_예방접종 및 건강증명서_농림부서식 (2부),TxCode,C. 문서 및 보험,50000,2
+EU Health Certificate_EU 국가 부속서,TxCode,C. 문서 및 보험,30000,2
+광견병 중화항체검사_출국용,TxCode,C. 문서 및 보험,320000,2
+방사선 1컷_10kg미만,TxCode,D. 영상검사,25000,2
+방사선 1컷_10~20kg,TxCode,D. 영상검사,40000,2
+방사선 1컷_20~30kg,TxCode,D. 영상검사,55000,2
+방사선 1컷_30~40kg,TxCode,D. 영상검사,70000,2
+방사선 1컷_40~50kg,TxCode,D. 영상검사,90000,2
+방사선 1컷_50kg 초과,TxCode,D. 영상검사,110000,2
+초음파_복부_10kg 미만,TxCode,D. 영상검사,70000,2
+초음파_복부_10~20kg,TxCode,D. 영상검사,90000,2
+초음파_복부_20~30kg,TxCode,D. 영상검사,110000,2
+초음파_복부_30~40kg,TxCode,D. 영상검사,130000,2
+초음파_복부_40~50kg,TxCode,D. 영상검사,150000,2
+초음파_복부_50kg 초과,TxCode,D. 영상검사,170000,2
+초음파_단일장기_10kg 미만,TxCode,D. 영상검사,34000,2
+초음파_단일장기_10~20kg,TxCode,D. 영상검사,44000,2
+초음파_단일장기_20~30kg,TxCode,D. 영상검사,54000,2
+초음파_단일장기_20~30kg,TxCode,D. 영상검사,54000,2
+초음파_단일장기_30~40kg,TxCode,D. 영상검사,64000,2
+초음파_단일장기_40~50kg,TxCode,D. 영상검사,74000,2
+초음파_단일장기_50kg 초과,TxCode,D. 영상검사,84000,2
+초음파_임신진단_20kg미만,TxCode,D. 영상검사,40000,2
+초음파_임신진단_20kg이상,TxCode,D. 영상검사,80000,2
+초음파_비뇨기_10kg 미만,TxCode,D. 영상검사,37000,2
+초음파_비뇨기_10~20kg,TxCode,D. 영상검사,47000,2
+초음파_비뇨기_20~30kg,TxCode,D. 영상검사,57000,2
+초음파_비뇨기_30~40kg,TxCode,D. 영상검사,67000,2
+초음파_비뇨기_40~50kg,TxCode,D. 영상검사,77000,2
+초음파_비뇨기_50kg초과,TxCode,D. 영상검사,87000,2
+초음파_복부_정밀_10kg 미만,TxCode,D. 영상검사,90000,2
+초음파_복부_정밀_10~20kg,TxCode,D. 영상검사,110000,2
+초음파_복부_정밀_20~30kg,TxCode,D. 영상검사,130000,2
+초음파_복부_정밀_30~40kg,TxCode,D. 영상검사,150000,2
+초음파_복부_정밀_40~50kg,TxCode,D. 영상검사,170000,2
+초음파_복부_정밀_50kg 초과,TxCode,D. 영상검사,190000,2
+심장초음파_10kg 미만,TxCode,D. 영상검사,120000,2
+방사선_위장관조영_10kg미만,TxCode,D. 영상검사,130000,2
+치과방사선_1컷당,TxCode,D. 영상검사,25000,2
+치과방사선_개_full mouth(전/후)_15kg 미만,TxCode,D. 영상검사,160000,2
+치과방사선_고양이_full mouth(전/후),TxCode,D. 영상검사,140000,2
+초음파_안과,TxCode,D. 영상검사,40000,2
+CT_기본촬영_10kg,TxCode,D. 영상검사,380000,2
+CT_부위추가_10kg,TxCode,D. 영상검사,150000,2
+CT_조영제_10kg,TxCode,D. 영상검사,100000,2
+CT_기본촬영_20kg,TxCode,D. 영상검사,450000,2
+CT_부위추가_20kg,TxCode,D. 영상검사,220000,2
+CT_조영제_20kg,TxCode,D. 영상검사,170000,2
+CT_기본촬영_30kg,TxCode,D. 영상검사,520000,2
+CT_부위추가_30kg,TxCode,D. 영상검사,290000,2
+CT_조영제_30kg,TxCode,D. 영상검사,240000,2
+[혈액] CBC Procyte,TxCode,E. 혈액검사,40000,2
+[혈액] 가스/전해질 ABL9,TxCode,E. 혈액검사,36000,2
+[혈액] idexx 혈청화학 1항목,TxCode,E. 혈액검사,15000,2
+[혈액] idexx 혈청화학 10항목,TxCode,E. 혈액검사,54000,2
+[혈액] idexx 혈청화학 17항목,TxCode,E. 혈액검사,136000,2
+[혈액] idexx cCRP 급성염증검사,TxCode,E. 혈액검사,36000,2
+"수술소모품(일회용수술포, 일회용수술복, 멸균필름)",TxCode,F. 수술/마취,100000,2
+중성화수술추가_수컷(피하잠복)_10kg,TxCode,F. 수술/마취,40000,2
+중성화수술추가_수컷(복강잠복)_10kg,TxCode,F. 수술/마취,200000,2
+"일반 주사(SC, IV, IM)_소염제/지사제_10kg 이하",TxCode,G. 주사/처치,15000,2
+"일반 주사(SC, IV, IM)_소염제/지사제_20kg 이하",TxCode,G. 주사/처치,18000,2
+"일반 주사(SC, IV, IM)_소염제/지사제_30kg 이하",TxCode,G. 주사/처치,21000,2
+"일반 주사(SC, IV, IM)_소염제/지사제_40kg 이하",TxCode,G. 주사/처치,24000,2
+"일반 주사(SC, IV, IM)_소염제/지사제_40kg 이상",TxCode,G. 주사/처치,28000,2
+"특수주사_컨베니아, Cefovecin_kg당",TxCode,G. 주사/처치,12000,2
+전신마취_호흡_5kg이하_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,70000,2
+전신마취_호흡_5~10kg_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,90000,2
+마취모니터링,TxCode,F. 수술/마취,20000,2
+"[수액] N/S, H/S 수액 처치_100ml",TxCode,H. 입원/수액,12000,2
+정맥카테터 장착,TxCode,G. 주사/처치,5000,2
+"[수액] N/S, H/S 수액 처치_500ml",TxCode,H. 입원/수액,20000,2
+[수액] 수액펌프 Infusion Pump 사용_1일,TxCode,H. 입원/수액,6000,2
+"[중성화]OHE+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_5kg",TxCode,F. 수술/마취,449000,2
+"[중성화]OHE+컨베니아(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_5kg",TxCode,F. 수술/마취,489000,2
+[입원] 일반실_당일입원_10kg,TxCode,H. 입원/수액,35000,2
+[입원] 일반실_당일입원_10kg 이상 20kg 미만,TxCode,H. 입원/수액,45000,2
+"특수주사_ondansetron, 온단세트론_10kg",TxCode,G. 주사/처치,29000,2
+"기초관리 / 기본관리 (발톱, 항문낭, 귀청소)_소형견(~10kg)",TxCode,G. 주사/처치,17000,2
+"기초관리 / 기본관리 (발톱, 항문낭, 귀청소)_중/대형견(10kg~)",TxCode,G. 주사/처치,27000,2
+"[*]기초관리 / 기본관리 (발톱, 항문낭, 귀청소)_추가비용10kg당",TxCode,G. 주사/처치,10000,2
+"귀 세척 및 드레싱, 외이염 (연고 점적)",TxCode,G. 주사/처치,9500,2
+"양측 귓털제거 후, 귀연고점적",TxCode,G. 주사/처치,13637,1
+"귀진드기 처치, 중증",TxCode,G. 주사/처치,25000,2
+귀 및 피부 드레싱(dressing)_국소_1부위,TxCode,G. 주사/처치,8000,2
+특수주사_메타캄_10kg 이하,TxCode,G. 주사/처치,18000,2
+특수주사_메타캄_20kg 이하,TxCode,G. 주사/처치,25000,2
+특수주사_메타캄_30kg 이하,TxCode,G. 주사/처치,32000,2
+특수주사_메타캄_40kg 이하,TxCode,G. 주사/처치,39000,2
+특수주사_메타캄_40kg 이상,TxCode,G. 주사/처치,44000,2
+특수주사_세레니아(항구토제)_10kg 이하,TxCode,G. 주사/처치,22000,2
+특수주사_세레니아(항구토제)_20kg 이하,TxCode,G. 주사/처치,30000,2
+특수주사_세레니아(항구토제)_30kg 이하,TxCode,G. 주사/처치,38000,2
+특수주사_세레니아(항구토제)_40kg 이하,TxCode,G. 주사/처치,46000,2
+특수주사_세레니아(항구토제)_40kg 이상,TxCode,G. 주사/처치,52000,2
+응급처치_lasix/butorphanol/diazepam/glycopyrrolate_10kg 이하,TxCode,G. 주사/처치,17000,2
+응급처치_lasix/butorphanol/diazepam/glycopyrrolate_20kg 이하,TxCode,G. 주사/처치,22000,2
+응급처치_lasix/butorphanol/diazepam/glycopyrrolate_30kg 이하,TxCode,G. 주사/처치,27000,2
+응급처치_lasix/butorphanol/diazepam/glycopyrrolate_30kg 이상,TxCode,G. 주사/처치,33000,2
+응급처치_levetiracetam IV 1회,TxCode,G. 주사/처치,35000,2
+특수주사_인슐린 원내 처치 1회,TxCode,G. 주사/처치,21000,2
+응급처치_Mannitol CRI_뇌압상승 응급처치 1회,TxCode,G. 주사/처치,30000,2
+특수주사_vitamin K 1회,TxCode,G. 주사/처치,15000,2
+특수주사_metronidazole CRI_10kg 미만,TxCode,G. 주사/처치,16000,2
+특수주사_metronidazole CRI_20kg 미만,TxCode,G. 주사/처치,20000,2
+특수주사_metronidazole CRI_30kg 미만,TxCode,G. 주사/처치,24000,2
+응급처치_dobutamine CRI_1회,TxCode,G. 주사/처치,34000,2
+특수주사_DOCP(desoxycorticosterone)_10kg 미만,TxCode,G. 주사/처치,165000,2
+특수주사_DOCP(desoxycorticosterone)_20kg 미만,TxCode,G. 주사/처치,245000,2
+특수주사_한방_항산화 주사,TxCode,G. 주사/처치,26500,2
+특수주사_EPO/DPO(조혈호르몬)_1 syringe,TxCode,G. 주사/처치,165000,2
+특수주사_ondansentron_10kg 이하 ,TxCode,G. 주사/처치,50000,2
+특수주사_oxytocin 1회,TxCode,G. 주사/처치,28000,2
+특수주사_산욕마비(저칼슘혈증) 처치,TxCode,G. 주사/처치,120000,2
+응급처치_5% 포도당(5% Dextrose) 투여,TxCode,G. 주사/처치,11000,2
+[입원] 일반실_1박 (10kg 미만),TxCode,H. 입원/수액,48000,2
+[입원] 일반실_1박 (10kg 이상 20kg 미만),TxCode,H. 입원/수액,88000,2
+[입원] 일반실_1박 (20kg 이상 50kg 미만),TxCode,H. 입원/수액,114000,2
+[입원] 일반실_1박 (50kg 이상),TxCode,H. 입원/수액,144000,2
+[입원] ICU (중증환자관리)_1박 (10kg 미만),TxCode,H. 입원/수액,69000,2
+[입원] ICU (중증환자관리)_1박 (10kg 이상 20kg 미만),TxCode,H. 입원/수액,115000,2
+[입원] ICU (중증환자관리)_1박 (20kg 이상 50kg 미만),TxCode,H. 입원/수액,145000,2
+[입원] ICU (중증환자관리)_1박 (50kg 이상),TxCode,H. 입원/수액,175000,2
+[입원] ICU (중증환자관리)_당일 입원 (10kg 미만),TxCode,H. 입원/수액,46000,2
+[입원] ICU (중증환자관리)_당일 입원 (10kg 이상 20kg 미만),TxCode,H. 입원/수액,76000,2
+[수액처치]특수_plasmalyte,TxCode,,18000,2
+[입원]  ICU (중증환자관리)_당일 입원 (20kg 이상 50kg 미만),TxCode,H. 입원/수액,93000,2
+[입원] 일반실_당일입원_20kg 이상,TxCode,H. 입원/수액,59000,2
+[수액] Plasmalyte_특수 수액 처치,TxCode,H. 입원/수액,31000,2
+[입원] 산소처치_1박,TxCode,H. 입원/수액,68000,2
+"[입원 중 수액처치] N/S, H/S 수액 및 수액펌프 사용_1박",TxCode,H. 입원/수액,26000,2
+[입원 중 수액처치] 수액 supplement 추가 (3개 이하),TxCode,H. 입원/수액,11000,2
+[입원 중 수액처치] 수액 supplement 추가 (3개 초과),TxCode,H. 입원/수액,20000,2
+[입원 중 주사처치] 일반주사 처치 6회 미만_1박당,TxCode,H. 입원/수액,23000,2
+[입원 중 주사처치] 일반주사 처치 6회 이상 10회 미만_1박당,TxCode,H. 입원/수액,34000,2
+[입원 중 주사처치] 일반주사 처치 10회 이상 14회 미만_1박당,TxCode,H. 입원/수액,42000,2
+[입원] 췌장염 처치 1amp (gabexate mesylate) ,TxCode,H. 입원/수액,8900,2
+[수액] 알부민 albumin_특수 수액 처치,TxCode,H. 입원/수액,26000,2
+특수주사_유바실린/AMC_1 vial 사용,TxCode,G. 주사/처치,12000,2
+"[수액] Voluven, hetastarch_특수 수액 처치",TxCode,H. 입원/수액,25000,2
+[접종] 종합 (DHPPi) - 1차,TxCode,I. 예방,25000,2
+[접종] 종합 (DHPPi) - 2차,TxCode,I. 예방,25000,2
+[접종] 종합 (DHPPi) - 3차,TxCode,I. 예방,25000,2
+[접종] 종합 (DHPPi) - 4차,TxCode,I. 예방,25000,2
+[접종] 종합 (DHPPi) - 5차,TxCode,I. 예방,25000,2
+[접종] 종합 (DHPPi) - booster,TxCode,I. 예방,25000,2
+[접종] 코로나 (Corona) - 1차,TxCode,I. 예방,15000,2
+[접종] 코로나 (Corona) - 2차,TxCode,I. 예방,15000,2
+[접종] 코로나 (Corona) - booster,TxCode,I. 예방,15000,2
+[접종] 켄넬코프 (Kennel Cough) - 1차,TxCode,I. 예방,15000,2
+[접종] 켄넬코프 (Kennel Cough) - 2차,TxCode,I. 예방,15000,2
+[접종] 켄넬코프 (Kennel Cough) - booster,TxCode,I. 예방,15000,2
+[접종] 신종인플루엔자 (Canine Influenza) - 1차,TxCode,I. 예방,35000,2
+[접종] 신종인플루엔자 (Canine Influenza) - 2차,TxCode,I. 예방,35000,2
+[접종] 신종인플루엔자 (Canine Influenza) - booster,TxCode,I. 예방,35000,2
+[접종] 광견병 (Rabies) 수입 ,TxCode,I. 예방,20000,2
+[접종] 광견병 (Rabies) 관납,TxCode,I. 예방,5000,2
+[접종] 고양이 4종종합 - 1차 ,TxCode,I. 예방,40000,2
+[접종] 고양이 4종종합 - 2차 ,TxCode,I. 예방,40000,2
+[접종] 고양이 4종종합 - 3차 ,TxCode,I. 예방,40000,2
+[접종] 고양이 4종종합 - booster,TxCode,I. 예방,40000,2
+"[혈액] 고양이 항체가검사 (FPV, FHV, FCV) ",TxCode,E. 혈액검사,55000,2
+[혈액] VetChroma_CDV IgG/IgM (강아지 항체가검사),TxCode,E. 혈액검사,27500,2
+[혈액] VetChroma_CPV IgG/IgM (강아지 항체가검사),TxCode,E. 혈액검사,27500,2
+[예방] 셀렉션60 (~2.5kg) / 겸용,TxCode,I. 예방,12000,2
+"[예방] 애드보킷 (Advocate) ~4kg, ea",TxCode,I. 예방,16500,2
+"[예방] 애드보킷 (Advocate) ~4kg, pack",TxCode,I. 예방,90000,2
+"[예방] 애드보킷 (Advocate) 4~10kg, ea",TxCode,I. 예방,18500,2
+"[예방] 애드보킷 (Advocate) 4~10kg, pack",TxCode,I. 예방,102000,2
+"[예방] 애드보킷 (Advocate) 10~25kg, ea",TxCode,I. 예방,25000,2
+"[예방] 애드보킷 (Advocate) 10~25kg, pack",TxCode,I. 예방,150000,2
+"[예방] 애드보킷 (Advocate)-CAT ~4kg, ea",TxCode,I. 예방,16500,2
+"[예방] 애드보킷 (Advocate)-CAT ~4kg, pack",TxCode,I. 예방,90000,2
+"[예방] 애드보킷 (Advocate)-CAT 4~8kg, ea",TxCode,I. 예방,18500,2
+"[예방] 애드보킷 (Advocate)-CAT 4~8kg, pack",TxCode,I. 예방,102000,2
+"[예방] 하트가드(Heartgard)- Blue (~11kg), ea",TxCode,I. 예방,10000,2
+"[예방] 하트가드(Heartgard)- Blue (~11kg), pack",TxCode,I. 예방,51000,2
+"[예방] 하트가드(Heartgard)- Green (12~22kg), ea",TxCode,I. 예방,14000,2
+"[예방] 하트가드(Heartgard)- Green (12~22kg), pack",TxCode,I. 예방,75000,2
+"[예방] 하트가드(Heartgard)- Brown (23~45kg), ea",TxCode,I. 예방,17000,2
+[예방] 프론트라인(Frontline Plus) - ~10kg. ea ,TxCode,I. 예방,16000,2
+[예방] 프론트라인(Frontline Plus) - ~10kg. pack,TxCode,I. 예방,42000,2
+[예방] 프론트라인(Frontline Plus) - 10~20kg. ea ,TxCode,I. 예방,22000,2
+[예방] 프론트라인(Frontline Plus) - 10~20kg. pack,TxCode,I. 예방,60000,2
+[예방] 프론트라인(Frontline Plus) - 20~40kg. ea ,TxCode,I. 예방,25000,2
+[예방] 프론트라인(Frontline Plus) - 20~40kg. pack ,TxCode,I. 예방,69000,2
+[예방] 프론트라인 트리액트 (2~5kg),TxCode,I. 예방,17000,2
+[예방] 프론트라인 트리액트 (2~5kg) 1pack,TxCode,I. 예방,48000,2
+[예방] 프론트라인 트리액트 (5~10kg),TxCode,I. 예방,18000,2
+[예방] 프론트라인 트리액트 (5~10kg) 1pack,TxCode,I. 예방,51000,2
+[예방] 프론트라인 트리액트 (10~20kg),TxCode,I. 예방,23000,2
+[예방] 프론트라인 트리액트 (20~40kg),TxCode,I. 예방,27000,2
+[예방] 넥스가드스펙트라 XS (2~3.5kg) - ea ,TxCode,I. 예방,20000,2
+[예방] 넥스가드스펙트라 XS (2~3.5kg) - pack ,TxCode,I. 예방,57000,2
+[예방] 넥스가드스펙트라 S (3.5~7.5kg) - ea ,TxCode,I. 예방,22000,2
+[예방] 넥스가드스펙트라 S (3.5~7.5kg) - pack,TxCode,I. 예방,63000,2
+[예방] 넥스가드스펙트라 M (7.5~15kg) - ea,TxCode,I. 예방,25000,2
+[예방] 넥스가드스펙트라 M (7.5~15kg) - pack,TxCode,I. 예방,72000,2
+[예방] 넥스가드스펙트라 L (15~30kg) - ea,TxCode,I. 예방,31000,2
+[예방] 넥스가드스펙트라 L (15~30kg) - pack,TxCode,I. 예방,90000,2
+[예방] 넥스가드스펙트라 XL (30~60kg) - ea,TxCode,I. 예방,41000,2
+[예방] 넥스가드스펙트라 XL (30~60kg) - pack,TxCode,I. 예방,120000,2
+"[혈액] 심장사상충 검사 (HW Ag kit, canine heartworm)",TxCode,E. 혈액검사,32000,2
+[혈액] 고양이 심장사상충 검사 (feline heartworm. IDEXX SNAP),TxCode,E. 혈액검사,65000,2
+[혈액] 심장사상충 유충 microfilaria 검사 (현미경검사),TxCode,E. 혈액검사,11500,2
+[검사] 세침흡인검사 (fine needle aspiration),TxCode,J. 일반 검사,45000,2
+[검사] 고양이 파보/범백 (FPV Ag kit) 키트 검사,TxCode,J. 일반 검사,32000,2
+"[검사] 강아지 파보,코로나(CPV, CCV kit) 키트 검사",TxCode,J. 일반 검사,55000,2
+"[검사] 강아지 파보,코로나,지알디아(CPV, CCV, Giardia kit) 키트 검사",TxCode,J. 일반 검사,68000,2
+"[검사] 강아지 홍역,인플루엔자 키트 검사 (CDV,CIV kit)",TxCode,J. 일반 검사,55000,2
+[검사] 분변검사_도말법 ,TxCode,J. 일반 검사,21000,2
+"[검사] VetChroma_Canine 3D (CPV, CCV, Giardia Ag)(강아지전염병 분변검사)",TxCode,J. 일반 검사,65000,2
+[혈액] 고양이 proBNP kit (IDEXX) - 심장 질환 진단,TxCode,E. 혈액검사,65000,2
+[조직검사의뢰] Biopsy_그린벳,TxCode,K. 의뢰 검사 ,180000,2
+[혈액검사의뢰] 그린벳 항체가검사 8종,TxCode,K. 의뢰 검사 ,132000,2
+[검사] ACTH 자극검사 (cortisol 2회 포함),TxCode,J. 일반 검사,180000,2
+[신체검사] 검이경 검사,TxCode,J. 일반 검사,5000,2
+[검사] 신체검사_정밀,TxCode,J. 일반 검사,30000,2
+[검사] 피부/귀 도말검사 ,TxCode,J. 일반 검사,21000,2
+[검사] 질 도말검사 (염색법) - 배란확인,TxCode,J. 일반 검사,32000,2
+[신체검사] 구강검사,TxCode,J. 일반 검사,15000,2
+[신체검사] 검안경 검사 ,TxCode,J. 일반 검사,8000,2
+[신체검사] 항문/직장 검사,TxCode,J. 일반 검사,10000,2
+"[검사] 혈압 (blood pressure) 검사, Doppler",TxCode,J. 일반 검사,11000,2
+"[검사] 각막형광염색 (Fluorescein, FD)",TxCode,J. 일반 검사,20000,2
+[검사] 안압 검사 (Tonovet),TxCode,J. 일반 검사,25000,2
+[혈액검사의뢰] LDDST (3회_0h/4h/8h),TxCode,K. 의뢰 검사 ,270000,2
+[혈액검사의뢰] 알러지검사 Premium test 120종,TxCode,K. 의뢰 검사 ,350000,2
+[신체검사] 재활_정형검사 (CCRV protocol),TxCode,J. 일반 검사,25000,2
+[혈액] VetChroma_Cortisol,TxCode,E. 혈액검사,44000,2
+[혈액] VetChroma_Cortisol (post ACTH),TxCode,E. 혈액검사,44000,2
+[혈액] VetChroma_AFP (간효소),TxCode,E. 혈액검사,35000,2
+[혈액] VetChroma_cPL,TxCode,E. 혈액검사,57000,2
+[혈액] VetChroma_fSAA (고양이염증검사),TxCode,E. 혈액검사,44000,2
+[혈액] VetChroma_T4,TxCode,E. 혈액검사,55000,2
+[혈액] VetChroma_SDMA (조기신장수치검사),TxCode,E. 혈액검사,55000,2
+[혈액] VetChroma_cNT-proBNP (강아지 심장바이오마커) ,TxCode,E. 혈액검사,65000,2
+[혈액] VetChroma_fNT-proBNP (고양이 심장바이오마커) ,TxCode,E. 혈액검사,65000,2
+[혈액] VetChroma_헬리코박터 검사,TxCode,E. 혈액검사,50000,2
+[혈액] 고양이 혈액형 검사 - feline A/B/AB typing kit,TxCode,E. 혈액검사,55000,2
+[혈액] 강아지 혈액형 검사,TxCode,E. 혈액검사,70000,2
+"[검사] 눈물 분비량 검사 (Schirmer tear test, STT) ",TxCode,J. 일반 검사,18000,2
+"[요검사] 방광 천자, cystocentesis (초음파 가이드)",TxCode,J. 일반 검사,22000,2
+"[요검사] 요비중 Urine Specific Gravity, USG 검사",TxCode,J. 일반 검사,8000,2
+[요검사] 요화학분석기 UPC검사 포함,TxCode,J. 일반 검사,33000,2
+[치과] 구강 국소 마취 (lidocaine + bupivacaine) 10kg 이하 ,TxCode,L. 치과,22000,2
+[치과] 구강 국소 마취 (lidocaine + bupivacaine) 10~25kg ,TxCode,L. 치과,35000,2
+[치과] 불소 치료,TxCode,L. 치과,35000,2
+[치과] 레진 / 실란트,TxCode,L. 치과,165000,2
+[치과] 발치-앞니 (유치),TxCode,L. 치과,12000,2
+[치과] 발치- 송곳니 (유치),TxCode,L. 치과,25000,2
+[치과] 발치- 어금니 (유치),TxCode,L. 치과,21000,2
+[치과] 발치-앞니 (영구치),TxCode,L. 치과,24000,2
+[치과] 수술적 발치-송곳니 (영구치),TxCode,L. 치과,132000,2
+[치과] 수술적 발치-작은어금니 (영구치),TxCode,L. 치과,132000,2
+[치과] 수술적 발치-어금니 (영구치),TxCode,L. 치과,154000,2
+"[치과] 발치- 작은어금니, 어금니 (영구치)",TxCode,L. 치과,69000,2
+[치과] 수술적 발치 - burr_치골 삭제 ,TxCode,L. 치과,40000,2
+"[치과] 치석제거, 스켈링 및 폴리쉬 (dental cleaning and polishing)_10kg 이하",TxCode,L. 치과,80000,2
+"[치과] 치석제거, 스켈링 및 폴리쉬 (dental cleaning and polishing)_10~20kg ",TxCode,L. 치과,100000,2
+"[치과] 치석제거, 스켈링 및 폴리쉬 (dental cleaning and polishing)_20~30kg ",TxCode,L. 치과,130000,2
+"[치과] 치석제거, 스켈링 및 폴리쉬 (dental cleaning and polishing)_30kg ~",TxCode,L. 치과,160000,2
+"[치과] 치근단농양 PM4 수술적 발치, ankylosis (유착치)",TxCode,L. 치과,210000,2
+[치과] 고양이 전발치 ,TxCode,L. 치과,1800000,2
+타병원 술부 확인 및 발사 ,TxCode,G. 주사/처치,16000,2
+[안과] 누관개통검사 (Jones test),TxCode,M. 안과,35000,2
+[안과] 안저검사,TxCode,M. 안과,28000,2
+[안과] 각막 배양,TxCode,M. 안과,20000,2
+[안과] 각막 생검 (편측),TxCode,M. 안과,30000,2
+[안과] 우각 검사 (gonioscopy),TxCode,M. 안과,40000,2
+[안과] 응급_안방수제거 (녹내장),TxCode,M. 안과,135000,2
+[안과] 결막하주사,TxCode,M. 안과,26000,2
+[안과] tacrolimus 0.03%,TxCode,M. 안과,17000,2
+[안과] 점안 1회 (양측),TxCode,M. 안과,4000,2
+[안과] 점안 2회 (양측),TxCode,M. 안과,8000,2
+[안과] 점안 3회 (양측),TxCode,M. 안과,12000,2
+[안과] 점안 4회 (양측),TxCode,M. 안과,16000,2
+[안약] 리포직 안연고,TxCode,M. 안과,20000,2
+동물등록 (내장형),TxCode,C. 문서 및 보험,35000,2
+동물등록 (외장형),TxCode,C. 문서 및 보험,35000,2
+동물등록 정보 변경 ,TxCode,C. 문서 및 보험,3000,2
+[검사] 혈당 곡선 측정 ,TxCode,J. 일반 검사,120000,2
+[검사] 심전도ECG 검사 ,TxCode,J. 일반 검사,20000,2
+[검사] Rivalta test ,TxCode,J. 일반 검사,45000,2
+내시경 검사,TxCode,F. 수술/마취,500000,2
+[검사] 곰팡이 배양 (DTM) 검사,TxCode,J. 일반 검사,40000,2
+[검사] 피부 scraping test,TxCode,J. 일반 검사,25000,2
+응급처치_항경련/진통제 CRI_24hr,TxCode,G. 주사/처치,90000,2
+"펜타닐패치_마약류진통제, 72시간_12ug",TxCode,G. 주사/처치,25000,2
+"펜타닐패치_마약류진통제, 72시간_25ug",TxCode,G. 주사/처치,50000,2
+"펜타닐패치_마약류진통제, 72시간_50ug",TxCode,G. 주사/처치,75000,2
+요도세척,TxCode,G. 주사/처치,100000,2
+방광세척,TxCode,G. 주사/처치,100000,2
+포피 세척 10kg 미만,TxCode,G. 주사/처치,15000,2
+뇨카테터 장착 ,TxCode,G. 주사/처치,55000,2
+관장 10kg 이하,TxCode,G. 주사/처치,40000,2
+관장 10kg ~ 30kg,TxCode,G. 주사/처치,90000,2
+관장 30kg ~ 60kg,TxCode,G. 주사/처치,140000,2
+항문낭 세척 및 소독 (포비돈) 10kg 이하,TxCode,G. 주사/처치,35000,2
+항문낭 세척 및 소독(포비돈) 10~30kg ,TxCode,G. 주사/처치,73000,2
+항문낭 세척 및 소독 (포비돈) 30~60kg,TxCode,G. 주사/처치,108000,2
+분무치료 (nebulizer)_일반,TxCode,G. 주사/처치,12000,2
+분무치료 (nebulizer)_약물 추가 ,TxCode,G. 주사/처치,18000,2
+포피 세척 10~30kg,TxCode,G. 주사/처치,24000,2
+포피 세척 30~60kg,TxCode,G. 주사/처치,33000,2
+[드레싱] 환부 클리핑_국소,TxCode,G. 주사/처치,5000,2
+[드레싱] 환부 클리핑_diffuse,TxCode,G. 주사/처치,9000,2
+[드레싱] 환부 클리핑_전신 (10kg 미만),TxCode,G. 주사/처치,29000,2
+[드레싱] 피부질환_감염성_국소,TxCode,G. 주사/처치,3500,2
+[드레싱] 피부질환_감염성_diffuse/미만성,TxCode,G. 주사/처치,7000,2
+[드레싱] 피부질환_감염성_전신,TxCode,G. 주사/처치,12000,2
+"[드레싱] 창상, 교상 세척 및 드레싱_국소 10kg 미만",TxCode,G. 주사/처치,30000,2
+"[드레싱] 창상, 교상 세척 및 드레싱_미만성/diffuse/deep 깊은상처_10kg 미만",TxCode,G. 주사/처치,58000,2
+[드레싱] 붕대 처치 _단순,TxCode,G. 주사/처치,5000,2
+[드레싱] 붕대 처치_complex,TxCode,G. 주사/처치,11000,2
+[드레싱] 승저증 세척 및 드레싱 처치 10kg 미만,TxCode,G. 주사/처치,35000,2
+[드레싱] 아토피 피부염 드레싱 및 소독_급성,TxCode,G. 주사/처치,6000,2
+[드레싱] 아토피 피부염 드레싱 및 소독_만성,TxCode,G. 주사/처치,18000,2
+[드레싱] 아토피 피부염 드레싱 및 소독_관리,TxCode,G. 주사/처치,8000,2
+"심폐소생술 (CPCR, CPR)_산소 및 약물 처치 포함",TxCode,G. 주사/처치,150000,2
+"[드레싱] 창상, 교상 세척 및 드레싱_국소 10kg~30kg ",TxCode,G. 주사/처치,50000,2
+"[드레싱] 창상, 교상 세척 및 드레싱_미만성/diffuse/deep 깊은상처_10~30kg",TxCode,G. 주사/처치,90000,2
+"[드레싱] 창상, 교상 세척 및 드레싱_국소 30kg 이상",TxCode,G. 주사/처치,70000,2
+독 하이포알러제닉 캔400g,TxCode,,7500,2
+"[드레싱] 창상, 교상 세척 및 드레싱_미만성/diffuse/deep 깊은상처_30kg 이상",TxCode,G. 주사/처치,150000,2
+카테터 장착 및 구토 유발 10kg 미만 ,TxCode,G. 주사/처치,61000,2
+카테터 장착 및 구토 유발 10~30kg,TxCode,G. 주사/처치,88000,2
+카테터 장착 및 구토 유발 30kg~ ,TxCode,G. 주사/처치,105000,2
+압박 배뇨 ,TxCode,G. 주사/처치,25000,2
+지혈제 사용,TxCode,G. 주사/처치,8000,2
+힐스 독 z/d 3.17kg ,TxCode,Z사료/보조제,72273,1
+힐스 독 z/d 1.5kg,TxCode,Z사료/보조제,35910,1
+로얄캐닌 독 아날러제닉 1.5kg ,TxCode,Z사료/보조제,35000,1
+로얄캐닌 독 하이포알러제닉 2kg ,TxCode,Z사료/보조제,36819,1
+로얄캐닌 독 하이포알러제닉 스몰독 1kg,TxCode,Z사료/보조제,23182,1
+로얄캐닌 독 하이포알러제닉 캔 400g,TxCode,Z사료/보조제,3637,1
+심장 내복약 1일 2회_5kg 이하,TxCode,B.내복약,4200,2
+심장 내복약 1일 2회_5kg 이상 10kg 미만,TxCode,B.내복약,4900,2
+전신마취_호흡_10~20kg_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,130000,2
+로얄캐닌 독 하이포알러제닉 모더레이트 칼로리 1.5kg,TxCode,Z사료/보조제,34091,1
+힐스 독 k/d 1.5kg,TxCode,Z사료/보조제,31819,1
+힐스 독 k/d 3.85kg,TxCode,Z사료/보조제,71819,1
+힐스 독 z/d 캔 370g,TxCode,Z사료/보조제,8000,1
+힐스 독 z/d 스튜 156g,TxCode,Z사료/보조제,5182,1
+힐스 독 z/d 스튜 354g,TxCode,Z사료/보조제,7728,1
+힐스 독 h/d 1.5kg,TxCode,Z사료/보조제,30000,1
+힐스 독 i/d 1.5kg,TxCode,Z사료/보조제,30910,1
+힐스 독 i/d 캔 370g,TxCode,Z사료/보조제,7455,1
+힐스 독  GI biome 1.5kg,TxCode,Z사료/보조제,33182,1
+힐스 독 GI biome 3.17kg,TxCode,Z사료/보조제,66546,1
+힐스 독 i/d low fat 1.5kg,TxCode,Z사료/보조제,31819,1
+힐스 독 i/d low fat 3.85kg,TxCode,Z사료/보조제,69000,1
+힐스 독 i/d low fat 캔 370g,TxCode,Z사료/보조제,7455,1
+힐스 독 i/d low fat 스튜 156g,TxCode,Z사료/보조제,5182,1
+로얄캐닌 독 센시티비티 컨트롤 1.5kg,TxCode,Z사료/보조제,27728,1
+힐스 독 i/d low fat 스튜 354g,TxCode,Z사료/보조제,7728,1
+힐스 독 i/d 1.5kg,TxCode,Z사료/보조제,30910,1
+힐스 독 i/d 3.17kg,TxCode,Z사료/보조제,62546,1
+힐스 독 i/d 7.98kg,TxCode,Z사료/보조제,120000,1
+로얄캐닌 독 센시티비티 컨트롤 7kg,TxCode,Z사료/보조제,97273,1
+힐스 독 i/d 캔 370g,TxCode,Z사료/보조제,7455,1
+힐스 독 i/d 스튜 156g,TxCode,Z사료/보조제,5182,1
+힐스 독 i/d 스튜 354g,TxCode,Z사료/보조제,7728,1
+힐스 독 j/d 3.85kg,TxCode,Z사료/보조제,69000,1
+힐스 독 z/d 7.98kg,TxCode,Z사료/보조제,171819,1
+힐스 독 z/d 캔 370g,TxCode,Z사료/보조제,8000,1
+로얄캐닌 독 센시티비티 컨트롤 캔 420g,TxCode,Z사료/보조제,6819,1
+힐스 독 d/d 3.63kg ,TxCode,Z사료/보조제,70000,1
+힐스 독 t/d 2.26kg ,TxCode,Z사료/보조제,46546,1
+힐스 독 a/d 캔 156g,TxCode,Z사료/보조제,5637,1
+힐스 캣 metabolic 1.5kg,TxCode,Z사료/보조제,33182,1
+힐스 캣 metabolic 3.85kg,TxCode,Z사료/보조제,75910,1
+힐스 캣 w/d 1.5kg,TxCode,Z사료/보조제,29546,1
+힐스 캣 w/d 3.85kg,TxCode,Z사료/보조제,69546,1
+힐스 캣 w/d 캔 156g,TxCode,Z사료/보조제,6091,1
+힐스 캣 c/d 1.5kg,TxCode,Z사료/보조제,29546,1
+힐스 캣 c/d 3.85kg,TxCode,Z사료/보조제,69546,1
+힐스 캣 c/d multicare 1.5kg,TxCode,Z사료/보조제,29546,1
+힐스 캣 c/d multicare 3.85kg,TxCode,Z사료/보조제,75000,1
+힐스 캣 c/d multicare 스튜 82g,TxCode,Z사료/보조제,3819,1
+힐스 캣 c/d multicare + metabolic 2.88kg,TxCode,Z사료/보조제,69546,1
+힐스 캣 y/d 1.81kg,TxCode,Z사료/보조제,50000,1
+힐스 캣 k/d 1.81kg,TxCode,Z사료/보조제,39546,1
+힐스 캣 k/d 3.85kg,TxCode,Z사료/보조제,72728,1
+힐스 캣 k/d 캔 156g,TxCode,Z사료/보조제,6091,1
+힐스 캣 k/d 스튜 82g,TxCode,Z사료/보조제,3819,1
+힐스 캣 k/d 오션피쉬 1.81kg,TxCode,Z사료/보조제,41364,1
+힐스 캣 k/d 오션피쉬 스튜 82g,TxCode,Z사료/보조제,4000,1
+힐스 캣 k/d early support 1.81kg,TxCode,Z사료/보조제,39546,1
+로얄캐닌 독 스킨케어 스몰독 2kg,TxCode,Z사료/보조제,34091,1
+힐스 캣 GI biome 1.81kg,TxCode,Z사료/보조제,43182,1
+힐스 캣 GI biome 3.85kg,TxCode,Z사료/보조제,76819,1
+로얄캐닌 독 유리너리 s/o 2kg,TxCode,Z사료/보조제,34091,1
+힐스 캣 GI biome 스튜 82g,TxCode,Z사료/보조제,3819,1
+힐스 캣 i/d 1.81kg,TxCode,Z사료/보조제,37728,1
+로얄캐닌 독 유리너리 s/o 7.5kg,TxCode,Z사료/보조제,101819,1
+힐스 캣 i/d 캔 156g,TxCode,Z사료/보조제,6091,1
+힐스 캣 i/d 스튜 82g,TxCode,Z사료/보조제,3819,1
+힐스 캣 z/d 1.81kg ,TxCode,Z사료/보조제,45455,1
+힐스 캣 z/d 캔 156g,TxCode,Z사료/보조제,6091,1
+힐스 캣 t/d 1.5kg,TxCode,Z사료/보조제,29546,1
+힐스 캣 a/d 캔 156g,TxCode,Z사료/보조제,5637,1
+로얄캐닌 독 유리너리 s/o 캔 400g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 유리너리 s/o 파우치 100g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 독 유리너리 s/o 스몰독 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 유리너리 s/o 스몰독 4kg,TxCode,Z사료/보조제,62728,1
+로얄캐닌 독 유리너리 s/o 모더레이트 칼로리 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 유리너리 s/o 모더레이트 칼로리 6.5kg,TxCode,Z사료/보조제,94546,1
+로얄캐닌 독 유리너리 u/c 2kg,TxCode,Z사료/보조제,35910,1
+로얄캐닌 독 세타이어티 웨이트매니지먼트 1.5kg ,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 세타이어티 웨이트매니지먼트 6kg,TxCode,Z사료/보조제,88182,1
+로얄캐닌 독 세타이어티 웨이트매니지먼트 캔 410g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 세타이어티 웨이트매니지먼트 스몰독 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 세타이어티 웨이트매니지먼트 스몰독 3kg,TxCode,Z사료/보조제,50000,1
+로얄캐닌 독 세타이어티 웨이트매니지먼트 스몰독 8kg,TxCode,Z사료/보조제,110910,1
+로얄캐닌 독 다이아베틱 1.5kg,TxCode,Z사료/보조제,28637,1
+로얄캐닌 독 다이아베틱 7kg,TxCode,Z사료/보조제,98182,1
+로얄캐닌 독 다이아베틱 캔 410g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 가스트로인테스티널 2kg,TxCode,Z사료/보조제,34091,1
+로얄캐닌 독 가스트로인테스티널 캔 400g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 가스트로인테스티널 로우팻 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 가스트로인테스티널 로우팻 캔 410g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 가스트로인테스티널 로우팻 스몰독 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 가스트로인테스티널 퍼피 1kg,TxCode,Z사료/보조제,23182,1
+로얄캐닌 독 헤파틱 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 헤파틱 6kg,TxCode,Z사료/보조제,88182,1
+로얄캐닌 독 헤파틱 캔 420g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 리커버리 캔 195g,TxCode,Z사료/보조제,5455,1
+로얄캐닌 독 레날 2kg,TxCode,Z사료/보조제,34091,1
+로얄캐닌 독 레날 7kg,TxCode,Z사료/보조제,95455,1
+로얄캐닌 독 레날 캔 410g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 레날 스몰독 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 레날 셀렉트 2kg,TxCode,Z사료/보조제,34091,1
+로얄캐닌 독 카디악 2kg,TxCode,Z사료/보조제,34091,1
+로얄캐닌 독 카디악 캔 410g,TxCode,Z사료/보조제,6819,1
+로얄캐닌 독 모빌리티 서포트 2kg,TxCode,Z사료/보조제,36819,1
+로얄캐닌 독 모빌리티 서포트 7kg,TxCode,Z사료/보조제,109091,1
+퓨리나 독 HA 1.5kg,TxCode,Z사료/보조제,31364,1
+로얄캐닌 독 덴탈 스몰독 1.5kg ,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 뉴터드 어덜트 스몰독 1.5kg,TxCode,Z사료/보조제,25910,1
+퓨리나 독 HA chicken 1.5kg ,TxCode,Z사료/보조제,32728,1
+퓨리나 독 HA 3kg,TxCode,Z사료/보조제,56364,1
+퓨리나 독 NC 1.5kg,TxCode,Z사료/보조제,33637,1
+로얄캐닌 독 뉴터드어덜트 스몰독 파우치 100g,TxCode,Z사료/보조제,2546,1
+퓨리나 독 EN 1.5kg,TxCode,Z사료/보조제,27728,1
+퓨리나 독 EN LOW FAT 1.5kg,TxCode,Z사료/보조제,28182,1
+퓨리나 독 DM 1.5kg,TxCode,Z사료/보조제,27728,1
+퓨리나 독 UR 1.5kg,TxCode,Z사료/보조제,27728,1
+퓨리나 캣 UR 1.5kg,TxCode,Z사료/보조제,30455,1
+퓨리나 캣 EN 1.5kg,TxCode,Z사료/보조제,32273,1
+퓨리나 캣 NF ADVANCED CARE 1.5kg,TxCode,Z사료/보조제,32273,1
+로얄캐닌 독 어덜트 스몰독 2kg,TxCode,Z사료/보조제,26819,1
+퓨리나 캣 OM 1.5kg,TxCode,Z사료/보조제,30455,1
+로얄캐닌 독 머츄어 컨설트 스몰독 1.5kg,TxCode,Z사료/보조제,25000,1
+퓨리나 캣 DM 1.5kg,TxCode,Z사료/보조제,30455,1
+로얄캐닌 캣 유리너리 s/o 1.5kg,TxCode,Z사료/보조제,28637,1
+퓨리나 캣 포티플로라,TxCode,Z사료/보조제,43637,1
+퓨리나 독 포티플로라,TxCode,Z사료/보조제,43637,1
+퓨리나 독 카밍케어,TxCode,Z사료/보조제,43637,1
+퓨리나 캣 리브클리어 키튼 1.5kg,TxCode,Z사료/보조제,40000,1
+퓨리나 캣 리브클리어 어덜트 1.5kg,TxCode,Z사료/보조제,40000,1
+퓨리나 캣 리브클리어 인도어헤어볼 1.5kg,TxCode,Z사료/보조제,40000,1
+퓨리나 독 프로플랜 스타터 1kg,TxCode,Z사료/보조제,17273,1
+퓨리나 독 프로플랜 스몰앤토이 퍼피 2.5kg,TxCode,Z사료/보조제,35910,1
+퓨리나 독 프로플랜 스몰앤토이 어덜트 2.5kg,TxCode,Z사료/보조제,35910,1
+퓨리나 독 프로플랜 스몰앤토이 센서티브 스킨앤스터먹 2.5kg ,TxCode,Z사료/보조제,40910,1
+퓨리나 캣 프로플랜 키튼 스타터 1.5kg,TxCode,Z사료/보조제,26364,1
+퓨리나 캣 프로플랜 스타터 8kg,TxCode,Z사료/보조제,96364,1
+퓨리나 캣 프로플랜 키튼 1.5kg,TxCode,Z사료/보조제,26364,1
+퓨리나 캣 프로플랜 성묘용 연어 1.5kg,TxCode,Z사료/보조제,26364,1
+로얄캐닌 캣 유리너리 s/o 3.5kg,TxCode,Z사료/보조제,56364,1
+로얄캐닌 캣 유리너리 s/o 파우치 85g,TxCode,Z사료/보조제,2546,1
+퓨리나 캣 프로플랜 성묘용 연어 7kg,TxCode,Z사료/보조제,89091,1
+퓨리나 캣 프로플랜 성묘용 인도어헤어볼 1.5kg,TxCode,Z사료/보조제,26364,1
+퓨리나 캣 프로플랜 성묘용 유리너리 1.5kg,TxCode,Z사료/보조제,26364,1
+퓨리나 캣 프로플랜 7세이상 노령묘 1.5kg,TxCode,Z사료/보조제,26364,1
+퓨리나 캣 프로플랜 퍼지앤뷰티 1.5kg,TxCode,Z사료/보조제,26364,1
+ 퓨리나 캣 프로플랜 파우치 키튼 살몬 85g,TxCode,Z사료/보조제,2000,1
+퓨리나 캣 프로플랜 파우치 어덜트 85g,TxCode,Z사료/보조제,2000,1
+퓨리나 캣 프로플랜 파우치 유리너리 85g,TxCode,Z사료/보조제,2000,1
+로얄캐닌 캣 유리너리 s/o 모더레이트 칼로리 1.5kg,TxCode,Z사료/보조제,28637,1
+퓨리나 캣 프로플랜 파우치 7세이상 노령묘 85g,TxCode,Z사료/보조제,2000,1
+로얄캐닌 캣 유리너리 s/o 모더레이트 칼로리 파우치 85g,TxCode,Z사료/보조제,2546,1
+퓨리나 캣 팬시피스트 캔 키튼 흰살생선 85g,TxCode,Z사료/보조제,2182,1
+로얄캐닌 캣 가스트로인테스티널 2kg,TxCode,Z사료/보조제,35000,1
+로얄캐닌 캣 가스트로인테스티널 4kg,TxCode,Z사료/보조제,58182,1
+퓨리나 캣 팬시피스트 캔 키튼 칠면조 85g,TxCode,Z사료/보조제,2182,1
+로얄캐닌 캣 가스트로인테스티널 파우치 85g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 캣 가스트로인테스티널 모더레이트 칼로리 2kg,TxCode,Z사료/보조제,36819,1
+퓨리나 캣 팬시피스트 캔 흰살생선 85g,TxCode,Z사료/보조제,2182,1
+퓨리나 캣 팬시피스트 캔 클래식 연어 85g,TxCode,Z사료/보조제,2182,1
+로얄캐닌 캣 가스트로인테스티널 모더레이트 칼로리 파우치 85g,TxCode,Z사료/보조제,2546,1
+퓨리나 캣 팬시피스트 캔 클래식 치킨 85g,TxCode,Z사료/보조제,2182,1
+퓨리나 캣 팬시피스트 캔 청키치킨 85g,TxCode,Z사료/보조제,2182,1
+퓨리나 캣 팬시피스트 캔 칠면조 85g,TxCode,Z사료/보조제,2182,1
+퓨리나 캣 팬시피스트 캔 하트앤리버 85g,TxCode,Z사료/보조제,2182,1
+로얄캐닌 캣 가스트로인테스티널 화이버 리스폰스 2kg,TxCode,Z사료/보조제,41364,1
+퓨리나 독 덴탈라이프 소형견 193g,TxCode,Z사료/보조제,11364,1
+로얄캐닌 캣 헤파틱 2kg,TxCode,Z사료/보조제,35000,1
+로얄캐닌 캣 얼리 레날 400g ,TxCode,Z사료/보조제,8182,1
+퓨리나 독 덴탈라이프 중형견 198g,TxCode,Z사료/보조제,11364,1
+로얄캐닌 캣 얼리 레날 85g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 캣 레날 스페셜 2kg,TxCode,Z사료/보조제,35000,1
+퓨리나 캣 덴탈라이프 살몬 51g,TxCode,Z사료/보조제,4819,1
+로얄캐닌 캣 레날 스페셜 4kg,TxCode,Z사료/보조제,58182,1
+퓨리나 캣 덴탈라이프 치킨 51g,TxCode,Z사료/보조제,4819,1
+로얄캐닌 캣 레날 셀렉트 2kg,TxCode,Z사료/보조제,35000,1
+퓨리나 캣 파티믹스 오리지날 60g,TxCode,Z사료/보조제,3910,1
+퓨리나 캣 파티믹스 믹스그릴 60g ,TxCode,Z사료/보조제,4819,1
+퓨리나 캣 파티믹스 비치사이드 60g,TxCode,Z사료/보조제,3910,1
+퓨리나 캣 파티믹스 치즈크레이지 60g,TxCode,Z사료/보조제,3910,1
+퓨리나 캣 파티믹스 피크닉 60g,TxCode,Z사료/보조제,3910,1
+퓨리나 캣 파티믹스 캘리포니아 60g,TxCode,Z사료/보조제,3910,1
+퓨리나 캣 파티믹스 치킨 그레이비 60g,TxCode,Z사료/보조제,3910,1
+퓨리나 캣 파티믹스 네추럴치킨 60g,TxCode,Z사료/보조제,4091,1
+퓨리나 캣 파티믹스 네추럴연어 60g,TxCode,Z사료/보조제,4091,1
+퓨리나 캣 파티믹스 네추럴참치 60g,TxCode,Z사료/보조제,4091,1
+퓨리나 독 캥거루 트레이닝 트릿 180g,TxCode,Z사료/보조제,18182,1
+퓨리나 독 캥거루 저키 스트립 100g,TxCode,Z사료/보조제,15455,1
+퓨리나 독 캥거루 내추럴스킨본 115g,TxCode,Z사료/보조제,12728,1
+로얄캐닌 캣 레날 로프 인 파우치 85g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 캣 레날 로프 인 파우치 위드 피시 85g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 캣 레날 로프 인 파우치 위드 치킨 85g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 캣 세타이어티 웨이트 매니지먼트 1.5kg,TxCode,Z사료/보조제,28637,1
+로얄캐닌 캣 세타이어티 웨이트 매니지먼트 파우치 85g,TxCode,Z사료/보조제,2546,1
+로얄캐닌 캣 다이아베틱 1.5kg,TxCode,Z사료/보조제,30455,1
+로얄캐닌 캣 아날러제닉 2kg,TxCode,Z사료/보조제,44546,1
+로얄캐닌 캣 하이포알러제닉 2.5kg,TxCode,Z사료/보조제,40910,1
+로얄캐닌 캣 뉴터드 세타이어티 밸런스 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 캣 뉴터드 세타이어티 밸런스 파우치 85g,TxCode,Z사료/보조제,2546,1
+오티덤 귀 연고,TxCode,B.내복약,12000,2
+레날플러스 프로 1T,TxCode,Z사료/보조제,2200,2
+한방/재활_침치료,TxCode,MN.한방재활,80000,2
+한방/재활_체외충격파 2sites,TxCode,MN.한방재활,150000,2
+드레싱A_10kg,TxCode,G. 주사/처치,11000,2
+드레싱B_10kg,TxCode,G. 주사/처치,22000,2
+드레싱C_10kg,TxCode,G. 주사/처치,33000,2
+의료용 허니드레싱_10kg,TxCode,G. 주사/처치,35000,2
+창상세척 경증_10kg,TxCode,G. 주사/처치,22000,2
+창상세척 중증_10kg,TxCode,G. 주사/처치,44000,2
+슬개골탈구 3기 이하_편측_10kg,TxCode,F. 수술/마취,600000,2
+[안과] NAC (Acetylcysteine),TxCode,M. 안과,16000,2
+애니콘주_관절재생주사_15kg이하,TxCode,G. 주사/처치,176000,2
+[안과] 안약_항생제_oflo,TxCode,M. 안과,19000,2
+귀세정제 MO 60ml,TxCode,B.내복약,12000,2
+테스트,TxCode,,100,2
+"술후 소독약, 연고 처방",TxCode,B.내복약,5500,2
+"[중성화]CST+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_5kg",TxCode,F. 수술/마취,219000,2
+"[중성화]CST+컨베니아(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_5kg",TxCode,F. 수술/마취,259000,2
+"골절(단순 플레이트 10홀)_요골,상완,대퇴,경골_10kg",TxCode,F. 수술/마취,800000,2
+"골절(단순 플레이트 11-20홀)_요골,상완,대퇴,경골_10kg",TxCode,F. 수술/마취,900000,2
+중성화수술추가_암컷_10kg,TxCode,F. 수술/마취,200000,2
+[물약] Lactulose_30ml,TxCode,B.내복약,11000,2
+에피트릿 (저알러지 간식),TxCode,Z사료/보조제,20910,1
+retrohydropropulsion ,TxCode,G. 주사/처치,150000,2
+방광 결석 수술_5개 이하,TxCode,F. 수술/마취,550000,2
+방광 결석 수술_다량,TxCode,F. 수술/마취,800000,2
+힐스 독 l/d 1.5kg,TxCode,Z사료/보조제,30000,1
+택배비,TxCode,Y. 기타,4000,2
+요도절개술_10kg ,TxCode,F. 수술/마취,800000,2
+호흡마취_1시간초과_10kg ,TxCode,F. 수술/마취,40000,2
+Vetmedin 5mg 1box (50T)  ,TxCode,B.내복약,116000,2
+[예방] 구충제_안텔민 뽀삐 1T,TxCode,I. 예방,3637,1
+진드기 제거 후 소독 및 연고 점적_마리당,TxCode,G. 주사/처치,25000,2
+연고_N연고,TxCode,B.내복약,5000,2
+연고_F연고,TxCode,B.내복약,4546,1
+연고_T연고,TxCode,B.내복약,4546,1
+연고_S연고,TxCode,B.내복약,5455,1
+전신마취_호흡_20~30kg_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,170000,2
+전신마취_호흡_30~40kg_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,210000,2
+전신마취_호흡_40~50kg_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,250000,2
+전신마취_호흡_50~60kg_1시간당_마취모니터링 별도,TxCode,F. 수술/마취,290000,2
+"넥칼라(연두, 7.5cm)",TxCode,Y. 기타,7800,2
+"넥칼라 (노랑, 10cm)",TxCode,Y. 기타,8500,2
+"넥칼라 (핑크, 12.5cm)",TxCode,Y. 기타,9500,2
+"넥칼라 (파랑, 15cm)",TxCode,Y. 기타,10500,2
+"넥칼라 (초록, 17.5cm)",TxCode,Y. 기타,11500,2
+"넥칼라 (보라, 20cm)",TxCode,Y. 기타,12500,2
+"넥칼라 (갈색, 22.5cm)",TxCode,Y. 기타,16500,2
+"넥칼라 (검정, 30cm)",TxCode,Y. 기타,25500,2
+일회용주사기 (3cc),TxCode,Y. 기타,500,2
+일회용주사기 (5cc),TxCode,Y. 기타,800,2
+일회용주사기 (10cc),TxCode,Y. 기타,1100,2
+일회용주사기 (20cc),TxCode,Y. 기타,1400,2
+일회용주사기 (50cc),TxCode,Y. 기타,2000,2
+[안과] 안약_dicl,TxCode,M. 안과,19000,2
+[안과] 안약_tobr,TxCode,M. 안과,12000,2
+[안과] 안약_ocuflidine,TxCode,M. 안과,28000,2
+[안과] 안약_FRS,TxCode,M. 안과,15000,2
+[안과] 안약_가리유니,TxCode,M. 안과,12000,2
+[안과] 안약_자가혈청,TxCode,M. 안과,75000,2
+[안과] 안약_옵티뮨 ,TxCode,M. 안과,64000,2
+[안과] 안약_pred forte ,TxCode,M. 안과,21000,2
+[안과] 안약_solc,TxCode,M. 안과,20000,2
+[안과] 안약_lacure,TxCode,M. 안과,10000,2
+[안과] 알카인_안구 마취 ,TxCode,M. 안과,10000,2
+[안과] 안약_cosopt,TxCode,M. 안과,65000,2
+[안과] 안약_atropine 점안 원내,TxCode,M. 안과,8000,2
+사체부검 ,TxCode,W 사후관리,250000,2
+화장- 집단 1-3kg ,TxCode,W 사후관리,65000,2
+화장- 집단 3-5kg,TxCode,W 사후관리,85000,2
+화장- 집단 5-7kg,TxCode,W 사후관리,105000,2
+화장- 집단 7-9kg,TxCode,W 사후관리,125000,2
+화장- 집단 9-11kg ,TxCode,W 사후관리,145000,2
+화장- 집단 - 추가 1kg 당,TxCode,W 사후관리,10000,2
+[예방] 구충제_드론탈 1T,TxCode,I. 예방,7000,2
+[예방] 구충제_안텔민 킹 1T,TxCode,I. 예방,5000,2
+[예방] 파나쿠어 panacur 250mg 1T,TxCode,I. 예방,6000,2
+스페시픽 헬시트릿,TxCode,Z사료/보조제,10000,1
+스페시픽 하이포트릿,TxCode,Z사료/보조제,11000,1
+스페시픽 퍼피 1kg,TxCode,Z사료/보조제,13546,1
+스페시픽 어덜트 1kg,TxCode,Z사료/보조제,13546,1
+스페시픽 weight 캔 300g,TxCode,Z사료/보조제,5455,1
+퓨리나 독 DRM 1.5kg,TxCode,Z사료/보조제,32546,1
+퓨리나 독 OM 1.5kg,TxCode,Z사료/보조제,27728,1
+로얄캐닌 독 아날러제닉 3kg,TxCode,Z사료/보조제,60910,1
+로얄캐닌 독 하이포알러제닉 7kg,TxCode,Z사료/보조제,109091,1
+로얄캐닌 독 하이포알러제닉 스몰독 3.5kg,TxCode,Z사료/보조제,69091,1
+닥터힐메딕스 D/C 1.5kg,TxCode,Z사료/보조제,21819,1
+로얄캐닌 독 아이시유 가스트로 하이 에너지 리퀴드 200g*3,TxCode,Z사료/보조제,50000,1
+로얄캐닌 독 레날 리퀴드 200g*3,TxCode,Z사료/보조제,50000,1
+닥터힐메딕스 D/H 1.5kg,TxCode,Z사료/보조제,21819,1
+로얄캐닌 독 가스트로 로우팻 200g*3,TxCode,Z사료/보조제,50000,1
+닥터힐메딕스 U/K 1.5kg,TxCode,Z사료/보조제,27273,1
+닥터힐메딕스 W/C 1.5kg,TxCode,Z사료/보조제,25455,1
+로얄캐닌 독/캣 아이시유 리커버리 리퀴드 200g*3,TxCode,Z사료/보조제,50000,1
+로얄캐닌 캣 아이시유 레날 리퀴드 200g*3,TxCode,Z사료/보조제,50000,1
+닥터힐메딕스 D/L 1.5kg,TxCode,Z사료/보조제,21819,1
+로얄캐닌 독 미니 스타터 마더 앤 베이비 독 1kg,TxCode,Z사료/보조제,17273,1
+모빌벳(MOBILVET) 30캡슐,TxCode,Z사료/보조제,32728,1
+로얄캐닌 독 미니 인도어 퍼피 1.5kg,TxCode,Z사료/보조제,24091,1
+힐스 독 metabolic 1.5kg,TxCode,Z사료/보조제,33182,1
+힐스 독 w/d 캔 370g,TxCode,Z사료/보조제,7455,1
+힐스 독 metabolic 3.5kg,TxCode,Z사료/보조제,70910,1
+힐스 독 metabolic 12.5kg,TxCode,Z사료/보조제,180910,1
+힐스 독 w/d 1.5kg,TxCode,Z사료/보조제,30000,1
+힐스 독 w/d 3.85kg,TxCode,Z사료/보조제,69000,1
+힐스 독 w/d 12.5kg,TxCode,Z사료/보조제,177728,1
+힐스 독 w/d 캔 370g,TxCode,Z사료/보조제,7455,1
+힐스 독 스튜 354g,TxCode,Z사료/보조제,7728,1
+힐스 독 r/d 1.5kg,TxCode,Z사료/보조제,30000,1
+반려견 건강검진 BASIC_10kg 이하,TxCode,O. 건강검진 ,220000,2
+힐스 독 r/d 3.85kg,TxCode,Z사료/보조제,69000,1
+반려견 건강검진 STANDARD_10kg 이하,TxCode,O. 건강검진 ,400000,2
+반려견 건강검진 PREMIUM_10kg 이하,TxCode,O. 건강검진 ,630000,2
+힐스 독 r/d 12.5kg,TxCode,Z사료/보조제,177728,1
+반려묘 건강검진 STANDARD_10kg 이하,TxCode,O. 건강검진 ,200000,2
+반려묘 건강검진 PREMIUM_10kg 이하,TxCode,O. 건강검진 ,465000,2
+힐스 독 c/d Multicare 1.5kg,TxCode,Z사료/보조제,30000,1
+힐스 독 c/d Multicare 3.85kg,TxCode,Z사료/보조제,69000,1
+힐스 독 c/d multicare 7.98kg ,TxCode,Z사료/보조제,120000,1
+힐스 독 c/d multicare 스튜 156g,TxCode,Z사료/보조제,5182,1
+힐스 독 c/d multicare 스튜 354g,TxCode,Z사료/보조제,7728,1
+힐스 독 u/d 1.5kg,TxCode,Z사료/보조제,30000,1
+힐스 독 u/d 3.85kg,TxCode,Z사료/보조제,69000,1
+힐스 독 u/d 캔 370g,TxCode,Z사료/보조제,7455,1
+힐스 독  k/d 스튜 156g,TxCode,Z사료/보조제,5182,1
+힐스 독 k/d 스튜 354G,TxCode,Z사료/보조제,7728,1
+힐스 독 l/d 캔 370g,TxCode,Z사료/보조제,7455,1
+진정_tomidin (~10kg),TxCode,G. 주사/처치,25000,2
+귀외용제(넵트라_Neptra)_30일지속 국소스테로이드_1개,TxCode,G. 주사/처치,60000,2
+헥시아,TxCode,Z사료/보조제,38182,1
+Klinix 메가 3A,TxCode,Z사료/보조제,38182,1
+Klinix 듀오플렉스,TxCode,Z사료/보조제,38182,1
+Klinix 프로다이제스트,TxCode,Z사료/보조제,52728,1
+Pro-Kolin Advenced Dog,TxCode,Z사료/보조제,31819,1
+액티베이트 독 ~10kg,TxCode,Z사료/보조제,70910,1
+액티베이트 10kg~,TxCode,Z사료/보조제,89091,1
+액티베이트 캣,TxCode,Z사료/보조제,70910,1
+콤플리비트,TxCode,Z사료/보조제,30910,1
+파이보,TxCode,Z사료/보조제,40000,1
+플루맥스,TxCode,Z사료/보조제,47273,1
+LZ-13 (눈),TxCode,Z사료/보조제,30000,1
+CQ-10 (심장),TxCode,Z사료/보조제,30000,1
+펠리웨이 클래식 스타터 키트,TxCode,Z사료/보조제,34546,1
+펠리웨이 클래식 리필,TxCode,Z사료/보조제,27273,1
+펠리웨이 프렌즈 스타터 키트,TxCode,Z사료/보조제,40000,1
+펠리웨이 프렌즈 리필,TxCode,Z사료/보조제,31819,1
+페베 강아지,TxCode,Z사료/보조제,14546,1
+레날 독,TxCode,Z사료/보조제,60000,1
+레날 캣,TxCode,Z사료/보조제,60000,1
+시스토큐어,TxCode,Z사료/보조제,38182,1
+베사메,TxCode,Z사료/보조제,52728,1
+글루타멕스,TxCode,Z사료/보조제,38182,1
+"[진통주사] Morphine, 처음 1회",TxCode,G. 주사/처치,25000,2
+"[진통주사] Morphine, 2회이상부터",TxCode,G. 주사/처치,12000,2
+"[진통주사] 수술 중 무통처치(모르핀,레미펜타닐,케타민)",TxCode,G. 주사/처치,70000,2
+헥시딘 스프레이(상처소독),TxCode,B.내복약,6000,2
+"특수주사_Phenobarbital, 페노바비탈 1회",TxCode,G. 주사/처치,10000,2
+"귀세정, 귀청소 10kg 이하",TxCode,G. 주사/처치,5000,2
+"귀세정, 귀청소 10kg 초과, 20kg 이하",TxCode,G. 주사/처치,10000,2
+"귀세정, 귀청소 20kg초과, 30kg 이하",TxCode,G. 주사/처치,15000,2
+"귀세정, 귀청소 30kg 초과, 40kg 이하",TxCode,G. 주사/처치,20000,2
+"귀세정, 귀청소 40kg 이상",TxCode,G. 주사/처치,25000,2
+"[중성화]CST+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_5~10kg",TxCode,F. 수술/마취,255000,2
+"[중성화]CST+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_10~20kg",TxCode,F. 수술/마취,329500,2
+"[중성화]CST+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_20~30kg",TxCode,F. 수술/마취,416500,2
+"[중성화]CST+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_30~40kg",TxCode,F. 수술/마취,489500,2
+"[중성화]CST+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술포함)_40~50kg",TxCode,F. 수술/마취,599500,2
+"[중성화]OHE+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_5~10kg",TxCode,F. 수술/마취,462500,2
+"[중성화]OHE+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_10~20kg",TxCode,F. 수술/마취,549500,2
+"[중성화]OHE+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_20~30kg",TxCode,F. 수술/마취,636500,2
+"[중성화]OHE+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_30~40kg",TxCode,F. 수술/마취,718500,2
+"[중성화]OHE+내복약(넥카라,소독약별도/수액,혈검,방사선,마취,수술 포함)_40~50kg",TxCode,F. 수술/마취,814500,2
+"위절개(Gastrotomy)_이물,생검_10kg",TxCode,F. 수술/마취,500000,2
+"장절개(Enterotomy)_이물,생검_10kg",TxCode,F. 수술/마취,500000,2
+"장절제 및 문합(Resection&Anastomosis)_괴사,종양_10kg",TxCode,F. 수술/마취,950000,2
+식도관장착_10kg,TxCode,F. 수술/마취,180000,2
+중성화수술추가_OHE_10kg,TxCode,F. 수술/마취,200000,2
+중성화수술추가_CST_10kg,TxCode,F. 수술/마취,100000,2
+복강세척_10kg,TxCode,F. 수술/마취,80000,2
+자궁축농증(Pyometra)_10kg,TxCode,F. 수술/마취,420000,2
+유선종양(MGT)_simple mastectomy/lumpectomy_10kg,TxCode,F. 수술/마취,150000,2
+유선종양(MGT)_Regional Mastectomy_10kg,TxCode,F. 수술/마취,400000,2
+유선종양(MGT)_Chain Mastectomy_10kg,TxCode,F. 수술/마취,600000,2
+유선종양(MGT)_Total Mastectomy_10kg,TxCode,F. 수술/마취,1100000,2
+대퇴골두절제술(FHNO)_10kg,TxCode,F. 수술/마취,550000,2
+메디비아,TxCode,,13000,2
+진정_tomidin (10~20kg),TxCode,G. 주사/처치,35000,2
+진정_tomidin (20~40kg),TxCode,G. 주사/처치,45000,2
+귀청소  및 귀연고 점적 ,TxCode,처치비,7737,1
+퓨리나 HA치킨맛 1.5kg,TxCode,Z사료/보조제,31364,1
+브라벡토 2~4.5kg,TxCode,I. 예방,33637,1
+브라벡토 4.5~10kg,TxCode,I. 예방,38182,1
+브라벡토 10~20kg,TxCode,I. 예방,55455,1
+브라벡토 20~40kg,TxCode,I. 예방,64546,1
+세민트라_고양이,TxCode,B.내복약,78000,2
+[그린벳]뇨분석,TxCode,N. 외부검사,57000,2
+[그린벳]UPC,TxCode,N. 외부검사,57000,2
+[그린벳]결석성분분석,TxCode,N. 외부검사,87500,2
+"[그린벳] BRAF초진2SET,혈액EDTA1ml,뇨10ml",TxCode,N. 외부검사,900000,2
+"[그린벳]BRAF재진,혈액EDTA3ml,뇨10ml",TxCode,N. 외부검사,700000,2
+[그린벳]BTA(BladderTumorAnalytes)_자연채뇨2~4ml,TxCode,N. 외부검사,412500,2
+[그린벳]CBC/WBC 5-DIFF_EDTA전혈,TxCode,N. 외부검사,52500,2
+[그린벳]혈액도말평가+CBC/WBC 5-DIFF_EDTA전혈&슬라이드,TxCode,N. 외부검사,137500,2
+[그린벳]철분검사(Iron+TIBC)_혈청,TxCode,N. 외부검사,87500,2
+"[그린벳]응고계(PT,APTT)_Sodium Citrate Plasma",TxCode,N. 외부검사,87500,2
+"[그린벳]혈액도말표본평가+CBC/WBC 5-DIFF+Chem25종 Panel_EDTA1ml, serum2ml, slide",TxCode,N. 외부검사,160000,2
+[그린벳]Coomb direct_EDTA전혈,TxCode,N. 외부검사,100000,2
+[그린벳]PT_SodiumCitratePlasma,TxCode,N. 외부검사,57500,2
+[그린벳]APTT_SodiumCitratePlasma,TxCode,N. 외부검사,57500,2
+[그린벳]Fibrinogen_SodiumCitratePlasma,TxCode,N. 외부검사,57500,2
+[그린벳]D-dimer_SodiumCitratePlasma,TxCode,N. 외부검사,57500,2
+[그린벳]Fructosamine_Serum,TxCode,N. 외부검사,57500,2
+"[그린벳]HbA1c (Canine,당화혈색소)_EDTA전혈",TxCode,N. 외부검사,57500,2
+[그린벳]ACTH자극(pre&post)_serum,TxCode,N. 외부검사,87500,2
+[그린벳]LDDST&HDDST2sample(0h&4h)_serum,TxCode,N. 외부검사,87500,2
+[그린벳]LDDST&HDDST3sample(0h&4h&8h)_serum,TxCode,N. 외부검사,130000,2
+"[그린벳]Thyroid panel1(cTSH, FT4)_serum",TxCode,N. 외부검사,115000,2
+"[그린벳]ThyroidPanel2(cTSH,FT4,T4)_Serum",TxCode,N. 외부검사,172500,2
+"[그린벳]ThyroidPanel3(FT4,T4)_serum",TxCode,N. 외부검사,115000,2
+[그린벳]UCCR(Urine Cortisol:Creatinine Ratio)_RamdomUrine,TxCode,N. 외부검사,87500,2
+"[그린벳]ThyroidPanel4(cTSH, T4)_serum 1ml",TxCode,N. 외부검사,115000,2
+[그린벳]Metanephrine/Normetanephrine [U] to Creatinine Ratio_Urine,TxCode,N. 외부검사,287500,2
+"[그린벳]AMHPanel(AMH,Progesterone)_serum",TxCode,N. 외부검사,187500,2
+[그린벳]AMH(Anti müllerian hormone)_serum,TxCode,N. 외부검사,137500,2
+[그린벳]Cortisol (Resting)_sereum,TxCode,N. 외부검사,57500,2
+"[그린벳]T4, Total_serum",TxCode,N. 외부검사,72500,2
+연고_B연고,TxCode,B.내복약,5000,2
+자궁수종(Hydro/mucometra)_10kg,TxCode,F. 수술/마취,300000,2
+탐색적개복술_10kg,TxCode,F. 수술/마취,400000,2
+[그린벳]free T4_serum,TxCode,N. 외부검사,72500,2
+[그린벳]Canine TSH_serum,TxCode,N. 외부검사,72500,2
+[그린벳]Estradiol(E2)_serum,TxCode,N. 외부검사,145000,2
+[그린벳]Progesterone_serum,TxCode,N. 외부검사,57500,2
+[그린벳]Testosterone_serum,TxCode,N. 외부검사,57500,2
+[그린벳]Insulin-Canine_serum,TxCode,N. 외부검사,57500,2
+[그린벳]Insulin Glucose Comparison_NaFtube&Serum,TxCode,N. 외부검사,87500,2
+[그린벳]Insulin Like Growth Factor I_serum,TxCode,N. 외부검사,230000,2
+[그린벳]17α-OHP_serum,TxCode,N. 외부검사,100000,2
+[그린벳]TLI(Canine)_serum 10ml,TxCode,N. 외부검사,115000,2
+[그린벳]Phenobarbital농도검사_Plain serum,TxCode,N. 외부검사,57500,2
+[그린벳]Cyclosporine농도검사_EDTA전,TxCode,N. 외부검사,172500,2
+[그린벳]Digoxin농도검사_Plain serum,TxCode,N. 외부검사,57500,2
+[그린벳]Theophylline농도검사_Plain serum,TxCode,N. 외부검사,145000,2
+[그린벳]Valproic Acid농도검사_Plain serum,TxCode,N. 외부검사,145000,2
+[그린벳]Vancomycin농도검사_Plain serum,TxCode,N. 외부검사,87500,2
+[그린벳]Zonisamide농도검사_Plain serum,TxCode,N. 외부검사,145000,2
+[그린벳]조직검사+항암제 반응성 예측검사 (1 Site),TxCode,N. 외부검사,1600000,2
+[그린벳]조직검사+항암제 반응성 예측검사(2 Site),TxCode,N. 외부검사,2875000,2
+[그린벳]조직검사(1 Site/Lesion)-국내,TxCode,N. 외부검사,200000,2
+[그린벳]조직검사 (2 Site/Lesion)-국내,TxCode,N. 외부검사,280000,2
+[그린벳]조직검사 (3 Site/Lesion)-국내,TxCode,N. 외부검사,340000,2
+오티퓨어,TxCode,Y. 기타,10910,1
+[그린벳]조직검사 (4 Site/Lesion)-국내,TxCode,N. 외부검사,400000,2
+[드레싱용품]테가덤1624W_1장,TxCode,B.내복약,1000,2
+[그린벳]조직병리검사(1 Site/Lesion)-국외,TxCode,N. 외부검사,260000,2
+[그린벳]조직병리검사(2 Site/Lesion)-국외,TxCode,N. 외부검사,375000,2
+[그린벳]조직병리검사(3 Site/Lesion)-국외,TxCode,N. 외부검사,460000,2
+[그린벳]조직병리검사(4 Site/Lesion)-국외,TxCode,N. 외부검사,575000,2
+[그린벳]면역조직화학 Panel (1 Stain),TxCode,N. 외부검사,425000,2
+[그린벳]면역조직화학 Panel (2 Stain),TxCode,N. 외부검사,575000,2
+[그린벳]면역조직화학 Panel (3 Stain),TxCode,N. 외부검사,700000,2
+[그린벳]면역조직화학 Panel (4 Stain),TxCode,N. 외부검사,850000,2
+[그린벳]특수염색,TxCode,N. 외부검사,87500,2
+[그린벳]구리염색,TxCode,N. 외부검사,145000,2
+[그린벳]조직검사_2nd Opinion(1 site)-국외,TxCode,N. 외부검사,225000,2
+"[그린벳]MCT, MAST CELL IHC special (KIT, Ki-67, toluidine blue); prognostic panel",TxCode,N. 외부검사,750000,2
+[그린벳]조직검사_2nd Opinion(2 site)-국외,TxCode,N. 외부검사,325000,2
+"[그린벳]CSF 종합검사2 (Cell count(fluid), Cell count(diff), PH, Color, S.G, Cytology)	",TxCode,N. 외부검사,202500,2
+"[그린벳]CSF 종합검사4 (Cell count(fluid), Cell count(diff), PH, Color, S.G)",TxCode,N. 외부검사,57500,2
+"[그린벳]CSF 종합검사1-Canine (T. Protein, Cell count(fluid), Cell count(diff), PH, Color, S.G, Cytology, PCR)",TxCode,N. 외부검사,375000,2
+"[그린벳]CSF 종합검사1-Feline (T. Protein, Cell count(fluid), Cell count(diff), PH, Color, S.G, Cytology, PCR)",TxCode,N. 외부검사,375000,2
+"[그린벳]CSF 종합검사3-Canine (T. Protein, Cell count, Cell count(diff), PH, Color, S.G, Cytology, PCR, Culture)",TxCode,N. 외부검사,460000,2
+"[그린벳]CSF 종합검사3-Feline (T. Protein, Cell count, Cell count(diff), PH, Color, S.G, Cytology, PCR, Cultur",TxCode,N. 외부검사,460000,2
+[그린벳]Cytology(FNA)-1 Site,TxCode,N. 외부검사,137500,2
+[그린벳]Cytology(FNA)-2 Site,TxCode,N. 외부검사,200000,2
+[그린벳]Cytology(FNA)-3 Site,TxCode,N. 외부검사,250000,2
+[그린벳]Lymphoma(PARR)_EDTA전혈or슬라이드,TxCode,N. 외부검사,172500,2
+[그린벳]베이직 알레르기 검사 60종 (Canine)_serum 1ml,TxCode,N. 외부검사,212500,2
+[그린벳]프리미엄 알레르기 검사 120종 (Canine)_serum 1ml,TxCode,N. 외부검사,325000,2
+[그린벳]프리미엄 알레르기 검사 120종 + 지연성 57종 (Canine)_serum 1ml,TxCode,N. 외부검사,475000,2
+[그린벳]베이직 알레르기 검사 59종 (Feline)_serum 1ml,TxCode,N. 외부검사,212500,2
+[그린벳]프리미엄 알레르기 검사 119종 (Feline)_serum 1ml,TxCode,N. 외부검사,325000,2
+[그린벳]프리미엄 알레르기 검사 119종 + 지연성 57종 (Feline)_serum 1ml,TxCode,N. 외부검사,475000,2
+[그린벳]Heska ALLERCEPT_serum 1ml,TxCode,N. 외부검사,512500,2
+[그린벳]Heska FRT_serum 1ml,TxCode,N. 외부검사,342500,2
+[그린벳]Heska ALLERCEPT + FRT_serum 2ml,TxCode,N. 외부검사,737500,2
+[그린벳]호흡기: Canine respiratory pathogens plus (16종)_상기도swab,TxCode,N. 외부검사,190000,2
+[그린벳]호흡기: Canine respiratory pathogens (12종)_상기도swab,TxCode,N. 외부검사,162500,2
+[그린벳]소화기: Canine diarrhea pathogens plus (23종)_분변 5g,TxCode,N. 외부검사,250000,2
+[그린벳]소화기: Canine diarrhea pathogens (12종)_분변 5g,TxCode,N. 외부검사,162500,2
+[그린벳]빈혈: Canine anemia pathogens (11종)_EDTA전혈 1ml,TxCode,N. 외부검사,150000,2
+[그린벳]신경계: Canine neurologic pathogens (10종)_CSF 0.5ml,TxCode,N. 외부검사,150000,2
+[그린벳]진드기: Canine tick/vector-borne pathogens (11종)_EDTA전혈 1ml,TxCode,N. 외부검사,150000,2
+[그린벳]검진: Canine health check plus (20종)_분변 5g&상기도swab,TxCode,N. 외부검사,212500,2
+[그린벳]검진: Canine health check (12종)_분변 5g&상기도swab,TxCode,N. 외부검사,175000,2
+[그린벳]Ag: Toxoplasma gondii (Canine)_분변 5g,TxCode,N. 외부검사,75000,2
+[그린벳]Canine distemper virus_분변 5g or 상기도 swab or EDTA젼혈 1.0mL or CSF 0.5mL,TxCode,N. 외부검사,75000,2
+"[그린벳]Ag&Ab: Toxoplasma gondii (Comprehensive, Canine)_분변 5g & Serum 1.0mL",TxCode,N. 외부검사,112500,2
+"[그린벳]바베시아 Ag&Ab: Babesia (Comprehensive, Canine)_EDTA전혈 1.0mL",TxCode,N. 외부검사,125000,2
+[그린벳]호흡기: Feline respiratory pathogens plus (15종)_상기도 swab,TxCode,N. 외부검사,190000,2
+[그린벳]호흡기: Feline respiratory pathogens (11종)_상기도swab,TxCode,N. 외부검사,162500,2
+[그린벳]소화기: Feline diarrhea pathogens plus (19종)_분변5g,TxCode,N. 외부검사,225000,2
+[그린벳]소화기: Feline diarrhea pathogens (11종)_분변5g,TxCode,N. 외부검사,155500,2
+[그린벳]빈혈: Feline anemia pathogens (13종)_EDTA전혈 1ml,TxCode,N. 외부검사,175000,2
+[그린벳]신경계: Feline neurologic pathogens (12종)_CSF 0.5ml,TxCode,N. 외부검사,150000,2
+[그린벳]진드기: Feline tick/vector-borne pathogens (10종)_EDTA전혈 1ml,TxCode,N. 외부검사,150000,2
+[그린벳]검진: Feline health check plus (20종)_분변5g&상기도swab,TxCode,N. 외부검사,212500,2
+[그린벳]검진: Feline health check (12종)_분변5g&상기도swab,TxCode,N. 외부검사,175000,2
+[그린벳]Ag: Toxoplasma gondii (Feline)_분변 5g,TxCode,N. 외부검사,75000,2
+[그린벳]Feline coronavirus_복수&흉수 1ml or EDTA젼혈 1ml or CSF 0.5ml or 분변 5g	,TxCode,N. 외부검사,75000,2
+"[그린벳]Ag&Ab: Toxoplasma gondii (Comprehensive, Feline)_분변 5g & Serum 1ml",TxCode,N. 외부검사,112500,2
+[그린벳]Proviral DNA&Ag: FeLV (Comprehensive)_EDTA전혈 1ml,TxCode,N. 외부검사,195000,2
+[그린벳]Ag&Ab: Feline coronavirus (Comprehensive)_복수&흉수 or EDTA전혈 1ml	,TxCode,N. 외부검사,212500,2
+[그린벳]Ringworm (Dermatophyte),TxCode,N. 외부검사,105000,2
+[그린벳]바베시아 Ag: Babesia_EDTA전혈 1ml,TxCode,N. 외부검사,75000,2
+[그린벳]SFTSV_EDTA전혈 1ml,TxCode,N. 외부검사,75000,2
+[그린벳]Canine 항체검사 (7종)_혈장/혈청 1ml,TxCode,N. 외부검사,87500,2
+[그린벳]Canine 항체검사 (8종)_혈장/혈청 1ml,TxCode,N. 외부검사,100000,2
+[그린벳]Feline 항체검사 (6종)_혈장/혈청 1ml,TxCode,N. 외부검사,75000,2
+[그린벳]Feline 항체검사 (7종)_혈장/혈청 1ml,TxCode,N. 외부검사,87500,2
+[그린벳]Ab: Toxoplasma gondii (Canine)_혈장/혈청 1ml,TxCode,N. 외부검사,87500,2
+[그린벳]Ab: Toxoplasma gondii (Feline)_혈장/혈청 1ml,TxCode,N. 외부검사,87500,2
+[그린벳]바베시아 Ab: Babesia gibsoni (Canine)_혈장/혈청 1ml,TxCode,N. 외부검사,75000,2
+[그린벳]Ab: FIV_혈장/혈청 1ml,TxCode,N. 외부검사,125000,2
+[그린벳]Heartworm Ag - Canine_혈장/혈청 1ml,TxCode,N. 외부검사,90000,2
+[그린벳]Heartworm Ag (heat inactivation) - Canine_혈장/혈청 1ml,TxCode,N. 외부검사,90000,2
+[그린벳]ANA (Antinuclear antibodies) - Canine_혈장/혈청 1ml,TxCode,N. 외부검사,290000,2
+"[그린벳]Autoimmune Profile (CBC, ANA, Coombs direct) - Serum 1ml, EDTA전혈 2ml",TxCode,N. 외부검사,425000,2
+[그린벳]호기성 세균배양 및 감수성 검사 + 혐기성 세균배양,TxCode,N. 외부검사,106000,2
+[그린벳]호기성 세균배양 및 감수성 검사 + 혐기성 세균배양 + 곰팡이 배양,TxCode,N. 외부검사,128000,2
+[그린벳]호기성 세균배양 및 감수성 검사 + 곰팡이 배양,TxCode,N. 외부검사,106000,2
+[그린벳]H.pylori Ag_stool 2g,TxCode,N. 외부검사,87500,2
+[그린벳]호기성 세균배양 및 감수성 검사,TxCode,N. 외부검사,82000,2
+[그린벳]혐기성 세균배양,TxCode,N. 외부검사,82000,2
+[그린벳]곰팡이 배양,TxCode,N. 외부검사,82000,2
+[그린벳]추가 항생제,TxCode,N. 외부검사,57500,2
+"[그린벳]혈액 배양, 호기성 세균배양 및 감수성 검사_혈액2ml이상",TxCode,N. 외부검사,127500,2
+"[그린벳]혈액 배양, 혐기성 세균배양_혈액2ml이",TxCode,N. 외부검사,80000,2
+"[입원] 일반실입원A(수액,주사4회)_10kg",TxCode,H. 입원/수액,97000,2
+"[입원] 일반실입원B(수액,주사6회)_10kg",TxCode,H. 입원/수액,102000,2
+"[입원] 일반실입원C(수액,주사8회)_10kg",TxCode,H. 입원/수액,108000,2
+애니콘주_관절주사_15kg,TxCode,F. 수술/마취,176000,2
+배액관장착_바로박_10kg,TxCode,F. 수술/마취,100000,2
+동맥관개존증(PDA)_개흉_10kg,TxCode,F. 수술/마취,1600000,2
+TPLO_십자인대교정술_10kg,TxCode,F. 수술/마취,1100000,2
+[주사] 일반 주사 1회,TxCode,G. 주사/처치,7000,2
+"[특수주사] Cobalamine_코발라민_Vit.B 12(조혈,장점막재생)_10kg",TxCode,G. 주사/처치,10000,2
+"[특수주사] Cobalamine_코발라민_Vit.B 12(조혈,장점막재생)_20kg",TxCode,G. 주사/처치,12000,2
+"[특수주사] Cobalamine_코발라민_Vit.B 12(조혈,장점막재생)_30kg",TxCode,G. 주사/처치,14000,2
+"[특수주사] Cobalamine_코발라민_Vit.B 12(조혈,장점막재생)_40kg",TxCode,G. 주사/처치,16000,2
+"[특수주사] Cobalamine_코발라민_Vit.B 12(조혈,장점막재생)_50kg",TxCode,G. 주사/처치,18000,2
+[특수주사] Filgrastim_류코스팀_골수자극_G-csf_5kg,TxCode,G. 주사/처치,50000,2
+[특수주사] Filgrastim_류코스팀_골수자극_G-csf_10kg,TxCode,G. 주사/처치,80000,2
+[특수주사] Filgrastim_류코스팀_골수자극_G-csf_20kg,TxCode,G. 주사/처치,115000,2
+[특수주사] Filgrastim_류코스팀_골수자극_G-csf_30kg,TxCode,G. 주사/처치,155000,2
+[특수주사] Filgrastim_류코스팀_골수자극_G-csf_40kg,TxCode,G. 주사/처치,190000,2
+[특수주사] Filgrastim_류코스팀_골수자극_G-csf_50kg,TxCode,G. 주사/처치,225000,2
+꼬리절단 중간부_10kg,TxCode,F. 수술/마취,180000,2
+꼬리절단 천추이하전체_10kg,TxCode,F. 수술/마취,500000,2
+"신장절제_종양,괴사,파열_10kg",TxCode,F. 수술/마취,880000,2
+철분제 80mg,TxCode,B.내복약,1100,2
+종양절제_피부종괴_소형(1cm)_10kg,TxCode,F. 수술/마취,70000,2
+종양절제_피부종괴_소형(1cm)_20kg,TxCode,F. 수술/마취,80000,2
+종양절제_피부종괴_소형(1cm)_30kg,TxCode,F. 수술/마취,90000,2
+종양절제_피부종괴_소형(2cm)_40kg,TxCode,F. 수술/마취,100000,2
+종양절제_피부종괴_소형(2cm)_50kg,TxCode,F. 수술/마취,110000,2
+종양절제_피부종괴_소형(2cm)_60kg,TxCode,F. 수술/마취,120000,2
+종양절제_피부종괴_중형(3cm)_10kg,TxCode,F. 수술/마취,210000,2
+종양절제_피부종괴_중형(3cm)_20kg,TxCode,F. 수술/마취,240000,2
+종양절제_피부종괴_중형(3cm)_30kg,TxCode,F. 수술/마취,270000,2
+종양절제_피부종괴_중형(6cm)_40kg,TxCode,F. 수술/마취,300000,2
+종양절제_피부종괴_중형(6cm)_50kg,TxCode,F. 수술/마취,330000,2
+종양절제_피부종괴_중형(6cm)_60kg,TxCode,F. 수술/마취,360000,2
+종양절제_피부종괴_대형/근육침습_10kg,TxCode,F. 수술/마취,450000,2
+종양절제_피부종괴_대형/근육침습_20kg,TxCode,F. 수술/마취,550000,2
+종양절제_피부종괴_대형/근육침습_30kg,TxCode,F. 수술/마취,550000,2
+종양절제_피부종괴_대형/근육침습_40kg,TxCode,F. 수술/마취,650000,2
+종양절제_피부종괴_대형/근육침습_50kg,TxCode,F. 수술/마취,750000,2
+종양절제_피부종괴_대형/근육침습_60kg,TxCode,F. 수술/마취,850000,2
+한방/재활_체외충격파 ,TxCode,MN.한방재활,100000,2
+한방/재활_PBMT,TxCode,MN.한방재활,27273,1
+보습제_glycoat,TxCode,Z사료/보조제,20000,1
+ [처방] 내복약 1일 2회 (5kg 미만)-쿠싱약 ,TxCode,B.내복약,3200,2
+철분제(훼로맥스)30ml,TxCode,B.내복약,8000,2
+연고_더마겔_10g,TxCode,B.내복약,10000,2
+[혈액] D-dimer 혈전 검사,TxCode,E. 혈액검사,44000,2
+방사선 흉부 2컷_10kg 미만 ,TxCode,D. 영상검사,50000,2
+방사선 복부 2컷_10kg 미만,TxCode,D. 영상검사,50000,2
+방사선 흉부 2컷_20kg 미만,TxCode,D. 영상검사,80000,2
+방사선 흉부 2컷_30kg 미만,TxCode,D. 영상검사,110000,2
+방사선 흉부 2컷_40kg 미만,TxCode,D. 영상검사,140000,2
+방사선 흉부 2컷_50kg 미만,TxCode,D. 영상검사,180000,2
+방사선 복부 2컷_20kg 미만 ,TxCode,D. 영상검사,80000,2
+방사선 복부 2컷_30kg 미만,TxCode,D. 영상검사,110000,2
+방사선 복부 2컷_40kg 미만,TxCode,D. 영상검사,140000,2
+방사선 복부 2컷_50kg 미만,TxCode,D. 영상검사,180000,2
+CT_판독의뢰비,TxCode,D. 영상검사,200000,2
+Health Certificate_예방접종 및 건강증명서_농림부서식,TxCode,C. 문서 및 보험,40000,2
+실밥제거_타병원 수술 후 ,TxCode,G. 주사/처치,20000,2
+호텔 1시간당 ~10kg,TxCode,H. 입원/수액,4000,2

@@ -1,0 +1,17 @@
+displayName,__typename,VaccineCodeGroup.groupName,VaccineCodePrice.appearancePrice,VaccineCodePrice.taxAddRule
+브라벡토 2~4.5kg,VaccineCode,외부구충,37000,1
+브라벡토 4.5~10kg,VaccineCode,외부구충,42000,1
+브라벡토 10~20kg,VaccineCode,외부구충,61000,1
+브라벡토 20~40kg,VaccineCode,외부구충,71000,1
+BE1.애드보킷-CAT 4kg이하,VaccineCode,내부 심장 사상충,16500,3
+BE3.애드보킷-CAT 4~8kg,VaccineCode,내부 심장 사상충,18500,3
+BE2.[Pack]애드보킷-CAT 4kg이하,VaccineCode,내부 심장 사상충,90000,3
+BE4.[Pack]애드보킷-CAT 4-8kg,VaccineCode,내부 심장 사상충,51000,3
+셀렉션60 (~2.5kg),VaccineCode,심장사상충(외부구충 포함),12000,3
+셀렉션60 (2.5~7.5kg),VaccineCode,심장사상충(외부구충 포함),14000,1
+AD1.광견병(수입),VaccineCode,광견병,20000,3
+AD2.광견병(관납),VaccineCode,광견병,5000,3
+BG1.구충제 5kg이하,VaccineCode,구충제,4000,3
+BG2.구충제 5kg이상,VaccineCode,구충제,5000,3
+AA1.고양이 종합백신 (4종),VaccineCode,일반백신,40000,3
+(한방)침치료(acupuncture therapy),VaccineCode,일반백신,55000,1
