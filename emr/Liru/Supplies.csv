@@ -10,7 +10,6 @@ canine puppy (15.9kg),SuppliesCode,JA. 힐스,1,79000
 로얄캐닌 처방식- canine renal (moist),SuppliesCode,KC. 로얄캐닌,1,6000
 항산화제 - Pro Active,SuppliesCode,MA. 용품,1,33000
 kamdown(행동관리보조제),SuppliesCode,MA. 용품,1,30000
-스토모액트_S,SuppliesCode,MA. 용품,1,12000
 [치과]스토모액트_L,SuppliesCode,MA. 용품,1,32000
 프로첼/아토케어츄200g,SuppliesCode,MA. 용품,1,15000
 프로첼/조인트츄 200g,SuppliesCode,MA. 용품,1,18000
@@ -94,8 +93,6 @@ kamdown(행동관리보조제),SuppliesCode,MA. 용품,1,30000
 케티맨 사사미 타쿠미새우,SuppliesCode,MA. 용품,1,2500
 케티맨 게살 슬라이스,SuppliesCode,MA. 용품,1,5000
 비타 요구르트 드롭스,SuppliesCode,MA. 용품,1,10000
-그리니즈 페티 10p,SuppliesCode,MA. 용품,1,17000
-그리니즈 티니 22p,SuppliesCode,MA. 용품,1,17000
 "서플메이트(뼈,관절)",SuppliesCode,MA. 용품,1,5000
 서플메이트(심신안정),SuppliesCode,MA. 용품,1,5000
 아수쿠 멸치간식,SuppliesCode,MA. 용품,1,10000
@@ -158,7 +155,6 @@ kamdown(행동관리보조제),SuppliesCode,MA. 용품,1,30000
 고급 원목 식기,SuppliesCode,MA. 용품,1,25000
 스타일 가슴줄,SuppliesCode,MA. 용품,1,15000
 에어메쉬 가슴줄,SuppliesCode,MA. 용품,1,15000
-비타 토끼사료(레귤러),SuppliesCode,MA. 용품,1,10000
 비타 토끼 사료(키즈),SuppliesCode,MA. 용품,1,10000
 헤미배딩(톱밥),SuppliesCode,MA. 용품,1,5000
 알팔파,SuppliesCode,MA. 용품,1,5000
@@ -230,8 +226,6 @@ Easy Clean 모래 (9.07kg),SuppliesCode,MA. 용품,1,25000
 주전부리/양고기,SuppliesCode,MA. 용품,1,1500
 헬로도기우유껌7,SuppliesCode,MA. 용품,1,2000
 사이언스-라이트(7.5kg),SuppliesCode,JA. 힐스,1,55000
-헬시오메가연어간식,SuppliesCode,MA. 용품,1,18000
-헬시오메가오리간식,SuppliesCode,MA. 용품,1,18000
 베네플 치킨메들리(주식캔 283g),SuppliesCode,MA. 용품,1,4500
 방석 54000,SuppliesCode,MA. 용품,1,54000
 화이트밀크스틱,SuppliesCode,MA. 용품,1,6000
@@ -357,7 +351,6 @@ Zupe - 고구마비스켓,SuppliesCode,,1,1200
 치즈 돈피 소프트,SuppliesCode,,1,3000
 삼겹살 소고기+소간,SuppliesCode,,1,3000
 소프트케이본,SuppliesCode,,1,5000
-그리니즈 티니 43p,SuppliesCode,,1,28000
 소고기콤보,SuppliesCode,,1,3000
 강아지초유,SuppliesCode,,1,12000
 글루타맥스포르테페이스트(glutamax forte paste)_고양이,SuppliesCode,,1,39000
@@ -384,10 +377,8 @@ Zupe - 고구마비스켓,SuppliesCode,,1,1200
 저스트 생선&돼지고기,SuppliesCode,,1,3000
 Dr.Clauder's 치킨,SuppliesCode,,1,12000
 Dr.Clauder's 오리,SuppliesCode,,1,12000
-그리니즈 필포켓 타블렛,SuppliesCode,,1,12000
 neuRX 유기농 프레쉬 치킨,SuppliesCode,,1,15000
 neuRX 유기농 라이트,SuppliesCode,,1,15000
-그리니즈 필포켓 캡슐,SuppliesCode,,1,18000
 닭다리 장난감,SuppliesCode,,1,3000
 로얄캐닌 처방식 - feline obesity (1.5kg),SuppliesCode,,1,28600
 에버크린 모래,SuppliesCode,,1,21000
@@ -420,21 +411,11 @@ Chuckle Barbell(행동치료보조),SuppliesCode,KA. 치료보조제,1,10000
 Biscuit Bouncer-S(행동치료보조),SuppliesCode,KA. 치료보조제,1,7000
 Biscuit Bouncer-M(행동치료보조),SuppliesCode,KA. 치료보조제,1,10000
 Biscuit Bouncer-L(행동치료보조),SuppliesCode,KA. 치료보조제,1,15000
-Hill's 처방식- canine a/d(can),SuppliesCode,KB. 힐스,1,4900
 "Hill's 처방식- canine d/d(dry,1kg)",SuppliesCode,KB. 힐스,1,19800
 "Hill's 처방식- canine d/d(can,whitefish&rice)",SuppliesCode,KB. 힐스,1,7150
-Hill's 처방식- canine metabolic 메타볼릭 1.5(독),SuppliesCode,KB. 힐스,1,31000
-"Hill's 처방식- canine h/d(dry,2kg)",SuppliesCode,KB. 힐스,1,36300
-Hill's 처방식- canine h/d(can),SuppliesCode,KB. 힐스,1,6000
-Hill's 처방식- canine k/d(can),SuppliesCode,KB. 힐스,1,6000
-"Hill's 처방식- canine l/d(dry,1kg)",SuppliesCode,KB. 힐스,1,19800
-"Hill's 처방식- canine l/d(dry,9kg)",SuppliesCode,KB. 힐스,1,95700
-Hill's 처방식- canine l/d(can),SuppliesCode,KB. 힐스,1,6000
 Hill's 처방식- canine n/d(can),SuppliesCode,KB. 힐스,1,8200
 "Hill's 처방식- canine p/d(dry,1kg)",SuppliesCode,KB. 힐스,1,16500
 Hill's 처방식- canine p/d(can),SuppliesCode,KB. 힐스,1,6000
-"Hill's 처방식- canine r/d(dry,2kg)",SuppliesCode,KB. 힐스,1,36300
-"Hill's 처방식- canine r/d(dry,7.9kg)",SuppliesCode,KB. 힐스,1,93500
 칠면조 힘줄스틱,SuppliesCode,MA. 용품,1,10000
 Anf 미트볼,SuppliesCode,MA. 용품,1,5000
 참치연어 고양이수제캔,SuppliesCode,MA. 용품,1,3000
@@ -449,13 +430,8 @@ cat food/참치젤리,SuppliesCode,MA. 용품,1,1500
 R/C 캣 가스트로인테스티날(Gastrointestinal) 2kg,SuppliesCode,KC. 로얄캐닌,1,38500
 더마레이 컨디셔너(Dermallay spray),SuppliesCode,MA. 용품,1,22000
 R/C 리퀴드 리커버리 / 가스트로인테스티날 3개,SuppliesCode,MA. 용품,1,55000
-(독) 유리너리s/o,SuppliesCode,임시,1,37500
-독 유리너리s/o 스몰독 4kg,SuppliesCode,MA. 용품,1,69000
-Hill's 처방식- canine metabolic 메타볼릭 1.5(캣),SuppliesCode,임시,1,31000
 R/C 독 하이포알러제닉(hypoallergenic) 스몰독 3.5kg,SuppliesCode,MA. 용품,1,76000
 R/C로얄케닌 모빌리티 2kg,SuppliesCode,JG. 프루너스(Dr.healmedix),1,37000
-캣 유리너리s/o 모더레이트칼로리,SuppliesCode,MA. 용품,1,30500
-Hill's 처방식- canine metabolic 메타볼릭 3.5kg (독),SuppliesCode,MA. 용품,1,62000
 R/C 독 카디악(Cardiac) 410g 캔,SuppliesCode,MA. 용품,1,7500
 이어파우더,SuppliesCode,MA. 용품,1,6000
 R/C 캣 레날스페셜 (Renal) 2kg,SuppliesCode,KC. 로얄캐닌,1,38500
@@ -463,7 +439,6 @@ R/C 캣 레날스페셜 (Renal) 2kg,SuppliesCode,KC. 로얄캐닌,1,38500
 R/C 캣 얼리레날(Renal),SuppliesCode,MA. 용품,1,9000
 퓨리나_NC (뉴로케어) ,SuppliesCode,KD. 퓨리나,1,37000
 R/C 독 세타이어티(Satiety) small dog 3kg,SuppliesCode,MA. 용품,1,55000
-,SuppliesCode,임시,1,60000
 "[처방]넥칼라(연두, 7.5cm)",SuppliesCode,AC. 처방/조제비,1,7700
 R/C 캣 레날 셀렉트 (Renal) 2kg,SuppliesCode,MA. 용품,1,38500
 껌 박스_프리벤티스(Preventeeth)_대형견용(L),SuppliesCode,MA. 용품,1,20000
@@ -471,11 +446,9 @@ R/C 캣 레날 셀렉트 (Renal) 2kg,SuppliesCode,MA. 용품,1,38500
 퓨리나_리브클리어 어덜트,SuppliesCode,MA. 용품,1,44000
 퓨리나_HA (식이 알러지 관리) 1.5kg,SuppliesCode,JB. 퓨리나,1,34500
 퓨리나_ DRM(문제성 피부관리) 1.5kg,SuppliesCode,JB. 퓨리나,1,35800
-Purina JM_퓨리나 관절 질환 관리 (JM)_1.5kg,SuppliesCode,KD. 퓨리나,1,30500
 퓨리나_UR (비뇨기계 결석 관리)1.5kg,SuppliesCode,JB. 퓨리나,1,30500
 퓨리나_EN (소화계 문제 관리)_1.5kg,SuppliesCode,JB. 퓨리나,1,30500
 퓨리나_NF (신장 기능 관리) 1.5kg,SuppliesCode,JB. 퓨리나,1,30500
-Purina OM_퓨리나 과체중 관리 (OM)_1.5kg,SuppliesCode,JB. 퓨리나,1,30500
 퓨리나_DM(혈당 관리) 1.5kg,SuppliesCode,JB. 퓨리나,1,30500
 R/C 캣 헤파틱(Hepatic) 2kg,SuppliesCode,MA. 용품,1,38500
 R/C 독 하이포알러제닉(hypoallergenic) 7kg,SuppliesCode,AC. 처방/조제비,1,120000
@@ -486,12 +459,9 @@ R/C 독 하이포알러제닉(hypoallergenic) 7kg,SuppliesCode,AC. 처방/조제
 R/C 독 가스트로인테스티날(Gastrointestinal) 로우팻 스몰독 1.5kg,SuppliesCode,JE. 로얄,1,30500
 닥터스키놀/닥터덴톨 1 ea,SuppliesCode,MA. 용품,1,2000
 퓨리나_팬시피스트 칠면조,SuppliesCode,MA. 용품,1,2400
-닥터스키놀 이와뼈,SuppliesCode,MA. 용품,1,2000
 R/C 캣 레날(Renal) 파우치(로프),SuppliesCode,KC. 로얄캐닌,1,2800
 R/C 레날 스몰독 1.5kg,SuppliesCode,KC. 로얄캐닌,1,30500
 스페시픽 - Hypoallergenic treats / 알러지 간식,SuppliesCode,MA. 용품,1,12100
-시그니처바이_오라뮨-구강영양제(스토모액트),SuppliesCode,GB. 동물약품,1,38000
-퓨리나(Purina) DM (당뇨),SuppliesCode,JB. 퓨리나,1,30500
 퓨리나_HA (식이 알러지 관리) 3kg,SuppliesCode,JB. 퓨리나,1,62000
 아나브러쉬 h/a 500 (가수분해 껌),SuppliesCode,MA. 용품,1,2500
 R/C 캣 가스트로인테스티날(Gastrointestinal) 4kg,SuppliesCode,KC. 로얄캐닌,1,64000
@@ -506,7 +476,6 @@ R/C 독 가스트로 인테스티널 로우팻 퍼피 1kg,SuppliesCode,KC. 로�
 닥터힐메딕스_H/U(유리너리)_5kg,SuppliesCode,JG. 프루너스(Dr.healmedix),1,74000
 닥터힐메딕스_D/R(레날)_1.5kg,SuppliesCode,JG. 프루너스(Dr.healmedix),1,24000
 닥터힐메딕스_D/L(로우팻)_1.5kg,SuppliesCode,JG. 프루너스(Dr.healmedix),1,24000
-,SuppliesCode,KE. 에스틴,1,17000
 베네핏 트릿_크릴바,SuppliesCode,KE. 에스틴,1,17000
 닥터힐메딕스_아노레딕스(리커버리),SuppliesCode,JG. 프루너스(Dr.healmedix),1,34000
 강아지 포티플로라 Fortiflora 30파우치 ,SuppliesCode,JB. 퓨리나,1,48000
@@ -545,20 +514,9 @@ R/C 엑스스몰 어덜트,SuppliesCode,KC. 로얄캐닌,2,29150
 오픈패독_내추럴스킨본,SuppliesCode,MA. 용품,1,14000
 오픈패독_저키스트립,SuppliesCode,MA. 용품,1,17000
 약용샴푸_미코클리딘,SuppliesCode,MA. 용품,2,24200
-"Hill's 처방식- canine r/d(dry,12.5kg)",SuppliesCode,KB. 힐스,1,115000
-Hill's 처방식- canine r/d(can),SuppliesCode,KB. 힐스,1,6000
 Hill's 처방식- canine s/d(can),SuppliesCode,KB. 힐스,1,6000
 "Hill's 처방식- canine t/d(dry,800g)",SuppliesCode,KB. 힐스,1,19800
-"Hill's 처방식- canine u/d(dry,2kg)",SuppliesCode,KB. 힐스,1,36300
-"Hill's 처방식- canine u/d(dry,3.85kg)",SuppliesCode,KB. 힐스,1,60500
-Hill's 처방식- canine u/d(can),SuppliesCode,KB. 힐스,1,6000
-"Hill's 처방식- canine w/d(dry,2kg)",SuppliesCode,KB. 힐스,1,36300
-"Hill's 처방식- canine w/d(dry,3.85kg)",SuppliesCode,KB. 힐스,1,57200
-"Hill's 처방식- canine w/d(dry,13.6kg)",SuppliesCode,KB. 힐스,1,115000
-Hill's 처방식- canine w/d(can),SuppliesCode,KB. 힐스,1,6000
-"Hill's 처방식- feline r/d(dry,1.8kg)",SuppliesCode,KB. 힐스,1,38500
 "Hill's 처방식- feline s/d(dry,1.8kg)",SuppliesCode,KB. 힐스,1,38500
-"Hill's 처방식- feline w/d(dry,1.81kg)",SuppliesCode,KB. 힐스,1,38500
 로얄캐닌 처방식- canine intestinal(dry2kg),SuppliesCode,KC. 로얄캐닌,1,36300
 로얄캐닌 처방식- canine obesity(dry1.5kg),SuppliesCode,KC. 로얄캐닌,1,28600
 로얄캐닌 처방식- canine renal(dry2kg),SuppliesCode,KC. 로얄캐닌,1,36300
@@ -574,7 +532,6 @@ Hill's 처방식- canine w/d(can),SuppliesCode,KB. 힐스,1,6000
 로얄캐닌 처방식- canine hepatic(moist),SuppliesCode,KC. 로얄캐닌,1,6000
 로얄캐닌 처방식- canine weightcontrol(dry1.5),SuppliesCode,KC. 로얄캐닌,1,28600
 로얄캐닌 처방식- feline intestinal(dry2kg),SuppliesCode,KC. 로얄캐닌,1,36300
-로얄캐닌 처방식- canine obesity(6kg dry),SuppliesCode,KC. 로얄캐닌,2,77000
 로얄캐닌 처방식- canine obesity (6kg),SuppliesCode,KC. 로얄캐닌,1,79200
 로얄캐닌 처방식- feline renal(dry2kg),SuppliesCode,KC. 로얄캐닌,1,36300
 로얄캐닌 처방식- feline renal(moist),SuppliesCode,KC. 로얄캐닌,1,2200
@@ -583,7 +540,6 @@ Hill's 처방식- canine w/d(can),SuppliesCode,KB. 힐스,1,6000
 로얄캐닌 처방식- feline youngMale(dry1.5kg),SuppliesCode,KC. 로얄캐닌,1,26400
 시그니처바이_p/a_반려견_개당,SuppliesCode,KD. 퓨리나,1,1700
 관절보조제_PHYCOX,SuppliesCode,KA. 치료보조제,1,20000
-GLYCO-FLEX III(관절보조제),SuppliesCode,KA. 치료보조제,1,55000
 Ultra-EFA(피부치료 보조제),SuppliesCode,KA. 치료보조제,1,7000
 Canine Plus-Chicken(종합보조제),SuppliesCode,KA. 치료보조제,1,15000
 Canine Plus-Senior(종합보조제),SuppliesCode,KA. 치료보조제,1,20000
@@ -618,7 +574,6 @@ ANF-오가닉 (800g),SuppliesCode,JG. 프루너스(Dr.healmedix),1,12000
 약샴푸-말아세틱컨디셔너,SuppliesCode,MA. 용품,1,22000
 약샴푸-말아세틱샴푸,SuppliesCode,MA. 용품,1,22000
 약샴푸-덤알레이오트밀샴푸,SuppliesCode,MA. 용품,1,22000
-버박/에피오틱,SuppliesCode,MA. 용품,1,17600
 약샴푸-케토클로,SuppliesCode,MA. 용품,1,25300
 약샴푸-세보캄,SuppliesCode,MA. 용품,1,24200
 약샴푸-말라세덤 린스,SuppliesCode,MA. 용품,1,17600
@@ -648,17 +603,6 @@ ANF-오가닉 (800g),SuppliesCode,JG. 프루너스(Dr.healmedix),1,12000
 옷 24,SuppliesCode,MA. 용품,1,24000
 옷 28,SuppliesCode,MA. 용품,1,28000
 옷 30,SuppliesCode,MA. 용품,1,30000
-방석 16,SuppliesCode,MA. 용품,1,16000
-방석 18,SuppliesCode,MA. 용품,1,18000
-방석 25,SuppliesCode,MA. 용품,1,25000
-방석 28,SuppliesCode,MA. 용품,1,28000
-방석 40,SuppliesCode,MA. 용품,1,40000
-방석 45,SuppliesCode,MA. 용품,1,45000
-가방 25,SuppliesCode,MA. 용품,1,25000
-가방 30,SuppliesCode,MA. 용품,1,30000
-가방 35,SuppliesCode,MA. 용품,1,35000
-가방 40,SuppliesCode,MA. 용품,1,40000
-가방 55,SuppliesCode,MA. 용품,1,55000
 용품 1,SuppliesCode,MA. 용품,1,1000
 용품 2,SuppliesCode,MA. 용품,1,2000
 용품 3,SuppliesCode,MA. 용품,1,3000
@@ -698,7 +642,6 @@ go 치킨 1.36kg,SuppliesCode,JL. go,1,18000
 로얄캐닌-indoor adult (4kg),SuppliesCode,JE. 로얄,1,45000
 간식3.5,SuppliesCode,MA. 용품,1,3500
 용품17,SuppliesCode,MA. 용품,1,17000
-i/d dry (9kg),SuppliesCode,KB. 힐스,1,95700
 저알러지 간식(Hill`s 쿠키),SuppliesCode,KB. 힐스,1,15000
 벨벳/마이뷰조인트(dog & cat),SuppliesCode,KA. 치료보조제,1,39600
 로얄캐닌 처방식- 리커버리(둥근캔),SuppliesCode,KC. 로얄캐닌,1,6000
