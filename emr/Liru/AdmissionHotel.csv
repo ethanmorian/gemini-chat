@@ -1,5 +1,0 @@
-displayName,__typename,AdmissionHotelCodeGroup.groupName,AdmissionHotelCodePrice.taxItemType,AdmissionHotelCodePrice.appearancePrice
-"호텔(강아지, 10kg 이하)",AdmissionHotelCode,LD. 호텔,1,33000
-호텔(고양이),AdmissionHotelCode,LD. 호텔,1,35000
-"호텔(강아지, 20kg이상) 1시간당",AdmissionHotelCode,LD. 호텔,1,11000
-장난감 - 쫄쫄이,AdmissionHotelCode,MA. 용품,1,5000
