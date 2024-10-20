@@ -34,6 +34,10 @@ class IconSearchbar extends StatelessWidget implements PreferredSizeWidget {
                   hintText: 'Search',
                   border: InputBorder.none,
                 ),
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ],
