@@ -17,7 +17,9 @@ class MainDrawer extends StatelessWidget {
               padding: EdgeInsets.symmetric(
                 horizontal: 15,
               ),
-              child: Text('Main'),
+              child: Text(
+                'Main',
+              ),
             ),
           ),
           SizedBox(
@@ -29,7 +31,9 @@ class MainDrawer extends StatelessWidget {
               padding: EdgeInsets.symmetric(
                 horizontal: 15,
               ),
-              child: Text('Sorting movies'),
+              child: Text(
+                'Sorting movies',
+              ),
             ),
           ),
         ],

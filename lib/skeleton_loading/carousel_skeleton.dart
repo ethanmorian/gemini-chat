@@ -10,11 +10,14 @@ class CarouselSkeleton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Skeletonizer(
       child: CarouselSlider(
-        items: List.generate(5, (index) {
-          return Container(
-            color: Colors.grey[800],
-          );
-        }),
+        items: List.generate(
+          5,
+          (index) {
+            return Container(
+              color: Colors.grey[800],
+            );
+          },
+        ),
         options: CarouselOptions(
           height: 500,
           autoPlay: true,

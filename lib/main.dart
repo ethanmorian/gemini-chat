@@ -8,12 +8,14 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final _router = GoRouter(routes: [
-    GoRoute(
-      path: '/',
-      builder: (context, state) => HomePage(),
-    )
-  ]);
+  final _router = GoRouter(
+    routes: [
+      GoRoute(
+        path: '/',
+        builder: (context, state) => HomePage(),
+      )
+    ],
+  );
 
   MyApp({super.key});
 
