@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movie_website/skeleton_loading/carousel_skeleton.dart';
 import 'package:movie_website/skeleton_loading/now_skeleton.dart';
 import 'package:movie_website/skeleton_loading/popular_skeleton.dart';
+import 'package:movie_website/widget/footer.dart';
 import 'package:movie_website/widget/icon_searchbar.dart';
 import 'package:movie_website/widget/main_drawer.dart';
 
@@ -107,6 +108,7 @@ class _HomePageState extends State<HomePage> {
                 },
               ),
             ),
+            Footer(),
           ],
         ),
       ),
