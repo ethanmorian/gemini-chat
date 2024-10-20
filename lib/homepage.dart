@@ -39,18 +39,19 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Flexible(
+                  flex: 2,
                   child: Padding(
                     padding: const EdgeInsets.only(
                       left: 16,
                     ),
                     child: CarouselSkeleton(),
                   ),
-                  flex: 2,
                 ),
                 SizedBox(
                   width: 20,
                 ),
                 Flexible(
+                  flex: 1,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -73,7 +74,6 @@ class _HomePageState extends State<HomePage> {
                       NowSkeleton(),
                     ],
                   ),
-                  flex: 1,
                 ),
               ],
             ),
@@ -99,14 +99,14 @@ class _HomePageState extends State<HomePage> {
               ),
               child: LayoutBuilder(
                 builder: (context, constraints) {
-                  double gridviewHight = (constraints.maxHeight / 5) * 1.3 * 4;
+                  double gridviewHeight = (constraints.maxWidth / 5) * 1.3 * 4;
                   return SizedBox(
-                    height: gridviewHight,
+                    height: gridviewHeight,
                     child: PopularSkeleton(),
                   );
                 },
               ),
-            )
+            ),
           ],
         ),
       ),
