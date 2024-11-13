@@ -33,9 +33,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
         centerTitle: false,
-        backgroundColor: Colors.red,
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        elevation: 1,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -47,11 +49,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 const SizedBox(
                   width: 10,
                 ),
-                const Text(
+                Text(
                   'Gemini Gpt',
-                  style: TextStyle(
-                    color: Colors.black,
-                  ),
+                  style: Theme.of(context).textTheme.titleLarge,
                 ),
               ],
             ),
@@ -77,7 +77,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                        color: message.isUser ? Colors.blue : Colors.grey[300],
+                        color: message.isUser
+                            ? Theme.of(context).colorScheme.primary
+                            : Theme.of(context).colorScheme.secondary,
                         borderRadius: message.isUser
                             ? const BorderRadius.only(
                                 topLeft: Radius.circular(20),
@@ -92,9 +94,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       child: Text(
                         message.text,
-                        style: TextStyle(
-                          color: message.isUser ? Colors.white : Colors.black,
-                        ),
+                        style: message.isUser
+                            ? Theme.of(context).textTheme.bodyMedium
+                            : Theme.of(context).textTheme.bodySmall,
                       ),
                     ),
                   ),
@@ -126,10 +128,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   Expanded(
                     child: TextField(
                       controller: _controller,
-                      decoration: const InputDecoration(
+                      style: Theme.of(context).textTheme.titleSmall,
+                      decoration: InputDecoration(
                         hintText: 'Write your message',
+                        hintStyle:
+                            Theme.of(context).textTheme.titleSmall!.copyWith(
+                                  color: Colors.grey,
+                                ),
                         border: InputBorder.none,
-                        contentPadding: EdgeInsets.symmetric(
+                        contentPadding: const EdgeInsets.symmetric(
                           horizontal: 20,
                         ),
                       ),
