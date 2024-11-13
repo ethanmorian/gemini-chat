@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:gemini_chat/themeNotifier.dart';
 
 import 'message.dart';
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends ConsumerStatefulWidget {
   const MyHomePage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  ConsumerState<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends ConsumerState<MyHomePage> {
   final TextEditingController _controller = TextEditingController();
   final List<Message> _message = [
     Message(
@@ -32,6 +34,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    final currentTheme = ref.read(themeProvider);
+
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
@@ -55,9 +59,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            Image.asset(
-              'assets/volume-high.png',
-              color: Colors.blue[800],
+            GestureDetector(
+              child: (currentTheme == ThemeMode.dark)
+                  ? Icon(
+                      Icons.light_mode,
+                      color: Theme.of(context).colorScheme.secondary,
+                    )
+                  : Icon(
+                      Icons.dark_mode,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+              onTap: () {
+                ref.read(themeProvider.notifier).toggleTheme();
+              },
             ),
           ],
         ),
