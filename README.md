@@ -1,16 +1,25 @@
 # gemini_chat
 
-A new Flutter project.
+This is a chat app powered by Google Gemini AI for real-time conversations.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Real-time AI Chat: Instant responses from Gemini AI based on user input. 
+- Simple UI: Easy-to-use interface for seamless interactions with the AI. 
+- API Key Management: Secure handling of API keys via .env file.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter: Cross-platform mobile app development.
+- Google Gemini API: Text generation using Google’s AI model. 
+- Riverpod: State management. 
+- dotenv: Secure API key management.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/screenshots/1.png" width="200" />
+  <img src="assets/screenshots/2.png" width="200" />
+  <img src="assets/screenshots/3.png" width="200" />
+  <img src="assets/screenshots/4.png" width="200" />
+</div>
