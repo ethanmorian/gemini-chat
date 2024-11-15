@@ -1,6 +1,6 @@
 # gemini_chat
 
-This is a chat app powered by Google Gemini AI for real-time conversations.
+A chat app powered by Google Gemini AI for real-time conversations, built using the "ChatGPT Chat Bot App UI" from Figma Community.
 
 ## Features
 
